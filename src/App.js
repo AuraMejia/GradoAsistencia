@@ -2,14 +2,11 @@
 import Index from "./pages/index";
 import Inicio from "./pages/inicio";
 import Estadistica from "./pages/estadistica";
-/*import Acompañante from "./pages/acompañante";
-import Administrativo from "./pages/administrativo";
-import Invitado from "./pages/invitado";*/
+import AcompananteUser from "./pages/acompañante"
+import AdministrativoUser from "./pages/administrativo";
+import InvitadoUser from "./pages/invitado";
 import React from "react";
 import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
-import Admin from "./components/forms/Admin/Admin";
-import Acompanante from "./components/forms/Acompanante/Acompanante";
-import Invitado from "./components/forms/Invitado/Invitado";
 import GlobalStyle from './GlobalStyles.js'
 
 function App() {
@@ -40,15 +37,15 @@ function App() {
           </Route>
 
           <Route path="/Acompañante">
-            <Acompanante/>
+            <AcompananteUser/>
           </Route>
 
           <Route path="/Administrativo">
-            <Admin/>
+            <AdministrativoUser/>
           </Route>
 
           <Route path="/Invitado">
-            <Invitado/>
+            <InvitadoUser/>
           </Route>
 
           </Router>

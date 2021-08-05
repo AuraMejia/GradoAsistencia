@@ -3,22 +3,21 @@ import ReactDOM from 'react-dom';
 
 import Header from "../components/Header/header";
 import Nav from "../components/nav/nav";
-import Acompañante from "../components/acompañante/acompañante";
+import Acompanante from "../components/forms/Acompanante/Acompanante";
 import Footer from "../components/footer/footer";
 
 
 
-function Index() {
+function AcompananteUser() {
   return (
     <div>
      <Header />
-     <Nav />
-     <Acompañante/>
+     <Acompanante/>
      <Footer />
 
      </div>
   );
 }
 
-export default Index;
+export default  AcompananteUser;
 

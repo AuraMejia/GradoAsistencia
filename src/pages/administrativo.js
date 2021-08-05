@@ -3,22 +3,22 @@ import ReactDOM from 'react-dom';
 
 import Header from "../components/Header/header";
 import Nav from "../components/nav/nav";
-import Administrativo from "../components/administracion/administrativo";
+import Admin from "../components/forms/Admin/Admin";
 import Footer from "../components/footer/footer";
 
 
 
-function Index() {
+function AdministrativoUser() {
   return (
     <div>
      <Header />
      <Nav />
-     <Administrativo />
+     <Admin/>
      <Footer />
 
      </div>
   );
 }
 
-export default Index;
+export default AdministrativoUser;
 

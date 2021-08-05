@@ -11,21 +11,21 @@ import Barras from '../../Utils/Img/Iconos/barras.svg'
 function Footer() {
   return (
     <div className="Container_Footer">
-      <img id="img1" src={Banner} alt="Esta es la banner" />
+      <img id="banner" src={Banner} alt="Esta es la banner" />
 
       <div className="Pie_pagina">
         <div className="Imagenes">
-        <img id="img1" src={Twitter} alt="Esta es la banner"/>
-        <img id="img1" src={Facebook} alt="Esta es la banner"/>
-        <img id="img1" src={Youtube} alt="Esta es la banner"/>
-        <img id="img1" src={Instagram} alt="Esta es la banner"/>
+        <a href="https://twitter.com/KuepaCo"><img id="img1" src={Twitter} alt="Esta es la img de twitter"/></a>
+        <a href="https://www.facebook.com/kuepaedutech"><img id="img1" src={Facebook} alt="Esta es la img de facebook"/></a>
+        <a href="https://www.youtube.com/channel/UC2cIGAufqxb1hYla02j-4pA"><img id="img1" src={Youtube} alt="Esta es la img de youtube"/></a>
+        <a href="https://www.instagram.com/kuepaedutech/"><img id="img1" src={Instagram} alt="Esta es la banner"/></a>
         <img id="img1" src={Barras} alt="Esta es la banner"/>
         </div>
         <div className="Textos">
-        <p>
+        <p id="frases">
            Copyright © 2021 Kuepa. Todos los derechos reservados. All rights reserved.
         </p>
-        <p>
+        <p id="frases">
            Desarrollado por Tatiana Marrugo y Aura Mejía.
         </p>
         </div>

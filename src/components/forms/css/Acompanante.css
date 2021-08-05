@@ -11,10 +11,29 @@
 .Box2{
     background-color: rgb(248, 248, 248);
     width: 40%;
-    height: 70vh ;
+    height: 72vh ;
    align-items: center;
    justify-content: center;
-
+   animation-name: llegadaAbajo;
+   animation-duration: 3s;
+}
+@keyframes llegadaAbajo {
+   0%{
+       opacity: 0;
+       transform:translateY(-100px) ;
+   }
+   60%{
+       opacity: 0.9;
+       transform: translateY(40px)
+   }
+   80%{
+       opacity: 1;
+       transform: translateY(25px);
+   }
+   100%{
+       opacity: 1;
+       transform: translateY(0);
+   }
 }
 #enviar, #borrar{
     background-color: #E86433;

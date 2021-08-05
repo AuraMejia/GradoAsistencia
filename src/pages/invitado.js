@@ -3,22 +3,22 @@ import ReactDOM from 'react-dom';
 
 import Header from "../components/Header/header";
 import Nav from "../components/nav/nav";
-import Cajainicio from "../components/cajainicio/cajainicio";
+import Invitado from "../components/forms/Invitado/Invitado";
 import Footer from "../components/footer/footer";
 
 
 
-function Inicio () {
+function InvitadoUser () {
   return (
     <div>
      <Header />
      <Nav />
-     <Cajainicio />
+     <Invitado />
      <Footer />
 
      </div>
   );
 }
 
-export default Inicio ;
+export default InvitadoUser ;
 
