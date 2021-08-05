@@ -36,6 +36,13 @@
     font-size: 18px;
     letter-spacing: 1px;
  }
+ .Botones button:hover{
+   color: #6F52DA;
+   background-color: #D8D2D2;
+   border: 1px solid #6F52DA;
+   font-weight: bold;
+   cursor: pointer;
+}
 #img3{
    width: 40%;
    animation-name: llegadaDerecha;
