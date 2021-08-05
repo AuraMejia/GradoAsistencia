@@ -1,0 +1,44 @@
+.cajaestadistica{
+	width: 100%;
+	min-height: 80rem;
+	display: flex;
+ }
+ .usuario{
+	width: 100%;
+	font-size: 30px;
+   
+ 
+ }
+ .Container_img{
+	width: 40%;
+	
+ }
+ #img{
+	width: 40%;
+	animation-name: llegadaDerecha;
+	 animation-duration: 3s;
+ }
+
+ #frase{
+	margin-top: 9%;
+ }
+ .Botones button{
+	background-color: #6F52DA ;
+	width: 390px;
+	border: none;
+	border-radius: 25px;
+	height: 60px;
+	color: cornsilk;
+	font-size: 38px;
+	letter-spacing: 1px;
+	
+ }
+ .Botones button:hover{
+   color: #6F52DA;
+   background-color: #D8D2D2;
+   border: 1px solid #6F52DA;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ 
+ 
