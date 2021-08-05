@@ -6,6 +6,7 @@ const Acompanante = (props) => { /*Traer de link*/
 
     const initialSateValues = { /*Guardar todo en una constante con valores iniciales*/
         nombre:'',
+        nombre_estudiante:'',
         parentesco:'',
         tel: '',
         apellido: '',
@@ -79,7 +80,7 @@ const Acompanante = (props) => { /*Traer de link*/
 
                     <form action="" onSubmit={handleSubmit}>
                         <p>
-                           <input type="text" name="nombre_estudiante" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre del estudiante" />
+                           <input type="text" name="nombre_estudiante" id="nombre_estudiante" onChange={handleInputChange} value={values.nombre_estudiante} placeholder="Nombre del estudiante" />
                        </p>
                        <p>
                            <input type="text" name="nombre" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre" />
@@ -88,11 +89,11 @@ const Acompanante = (props) => { /*Traer de link*/
                            <input type="text" name="apellido" id="apellido" onChange={handleInputChange} value={values.apellido} placeholder="Apellido"/>
                        </p>
                        <p>
-                           <input type="text" name="cargo" id="cargo"onChange={handleInputChange} value={values.cargo} placeholder="Parentesco"/>
+                           <input type="text" name="parentesco" id="parentesco"onChange={handleInputChange} value={values.parentesco} placeholder="Parentesco"/>
                            
                        </p>
                        <p>
-                           <input type="number" name="tel" id="tel" onChange={handleInputChange} value={values.tel} placeholder="Teléfono"/>
+                           <input type="text" name="tel" id="tel" onChange={handleInputChange} value={values.tel} placeholder="Teléfono"/>
                        </p>
                        <p>
                            <input type="number" name="edad" id="edad" onChange={handleInputChange} value={values.edad} placeholder="Edad"/>

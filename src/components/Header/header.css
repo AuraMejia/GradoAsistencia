@@ -1,13 +1,21 @@
 header {
-	width: 100%;
-	
+	width: 100%;	
  }
  .cajaheader{
-	margin: 2%;
 	text-align: center;
-	padding: 2%;	
 	animation-name: llegadaAbajo;
     animation-duration: 3s;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	width: 100%;
+ }
+ .logo{
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+	width: 100%;
+	justify-content:space-around;
+	align-items: center;
  }
  @keyframes llegadaAbajo {
 	0%{
@@ -18,10 +26,6 @@ header {
 		opacity: 0.8;
 		transform: translateY(40px)
 	}
-	/*80%{
-		opacity: 0.9;
-		transform: translateY(25px);
-	}*/
 	100%{
 		opacity: 1;
 		transform: translateY(0);
