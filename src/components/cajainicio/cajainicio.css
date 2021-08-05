@@ -1,0 +1,56 @@
+button {
+   float:unset;
+   max-width: 800px;
+   width: 100%;
+   max-height: 300px;
+   height: 100%;
+   text-align: center;
+   font-weight: bolder;
+
+  
+}
+
+#botones{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row-reverse;
+	padding-bottom: 90px;
+ 
+}
+
+
+.boton3 {
+   margin-top: 20px;
+   margin-right: 20px;
+   background: #EF7F3F;
+   color: #FFFFFF;
+   border: 1px solid black;
+   box-shadow: 1px 1px 4px black;
+   font-size: 3em;
+}
+.boton3 a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+.boton3:hover {
+   color: #000000;
+   background-color: #ECE9CB;
+   text-decoration: none;
+   border-radius: 5px;
+   border: 1px solid #DD5D26;
+}
+
+
+
+@media (max-width: 425px) {
+  #nosotros  {
+      margin-left: 10px;
+   }
+   .row{
+      flex-direction: column;
+   }
+    .card-body{
+      width: 100%;
+      height: auto;
+ }
+}
