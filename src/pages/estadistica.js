@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Header from "../components/Header/header";
 import Nav from "../components/nav/nav";
-import Cajaestadistica from "../components/cajaestadistica/cajaestadistica";
+import Count from '../components/Aforo/Aforo'
 import Footer from "../components/footer/footer";
 
 
@@ -13,7 +13,7 @@ function Estadistica() {
     <div>
      <Header />
      <Nav />
-     <Cajaestadistica />
+     <Count/>
      <Footer />
 
      </div>
