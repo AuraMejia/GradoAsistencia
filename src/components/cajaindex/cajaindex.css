@@ -7,19 +7,21 @@
    
 }
 .Container_img{
-   width: 40%;
+   width: 40vh;
 }
 #img1{
    width: 100%;
    animation-name: llegadaDerecha;
     animation-duration: 3s;
+    height: 70vh;
 }
 .Contenido{
-   margin-top: 2%;
+   margin-top: 1%;
    width: 65%;
-   font-size: 27px;
+   font-size: 92%;
    margin-left: 7%;
    padding-right: 7%;
+   height: 70vh;
 }
 #frase{
    margin-top: 9%;
