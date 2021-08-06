@@ -1,28 +1,35 @@
-import React,{useState} from 'react'
-import './Aforo.css';
+import React, { useRef, useEffect, useState } from "react";
 
+export default function Aforo() {
+  const [num, setNum] = useState(0);
+  const [pause, setPause] = useState(false);
+  
+  let intervalRef = useRef();
+  
+  const decreaseNum = () => setNum((prev) => prev + 1);
 
-function Aforo() {
-        const [count, setCount]=useState(0)
-        function Contador(x){
-            x=6;
-        let i=0;
-           for (i<x; i++;){
-            setTimeout(() => {
-                setCount(count+1)
-            }, 300);
-           }
-   }
-    return (
-        <>
-         <button onClick={Contador}>Clickeame</button>
-           <p id="Contador">
-               {count}
-           </p>
-        </>
-    )
+  useEffect(() => {
+    setPause(false);
+    intervalRef.current = setInterval(decreaseNum, 1000);
+
+    return () => clearInterval(intervalRef.current);
+  }, []);
+  
+  const handleClick = () => {
+    if (!pause) {
+      clearInterval(intervalRef.current);
+    } else {
+      intervalRef.current = setInterval(decreaseNum, 1000);
+    }
+    setPause((prev) => !prev);
+  };
+  
+  return (
+    <div>
+      <div>{num}</div>
+      <button onClick={handleClick}>{pause ? "Run" : "Pause"}</button>
+    </div>
+  );
 }
-
-export default Aforo
 
 
