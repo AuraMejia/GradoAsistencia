@@ -2,37 +2,35 @@ import React from 'react';
 import Botones from "../../Utils/Img/ilustraciones/botones.svg";
 import ReactDOM from 'react-dom';
 
-
+import './cajaestadiscica.css';
 
 
 function Cajaestadistica() {
   return (
   
-    <div className="cajaindex">
+    <div className="cajaestadistica">
       <div className="Container_img">
         <img id="img" src={Botones} alt="Esta es la img" />
       </div>
       <div className="Contenido">
-        
-        <p id="frase"><h1 id="Tittle">
-        ¿Quienes somos ?
+        <p><h1 id="Tittle">
+        ¿Quiénes somos?
         </h1>
         </p>
         <p id="frase">
-        Bienvenidos a nuestro live de estadisticas
-        </p><br>
-        </br>
-        <p>Selecciona una de nuestras opciones</p>
+        Bienvenidos a nuestro live de estadísticas
+        </p>
+        <p>Selecciona una de nuestras opciones</p><br></br>
          
-  <div lassName="containerboton">     
-         <p id="frase">
+  <div >     
+         <p>
       <div className="Botones">
                         <button>Aforo</button>
                </div>
       </p> 
       <p id="frase">
       <div className="Botones">
-                        <button>Genero</button>
+                        <button>Género</button>
                </div>
       </p> 
       <p id="frase">
@@ -45,7 +43,7 @@ function Cajaestadistica() {
                         <button>Edad</button>
                </div>
       </p> 
-     </div> 
+     </div> <br></br>
 </div>
 </div> 
   

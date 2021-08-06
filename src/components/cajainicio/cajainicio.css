@@ -1,44 +1,43 @@
 .cajainicio{
    width: 100%;
-   min-height: 80rem;
+   min-height: 20rem;
+   text-align: center;
    display: flex;
 }
 .usuario{
    width: 100%;
    text-align: center;
-   font-size: 30px;
-  color:#0092A5;
+   font-size: 25px;
+   color:#0092A5;
 
 }
-.Container_img{
-   width: 99%;
+.Container_img4{
+   width: 50%;
    align-content: center;
 }
-#img{
-   width: 60%;
+#img4{
+   width: 70%;
    animation-name: llegadaDerecha;
-    animation-duration: 3s;
+   animation-duration: 3s;
 }
 .containerboton{
-  width: 50%;
+  width: 70%;
  display: flex;
-align-items: center;
+ align-items: center;
+ margin-left: 150px;
 }
-#frase{
-   margin-top: 5%;
-}
-.Botones button{
+.Botones1 button{
    background-color: #6F52DA ;
-   width: 190px;
+   width: 330px;
    border: none;
    border-radius: 25px;
-   height: 60px;
+   height: 90px;
    color: cornsilk;
-   font-size: 18px;
+   font-size: 25px;
    letter-spacing: 1px;
    
 }
-.Botones button:hover{
+.Botones1 button:hover{
   color: #6F52DA;
   background-color: #D8D2D2;
   border: 1px solid #6F52DA;

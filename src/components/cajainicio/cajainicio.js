@@ -8,29 +8,32 @@ function Cajainicio() {
   return (
     <div className="cajainicio">
       <div className="usuario">
-    <h1>¿Quién eres?</h1><br>
+        <p><h1 id="Tittle">
+    ¿Quién eres?</h1></p><br>
     </br>
       <p>Elige una de las opciones para el ingreso </p>
 
-           <img id="img" src={Usuario} alt="Esta es la ilustración" />
-    
-    <div lassName="containerboton">     
+      <div className="containerboton">     
            <p id="frase">
-        <div className="Botones">
-                          <button>Acompañante Estudiante</button>
+        <div className="Botones1">
+                          <button>Acompañante<br></br> Estudiante</button>
                  </div>
         </p> 
         <p id="frase">
-        <div className="Botones">
-                          <button>Invitado Externo </button>
+        <div className="Botones1">
+                          <button>Invitado<br></br>  Externo </button>
                  </div>
         </p> 
         <p id="frase">
-        <div className="Botones">
-                          <button>Administrativos Kuepa </button>
+        <div className="Botones1">
+                          <button>Administrativos <br></br> Kuepa </button>
                  </div>
         </p> 
        </div> 
+
+           <img id="img4" src={Usuario} alt="Esta es la ilustración" />
+    
+    
 </div>
 </div> 
 
