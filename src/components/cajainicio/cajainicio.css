@@ -17,8 +17,10 @@
 }
 #img4{
    width: 70%;
-   animation-name: llegadaDerecha;
-   animation-duration: 3s;
+   -webkit-animation-name: llegadaDerecha;
+           animation-name: llegadaDerecha;
+   -webkit-animation-duration: 3s;
+           animation-duration: 3s;
 }
 .containerboton{
   width: 70%;

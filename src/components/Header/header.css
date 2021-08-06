@@ -6,8 +6,10 @@ header {
 	margin: 2%;
 	text-align: center;
 	padding: 2%;	
-	animation-name: llegadaAbajo;
-    animation-duration: 3s;
+	-webkit-animation-name: llegadaAbajo;	
+	        animation-name: llegadaAbajo;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
  }
 
  .Container_img2{
@@ -17,6 +19,24 @@ header {
  #img2{
 	width: 10%;
 	
+ }
+ @-webkit-keyframes llegadaAbajo {
+	0%{
+		opacity: 0;
+		transform:translateY(-100px) ;
+	}
+	60%{
+		opacity: 0.8;
+		transform: translateY(40px)
+	}
+	/*80%{
+		opacity: 0.9;
+		transform: translateY(25px);
+	}*/
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
  }
  @keyframes llegadaAbajo {
 	0%{
