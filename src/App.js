@@ -5,6 +5,7 @@ import Estadistica from "./pages/estadistica";
 import AcompananteUser from "./pages/acompañante"
 import AdministrativoUser from "./pages/administrativo";
 import InvitadoUser from "./pages/invitado";
+import Genero from "./pages/genero";
 import React from "react";
 import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
 import GlobalStyle from './GlobalStyles.js'
@@ -27,13 +28,15 @@ function App() {
           <Route path="/inicio">
             <Inicio/>
           </Route>
-      </Switch>
-      {/* {/*<Footer/> */}
+ 
+    
      
-
-
           <Route path="/estadistica">
             <Estadistica/>
+          </Route>
+
+           <Route path="/genero">
+            <Genero/>
           </Route>
 
           <Route path="/Acompañante">
@@ -47,6 +50,8 @@ function App() {
           <Route path="/Invitado">
             <InvitadoUser/>
           </Route>
+
+     </Switch>
 
           </Router>
 

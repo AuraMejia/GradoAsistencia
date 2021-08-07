@@ -1,0 +1,50 @@
+.cajagenero{
+	width: 100%;
+	min-height: 20rem;
+	text-align: center;
+	display: flex;
+ }
+ .usuario{
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	color:#0092A5;
+ 
+ }
+ .Container_img5{
+	width: 30%;
+	align-content: center;
+ }
+ #img5{
+	width: 30%;
+	-webkit-animation-name: llegadaDerecha;
+			animation-name: llegadaDerecha;
+	-webkit-animation-duration: 3s;
+			animation-duration: 3s;
+ }
+ .containerboton{
+   width: 70%;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+ }
+ .Botones1 button{
+	background-color: #6F52DA ;
+	width: 330px;
+	border: none;
+	border-radius: 25px;
+	height: 90px;
+	color: cornsilk;
+	font-size: 25px;
+	letter-spacing: 1px;
+	
+ }
+ .Botones1 button:hover{
+   color: #6F52DA;
+   background-color: #D8D2D2;
+   border: 1px solid #6F52DA;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ 
+ 
