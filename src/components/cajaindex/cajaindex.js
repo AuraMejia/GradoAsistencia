@@ -3,8 +3,6 @@ import Chica from "../../Utils/Img/Formularios/grado.png";
 import Ilustracion1 from "../../Utils/Img/ilustraciones/home.svg";
 /*import ReactDOM from 'react-dom';*/
 import {Link} from 'react-router-dom'
-
-
 import './cajaindex.css';
 
 

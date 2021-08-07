@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Aforo.css';
 import {db} from '../../firebase'
 import {Bar} from 'react-chartjs-2';
 
@@ -19,7 +20,6 @@ function Count() {
     }, [])
 
     const data={
-    
         labels: ['Graduandos', 'Acompañantes', 'Invitados','Administrativos' ],
         datasets:[{
             label:'Aforo',

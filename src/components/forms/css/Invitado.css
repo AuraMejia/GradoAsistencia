@@ -1,7 +1,7 @@
 .Container_Admin{
     background-image: url(../../../Utils/Img/Formularios/fondo1.png);
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     margin: none;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,7 @@
 .Box3{
     background-color: rgb(248, 248, 248);
     width: 40%;
-    height: 73vh ;
+    height: 63vh ;
    align-items: center;
    justify-content: center;
    animation-name: llegadaAbajo;
@@ -46,7 +46,7 @@
     margin-top: 20px;
 }
 h1{
-    padding-top: 4%;
+    padding-top: 2%;
 }
 p, h1{
     display: flex;
@@ -57,7 +57,7 @@ p, h1{
 }
 input, select {
     width: 80%;
-    line-height : 30px;
+    line-height : 3vh;
     background-color: #c4c4c4;
     padding-left: 10px;
     font-size: 16px;

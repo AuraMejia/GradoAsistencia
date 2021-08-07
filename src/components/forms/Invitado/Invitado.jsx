@@ -5,9 +5,8 @@ import { db } from "../../../firebase"
 const Invitado = (props) => { /*Traer de link*/
 
     const initialSateValues = { /*Guardar todo en una constante con valores iniciales*/
-        nombre_estudiante:'',
         nombre:'',
-        parentesco:'',
+        entidad:'',
         tel: '',
         apellido: '',
         edad:'',
@@ -79,9 +78,6 @@ const Invitado = (props) => { /*Traer de link*/
                     </h1>
 
                     <form action="" onSubmit={handleSubmit}>
-                        <p>
-                           <input type="text" name="nombre_estudiante" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre del estudiante" />
-                       </p>
                        <p>
                            <input type="text" name="nombre" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre" />
                        </p>
@@ -89,7 +85,7 @@ const Invitado = (props) => { /*Traer de link*/
                            <input type="text" name="apellido" id="apellido" onChange={handleInputChange} value={values.apellido} placeholder="Apellido"/>
                        </p>
                        <p>
-                           <input type="text" name="cargo" id="cargo"onChange={handleInputChange} value={values.cargo} placeholder="Parentesco"/>
+                           <input type="text" name="entidad" id="entidad"onChange={handleInputChange} value={values.entidad} placeholder="Entidad"/>
                            
                        </p>
                        <p>
