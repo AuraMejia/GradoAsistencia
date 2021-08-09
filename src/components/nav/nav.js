@@ -21,7 +21,7 @@ function Nav() {
 <li><NavLink to="/administrativo" activeClassName="active" ><i className="fa fa-suitcase"/>administrativo</NavLink></li>
 <li><NavLink to="/estadistica" activeClassName="active"><i className="fa fa-envelope-o"/>estadistica</NavLink></li>
 <li><NavLink to="/genero" activeClassName="active"><i className="fa fa-envelope-o"/>estadisticagenero</NavLink></li>
-  
+<li><NavLink to="/Cajafinal" activeClassName="active"><i className="fa fa-envelope-o"/>final</NavLink></li>
 </ul>
 
 </nav>

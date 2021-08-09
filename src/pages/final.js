@@ -3,22 +3,21 @@ import ReactDOM from 'react-dom';
 
 import Header from "../components/Header/header";
 import Nav from "../components/nav/nav";
-import Cajagenero from "../components/cajagenero/cajagenero";
+import Final from "../components/cajafinal/final";
 import Footer from "../components/footer/footer";
 
 
 
-
-function Genero () {
+function Cajafinal() {
   return (
     <div>
      <Header />
-
-     <Cajagenero />
+     <Final/>
      <Footer />
 
      </div>
   );
 }
 
-export default Genero ;
+export default  Cajafinal;
+

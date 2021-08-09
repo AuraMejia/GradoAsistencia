@@ -1,27 +1,32 @@
 .cajagenero{
 	width: 100%;
-	min-height: 20rem;
+	min-height: 30rem;
 	text-align: center;
 	display: flex;
  }
- .usuario{
-	width: 100%;
-	text-align: center;
-	font-size: 25px;
-	color:#0092A5;
+ .Contenidogenero{
+	margin-top: 9%;
+	width: 50%;
+	margin-right: 9%;
+	padding-left:80px;
  
  }
- .Container_img5{
-	width: 30%;
-	align-content: center;
- }
- #img5{
-	width: 30%;
+ .Container_img6 {
+	width: 50%;
+
+
+}
+
+#img6{
+	margin-top: 10%;
+	margin-left: 19%;
+	width: 80%;
 	-webkit-animation-name: llegadaDerecha;
-			animation-name: llegadaDerecha;
+	        animation-name: llegadaDerecha;
 	-webkit-animation-duration: 3s;
-			animation-duration: 3s;
- }
+	        animation-duration: 3s;
+}
+
  .containerboton{
    width: 70%;
   display: flex;

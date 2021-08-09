@@ -1,9 +1,8 @@
 import React from 'react';
 import Genero from "../../Utils/Img/ilustraciones/genero.svg";
 import ReactDOM from 'react-dom';
-
 import './cajagenero.css';
-
+import Cajapie from "../../components/pie/pie";
 function Cajagenero() {
   return (
     <div className="cajagenero">
@@ -32,8 +31,16 @@ function Cajagenero() {
       </p> 
 	  
        </div> 
-
-           <img id="img5" src={Genero} alt="Esta es la ilustración" />
+       
+    <div className="cajaestadistica">
+       <div className="Container_img6">
+        <img id="img6" src={Genero} alt="Esta es la img" />
+      </div>
+      <div className="Contenidogenero">
+      <Cajapie/>
+      </div>
+      </div>
+          
     
     
 </div>
