@@ -16,7 +16,7 @@ function Estadistica() {
      <Nav />
      <Count/> 
      <Aforo/>
-     {/* <Footer /> */}
+     <Footer />
 
      </div>
   );

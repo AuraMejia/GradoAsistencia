@@ -13,6 +13,7 @@ const Invitado = (props) => { /*Traer de link*/
         localidad:'',
         genero:'',
         sintomas:false,
+        rol:'invitado',
     };
 
     const initialValue = {

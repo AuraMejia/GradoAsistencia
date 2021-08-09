@@ -13,6 +13,7 @@ const Admin = (props) => { /*Traer de link*/
         localidad:'',
         genero:'',
         sintomas:false,
+        rol:'administrativo',
     };
 
     const initialValue = {

@@ -14,6 +14,7 @@ const Acompanante = (props) => { /*Traer de link*/
         localidad:'',
         genero:'',
         sintomas:false,
+        rol:'acompanante',
     };
 
     const initialValue = {
