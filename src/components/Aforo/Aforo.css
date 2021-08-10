@@ -1,12 +1,22 @@
 
 .ContainerAforo{
-    height: 400px;
+    
     width: 90%;
-    padding: 0 2% 9% 4%;
+    padding: 0 2% 1% 4%;
     color: brown;
     font-size: 29px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-#grafica label{
-    color: brown;
-    font-size: 18px;
+
+.Grafica {
+    height: 300px;
+}
+#aforo_img{
+    align-items: center;
+    justify-content: center;
+    
+    height: 190px;
+    
 }

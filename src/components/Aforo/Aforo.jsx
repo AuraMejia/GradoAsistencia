@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Aforo.css';
 import {db} from '../../firebase'
 import {Bar} from 'react-chartjs-2';
+import foto1 from '../../Utils/Img/ilustraciones/aforo.svg'
 
 function Count() {
     const [links, setLinks] = useState([]) /*Definimos un arreglo vacío*/
@@ -59,7 +60,11 @@ function Count() {
     return(
         <div className="ContainerAforo">
             <h1>{links?.length}</h1>
-         <p><Bar id="grafica" data={data} options={opciones}/> </p>
+            <div className="Grafica">
+            <Bar id="grafica" data={data} options={opciones}/> 
+            </div>
+        
+         <img id="aforo_img" src={foto1} alt="Esta es la img de aforo"/>
         </div>
         
     )
