@@ -1,0 +1,53 @@
+.cajaestadistica {
+	width: 100%;
+	min-height: 30rem;
+	text-align: center;
+	display: flex;
+}
+
+.Contenido {
+	margin-top: 2%;
+	width: 60%;
+	font-size: 25px;
+	margin-right: 7%;
+
+}
+
+.Container_img {
+	width: 60%;
+
+
+
+
+}
+
+#img {
+	margin-top: 10%;
+	margin-left: 25%;
+	width: 80%;
+	-webkit-animation-name: llegadaDerecha;
+	        animation-name: llegadaDerecha;
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
+}
+
+
+.Botones button {
+	background-color: #6F52DA;
+	width: 250px;
+	border: none;
+	border-radius: 25px;
+	height: 60px;
+	color: cornsilk;
+	font-size: 28px;
+	letter-spacing: 1px;
+
+}
+
+.Botones button:hover {
+	color: #6F52DA;
+	background-color: #D8D2D2;
+	border: 1px solid #6F52DA;
+	font-weight: bold;
+	cursor: pointer;
+}

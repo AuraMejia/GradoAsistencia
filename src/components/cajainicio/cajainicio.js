@@ -1,31 +1,41 @@
 import React from 'react';
-import Birrete from "../../assets/images/BIRRETE.png";
-import Logo1 from "../../assets/images/logo1.png";
+import Usuario from "../../Utils/Img/ilustraciones/users.svg";
 import ReactDOM from 'react-dom';
 
 import './cajainicio.css';
 
 function Cajainicio() {
   return (
+    <div className="cajainicio">
+      <div className="usuario">
+        <p><h1 id="Tittle">
+    ¿Quién eres?</h1></p><br>
+    </br>
+      <p>Elige una de las opciones para el ingreso </p>
 
-     
-    <div className="cajaindex">
-    <img className="logo1" src={Logo1} />
+      <div className="containerboton">     
+           <p id="frase">
+        <div className="Botones1">
+                          <button>Acompañante<br></br> Estudiante</button>
+                 </div>
+        </p> 
+        <p id="frase">
+        <div className="Botones1">
+                          <button>Invitado<br></br>  Externo </button>
+                 </div>
+        </p> 
+        <p id="frase">
+        <div className="Botones1">
+                          <button>Administrativos <br></br> Kuepa </button>
+                 </div>
+        </p> 
+       </div> 
 
-
-  <button className="boton3"  ><img className="Birrete" src={Birrete} /> <br></br>  Invitado</button>
- 
-  <button className="boton3"  ><img className="Birrete" src={Birrete} />       
-  <br></br>Acompañante </button>
-   
-  <button className="boton3" ><img className="Birrete" src={Birrete} />       
-  <br></br>Administrativo </button>
-
-  </div>
-
-
-   
- 
+           <img id="img4" src={Usuario} alt="Esta es la ilustración" />
+    
+    
+</div>
+</div> 
 
    
   );

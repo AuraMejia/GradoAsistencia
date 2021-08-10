@@ -1,19 +1,44 @@
 header {
-	width: 100%;	
+	width: 80%;	
+	align-items: center;
  }
  .cajaheader{
-	text-align: center;
-	animation-name: llegadaAbajo1;
-    animation-duration: 3s;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	width: 100%;
+	text-align: center;	
+	-webkit-animation-name: llegadaAbajo;	
+	        animation-name: llegadaAbajo;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+ }
+
+ .Container_img2{
+	width: 10%;
+	align-content: center;
+ }
+ /*#img2{
+	width: 10%;	
+ }*/
+ @keyframes llegadaAbajo{
+	0%{
+		opacity: 0;
+		transform:translateY(-100px) ;
+	}
+	60%{
+		opacity: 0.8;
+		transform: translateY(40px)
+	}
+	/*80%{
+		opacity: 0.9;
+		transform: translateY(25px);
+	}*/
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
  }
  .logo{
 	display:grid;
 	grid-template-columns: repeat(4,1fr);
-	width: 80%;
+	width: 100%;
 	justify-content:space-around;
 	align-items: center;
 	justify-items: center;
