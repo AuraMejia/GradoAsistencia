@@ -6,7 +6,7 @@ function Cajafinal() {
   return (
     <div className="cajafinal"> 
 
-                <div className="Box4"> 
+                <div className="Boxfinal"> 
 				<p id="text">
                           Gracias por su respuestas,<br>
                           </br> disfrute del evento.

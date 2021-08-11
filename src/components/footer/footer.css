@@ -23,7 +23,7 @@
 }
 .Imagenes{
    display: grid;
-   grid-template-columns: repeat(5,1fr);
+   grid-template-columns: repeat(6,5fr);
    width: 30%;
    margin: 0 0 6% 4%; 
 }

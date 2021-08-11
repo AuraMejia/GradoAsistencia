@@ -10,13 +10,18 @@ header {
             animation-duration: 3s;
  }
 
- .Container_img2{
+ .Container_imgcity{
 	width: 10%;
 	align-content: center;
  }
- /*#img2{
-	width: 10%;	
- }*/
+ .Container_imgglobal{
+	width: 90%;
+	align-content: center;
+ }.Container_imgkuepa{
+	width: 5%;
+	align-content: center;
+ }
+ 
  @keyframes llegadaAbajo{
 	0%{
 		opacity: 0;

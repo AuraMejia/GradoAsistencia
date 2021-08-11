@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Edad from "../components/Edad/Edad";
 import Header from "../components/Header/header";
 import Footer from "../components/footer/footer";

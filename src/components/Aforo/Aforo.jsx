@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Aforo.css';
 import {db} from '../../firebase'
 import {Bar} from 'react-chartjs-2';
+import {Link} from 'react-router-dom';
 import foto1 from '../../Utils/Img/ilustraciones/aforo.svg'
 
 function Count() {
@@ -58,7 +59,43 @@ function Count() {
 
 
     return(
+       
         <div className="ContainerAforo">
+               <div className="containerboton">     
+          
+          <p id="frase">
+     <div className="Botones">
+     <Link exact to="/Count">
+                       <button>Aforo</button>
+                       </Link>
+              </div>
+     </p> 
+
+     <p id="frase">
+     <div className="Botones">
+     <Link exact to="/genero">
+                       <button>Género</button>
+                       </Link>
+              </div>
+     </p> 
+
+     <p id="frase">
+     <div className="Botones">
+     <Link exact to="/localidad">
+                       <button>Localidad</button>
+                       </Link>
+              </div>
+     </p> 
+
+      <p id="frase">
+     <div className="Botones">
+     <Link exact to="/edad">
+                       <button>Edad</button>
+                       </Link>
+              </div>
+     </p> 
+     
+      </div> 
             <h1>{links?.length}</h1>
             <div className="Grafica">
             <Bar id="grafica" data={data} options={opciones}/> 

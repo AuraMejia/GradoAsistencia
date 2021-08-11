@@ -9,8 +9,9 @@ import Genero from "./pages/genero";
 import Cajapie from "./pages/pie";
 import Final from "./pages/final";
 import EdadUser from "./pages/Edad";
+import Count from "./pages/afor";
 import React from "react";
-import './App.css'/*Import the styles*/
+import './App.css'
 import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
 import GlobalStyle from './GlobalStyles.js'
 
@@ -65,7 +66,11 @@ function App() {
             <Final/>
           </Route>
 
-          <Route path="/Edad">
+          <Route path="/Count">
+            <Count/>
+          </Route>
+
+           <Route path="/Edad">
             <EdadUser/>
           </Route>
 
