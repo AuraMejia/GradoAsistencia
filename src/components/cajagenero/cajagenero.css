@@ -5,10 +5,10 @@
 	display: flex;
  }
  .Contenidogenero{
-	margin-top: 9%;
-	width: 50%;
-	margin-right: 9%;
-	padding-left:80px;
+	margin-top: 4%;
+	width: 60%;
+	margin-right: 30px;
+	padding-left:100px;
  
  }
  .Container_img6 {
@@ -18,8 +18,8 @@
 }
 
 #img6{
-	margin-top: 10%;
-	margin-left: 19%;
+	margin-top: 14%;
+	margin-left: 25%;
 	width: 80%;
 	-webkit-animation-name: llegadaDerecha;
 	        animation-name: llegadaDerecha;

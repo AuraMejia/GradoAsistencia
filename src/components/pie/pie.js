@@ -1,14 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './cajapie.css';
 import {Pie} from'react-chartjs-2';
 
 
 function Cajapie() {
       const data={
-        labels:['MUJER','HOMBRE','OTRO'],
+        labels:['Mujer','Hombre','Otros'],
         datasets:[{
-        data: [80, 56, 29],
+        data: [8, 5, 2],
         backgroundColor:['#EF7F3F', 'blue', 'green']
         }]
       };

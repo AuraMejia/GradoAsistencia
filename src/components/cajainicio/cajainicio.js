@@ -1,6 +1,6 @@
 import React from 'react';
 import Usuario from "../../Utils/Img/ilustraciones/users.svg";
-import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom'
 
 import './cajainicio.css';
 
@@ -16,17 +16,23 @@ function Cajainicio() {
       <div className="containerboton">     
            <p id="frase">
         <div className="Botones1">
+        <Link exact to="/Acompañante">
                           <button>Acompañante<br></br> Estudiante</button>
+                          </Link>
                  </div>
         </p> 
         <p id="frase">
         <div className="Botones1">
+        <Link exact to="/invitado">
                           <button>Invitado<br></br>  Externo </button>
+                          </Link>
                  </div>
         </p> 
         <p id="frase">
         <div className="Botones1">
+        <Link exact to="/administrativo">
                           <button>Administrativos <br></br> Kuepa </button>
+                          </Link>
                  </div>
         </p> 
        </div> 

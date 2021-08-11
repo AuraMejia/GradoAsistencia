@@ -1,7 +1,6 @@
 import React from 'react';
 import Chica from "../../Utils/Img/Formularios/grado.png";
 import Ilustracion1 from "../../Utils/Img/ilustraciones/home.svg";
-/*import ReactDOM from 'react-dom';*/
 import {Link} from 'react-router-dom'
 
 
@@ -31,7 +30,7 @@ function Cajaindex() {
 
         <p id="frase">
         <div className="Botones">
-                      <Link exact to="/">
+                      <Link exact to="/inicio">
                           <button> Regístrate</button>
                        </Link>
                  </div>

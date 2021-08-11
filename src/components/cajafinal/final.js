@@ -1,20 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom'
 import './cajafinal.css';
 
 function Cajafinal() {
   return (
     <div className="cajafinal"> 
 
-                <div className="Box3"> 
+                <div className="Box4"> 
 				<p id="text">
                           Gracias por su respuestas,<br>
                           </br> disfrute del evento.
 
                        </p>
-					   <p>
-                           <input type="submit" id="enviar" value="volver al inicio" />
-                       </p>
+                       <p id="frase">
+        <div className="Botones9">
+        <Link exact to="/home">
+                          <button>volver al inicio</button>
+                          </Link>
+                 </div>
+        </p> 
 </div>
 </div>
    

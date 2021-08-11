@@ -1,6 +1,6 @@
 import React from 'react';
 import Genero from "../../Utils/Img/ilustraciones/genero.svg";
-import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom';
 import './cajagenero.css';
 import Cajapie from "../../components/pie/pie";
 function Cajagenero() {
@@ -11,22 +11,30 @@ function Cajagenero() {
       <div className="containerboton">     
            <p id="frase">
       <div className="Botones">
+      <Link exact to="/Aforo">
                         <button>Aforo</button>
+                        </Link>
                </div>
       </p> 
       <p id="frase">
       <div className="Botones">
+      <Link exact to="/genero">
                         <button>Género</button>
+                        </Link>
                </div>
       </p> 
       <p id="frase">
       <div className="Botones">
+      <Link exact to="/localidad">
                         <button>Localidad</button>
+                        </Link>
                </div>
       </p> 
        <p id="frase">
       <div className="Botones">
+      <Link exact to="/edad">
                         <button>Edad</button>
+                        </Link>
                </div>
       </p> 
 	  
