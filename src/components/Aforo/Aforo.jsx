@@ -42,9 +42,8 @@ function Count() {
         labels: ['Graduandos', 'Acompañantes', 'Invitados','Administrativos'],
         datasets:[{
             label:'',
-            backgroundColor: ['black','#EDA083', '#0088FF', '#3DE9A7', '#968DFF'],
+            backgroundColor: ['','#EDA083', '#0088FF', '#3DE9A7', '#968DFF'],
             data:datos,  
-            color:'red'
         }]
      };
     const opciones={
@@ -52,7 +51,6 @@ function Count() {
         responsive: true,
         type:'horizontalBar',
         indexAxis:'y',
-        color:'red',
         fontSize:'59px',
      }
 
@@ -60,11 +58,15 @@ function Count() {
     return(
         <div className="ContainerAforo">
             <h1>{links?.length}</h1>
-            <div className="Grafica">
-            <Bar id="grafica" data={data} options={opciones}/> 
+            <div className="Contenedor_grafica_ilustracion">
+                <div className="Grafica">
+                    <Bar id="grafica" data={data} options={opciones}/> 
+                 </div>
+                   <img id="aforo_img" src={foto1} alt="Esta es la img de aforo"/> 
             </div>
+            
         
-         <img id="aforo_img" src={foto1} alt="Esta es la img de aforo"/>
+        
         </div>
         
     )

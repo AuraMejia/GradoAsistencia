@@ -25,8 +25,13 @@ function Edad() {
           const docs = [];
      querySnapshot.forEach ((doc) => {
          docs.push({...doc.data(), id:doc.id});
-         console.log(doc.data().rol)
-          dato[doc.data().rol]+=1 /*El valor que ya está más 1*/ /*HACER CONDICIÓN*/ 
+         let edad = doc.data().edad
+          switch(edad){
+            case(edad >=0 && edad <=16): {
+              dato.rango_16 +=1
+              setDatos(dato)
+            }break
+          }
      });
      setLinks(docs);
      console.log(dato.invitado)

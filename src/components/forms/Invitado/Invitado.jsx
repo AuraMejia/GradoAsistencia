@@ -139,7 +139,7 @@ const Invitado = (props) => { /*Traer de link*/
                            No <input type="radio"  name="certify2" id="no" onChange={handleChange} checked={checked.certify2} /> 
                        </p>
                        <p>
-                           <input type="submit" id="enviar" value="Enviar" />
+                           <input type="submit" id="enviar1" value="Enviar" />
                            <input type="reset" id="borrar" value="Borrar" />
                        </p>
 

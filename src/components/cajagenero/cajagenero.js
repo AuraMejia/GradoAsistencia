@@ -3,6 +3,8 @@ import Genero from "../../Utils/Img/ilustraciones/genero.svg";
 import {Link} from 'react-router-dom';
 import './cajagenero.css';
 import Cajapie from "../../components/pie/pie";
+import aforo from "../../pages/aforo";
+
 function Cajagenero() {
   return (
     <div className="cajagenero">
@@ -11,7 +13,7 @@ function Cajagenero() {
       <div className="containerboton">     
            <p id="frase">
       <div className="Botones">
-      <Link exact to="/Aforo">
+      <Link exact to="/aforo">
                         <button>Aforo</button>
                         </Link>
                </div>

@@ -8,7 +8,7 @@ function Cajafinal() {
 
                 <div className="Box4"> 
 				<p id="text">
-                          Gracias por su respuestas,<br>
+                          Gracias por tu respuesta,<br>
                           </br> disfrute del evento.
 
                        </p>

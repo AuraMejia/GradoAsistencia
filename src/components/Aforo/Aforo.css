@@ -1,22 +1,28 @@
 
 .ContainerAforo{
-    
-    width: 90%;
-    padding: 0 2% 1% 4%;
-    color: brown;
+    /*width: 100%;*/
+    padding: 0 2% 3% 4%;
     font-size: 29px;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+.Contenedor_grafica_ilustracion{
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    
+    align-items: center;
 
+}
 .Grafica {
-    height: 300px;
+    height: 350px;
+    width: 100%;
 }
 #aforo_img{
     align-items: center;
     justify-content: center;
-    
-    height: 190px;
+    height: 260px;
+    width: 100vh;
     
 }

@@ -36,7 +36,7 @@
        transform: translateY(0);
    }
 }
-#enviar, #borrar{
+#enviar1, #borrar{
     background-color: #E86433;
     color: white;
     border-radius: 15%;
