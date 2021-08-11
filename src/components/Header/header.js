@@ -1,9 +1,9 @@
 
 import logo from "../../assets/images/logo.png";
 import './header.css'
-import City from'../../Utils/Img/Logos/logo-citi-foundation.png';
-import Global from'../../Utils/Img/Logos/global.png';
-import Futuro from'../../Utils/Img/Logos/futuro.png';
+import City from'../../Utils/Img/Logos/city.svg';
+import Global from'../../Utils/Img/Logos/global.svg';
+import Futuro from'../../Utils/Img/Logos/Futuro.svg';
 import Kuepa from'../../Utils/Img/Logos/kuepa.png';
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Header from "../components/Header/header";
-import Cajaestadistica from "../components/cajaestadistica/cajaestadistica";
+import Count from '../components/Aforo/Aforo';
 import Footer from "../components/footer/footer";
 
 
@@ -11,8 +11,7 @@ function Estadistica() {
   return (
     <div>
      <Header />
-
-     <Cajaestadistica />
+     <Count/> 
      <Footer />
 
      </div>

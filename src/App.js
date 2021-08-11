@@ -8,7 +8,9 @@ import InvitadoUser from "./pages/invitado";
 import Genero from "./pages/genero";
 import Cajapie from "./pages/pie";
 import Final from "./pages/final";
+import EdadUser from "./pages/Edad";
 import React from "react";
+import './App.css'/*Import the styles*/
 import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
 import GlobalStyle from './GlobalStyles.js'
 
@@ -63,9 +65,13 @@ function App() {
             <Final/>
           </Route>
 
-     </Switch>
+          <Route path="/Edad">
+            <EdadUser/>
+          </Route>
 
+          </Switch>
           </Router>
+          
 
           
     </div>

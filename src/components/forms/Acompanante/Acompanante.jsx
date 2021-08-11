@@ -6,6 +6,7 @@ const Acompanante = (props) => { /*Traer de link*/
 
     const initialSateValues = { /*Guardar todo en una constante con valores iniciales*/
         nombre:'',
+        nombre_estudiante:'',
         parentesco:'',
         tel: '',
         apellido: '',
@@ -13,6 +14,7 @@ const Acompanante = (props) => { /*Traer de link*/
         localidad:'',
         genero:'',
         sintomas:false,
+        rol:'acompanante',
     };
 
     const initialValue = {
@@ -74,12 +76,12 @@ const Acompanante = (props) => { /*Traer de link*/
 
                 <div className="Box2"> 
                     <h1>
-                        Acompañante
+                        Acompañante estudiante
                     </h1>
 
                     <form action="" onSubmit={handleSubmit}>
                         <p>
-                           <input type="text" name="nombre_estudiante" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre del estudiante" />
+                           <input type="text" name="nombre_estudiante" id="nombre_estudiante" onChange={handleInputChange} value={values.nombre_estudiante} placeholder="Nombre del estudiante" />
                        </p>
                        <p>
                            <input type="text" name="nombre" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre" />
@@ -88,17 +90,44 @@ const Acompanante = (props) => { /*Traer de link*/
                            <input type="text" name="apellido" id="apellido" onChange={handleInputChange} value={values.apellido} placeholder="Apellido"/>
                        </p>
                        <p>
-                           <input type="text" name="cargo" id="cargo"onChange={handleInputChange} value={values.cargo} placeholder="Parentesco"/>
-                           
+                            <select name="parentesco" onChange={handleInputChange} id="parentesco">
+                               <option value={"parentesco"}>Parentesco</option>
+                               <option value={"madre_padre"}>Madre/Padre</option>
+                               <option value={"pareja"}>Pareja</option>
+                               <option value={"familiar"}>Familiar</option>
+                               <option value={"Amigo"}>Amigo</option>
+                               <option value={"otro"}>Otro</option>
+                           </select>
                        </p>
                        <p>
-                           <input type="number" name="tel" id="tel" onChange={handleInputChange} value={values.tel} placeholder="Teléfono"/>
+                           <input type="text" name="tel" id="tel" onChange={handleInputChange} value={values.tel} placeholder="Teléfono"/>
                        </p>
                        <p>
                            <input type="number" name="edad" id="edad" onChange={handleInputChange} value={values.edad} placeholder="Edad"/>
                        </p>
                        <p>
-                           <input type="text" name="localidad" id="localidad" onChange={handleInputChange} value={values.localidad} placeholder="Localidad"/>
+                           <select name="localidad" onChange={handleInputChange} id="localidad">
+                               <option value={"localidad"}>Localidad</option>
+                               <option value={"usaquen"}>Usquén</option>
+                               <option value={"chapinero"}>Chapinero</option>
+                               <option value={"santa_fe"}>Santa Fé</option>
+                               <option value={"usme"}>Usme</option>
+                               <option value={"tunjuelito"}>Tunjuelito</option>
+                               <option value={"bosa"}>Bosa</option>
+                               <option value={"kennedy"}>Kennedy</option>
+                               <option value={"fontibon"}>Fontibón</option>
+                               <option value={"engativa"}>Engativá</option>
+                               <option value={"suba"}>Suba</option>
+                               <option value={"barrios_unidos"}>Barrios Unidos</option>
+                               <option value={"teusaquillo"}>Teusaquillo</option>
+                               <option value={"martires"}>Los Mártires</option>
+                               <option value={"antonio"}>Antonio Nariño</option>
+                               <option value={"puente"}>Puente Aranda</option>
+                               <option value={"candelaria"}>Candelaria</option>
+                               <option value={"rafael"}>Rafael Uribe Uribe</option>
+                               <option value={"bolivar"}>Ciudad Bolívar</option>
+                               <option value={"sumapaz"}>Sumapaz</option>
+                           </select>
                        </p>
                        <p>
                            <select name="genero" onChange={handleInputChange} id="genero">

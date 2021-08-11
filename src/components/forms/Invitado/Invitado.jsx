@@ -5,15 +5,15 @@ import { db } from "../../../firebase"
 const Invitado = (props) => { /*Traer de link*/
 
     const initialSateValues = { /*Guardar todo en una constante con valores iniciales*/
-        nombre_estudiante:'',
         nombre:'',
-        parentesco:'',
+        entidad:'',
         tel: '',
         apellido: '',
         edad:'',
         localidad:'',
         genero:'',
         sintomas:false,
+        rol:'invitado',
     };
 
     const initialValue = {
@@ -79,9 +79,6 @@ const Invitado = (props) => { /*Traer de link*/
                     </h1>
 
                     <form action="" onSubmit={handleSubmit}>
-                        <p>
-                           <input type="text" name="nombre_estudiante" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre del estudiante" />
-                       </p>
                        <p>
                            <input type="text" name="nombre" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre" />
                        </p>
@@ -89,7 +86,7 @@ const Invitado = (props) => { /*Traer de link*/
                            <input type="text" name="apellido" id="apellido" onChange={handleInputChange} value={values.apellido} placeholder="Apellido"/>
                        </p>
                        <p>
-                           <input type="text" name="cargo" id="cargo"onChange={handleInputChange} value={values.cargo} placeholder="Parentesco"/>
+                           <input type="text" name="entidad" id="entidad"onChange={handleInputChange} value={values.entidad} placeholder="Entidad"/>
                            
                        </p>
                        <p>
@@ -99,7 +96,28 @@ const Invitado = (props) => { /*Traer de link*/
                            <input type="number" name="edad" id="edad" onChange={handleInputChange} value={values.edad} placeholder="Edad"/>
                        </p>
                        <p>
-                           <input type="text" name="localidad" id="localidad" onChange={handleInputChange} value={values.localidad} placeholder="Localidad"/>
+                           <select name="localidad" onChange={handleInputChange} id="localidad">
+                               <option value={"localidad"}>Localidad</option>
+                               <option value={"usaquen"}>Usquén</option>
+                               <option value={"chapinero"}>Chapinero</option>
+                               <option value={"santa_fe"}>Santa Fé</option>
+                               <option value={"usme"}>Usme</option>
+                               <option value={"tunjuelito"}>Tunjuelito</option>
+                               <option value={"bosa"}>Bosa</option>
+                               <option value={"kennedy"}>Kennedy</option>
+                               <option value={"fontibon"}>Fontibón</option>
+                               <option value={"engativa"}>Engativá</option>
+                               <option value={"suba"}>Suba</option>
+                               <option value={"barrios_unidos"}>Barrios Unidos</option>
+                               <option value={"teusaquillo"}>Teusaquillo</option>
+                               <option value={"martires"}>Los Mártires</option>
+                               <option value={"antonio"}>Antonio Nariño</option>
+                               <option value={"puente"}>Puente Aranda</option>
+                               <option value={"candelaria"}>Candelaria</option>
+                               <option value={"rafael"}>Rafael Uribe Uribe</option>
+                               <option value={"bolivar"}>Ciudad Bolívar</option>
+                               <option value={"sumapaz"}>Sumapaz</option>
+                           </select>
                        </p>
                        <p>
                            <select name="genero" onChange={handleInputChange} id="genero">

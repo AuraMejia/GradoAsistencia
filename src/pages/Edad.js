@@ -1,24 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import Edad from "../components/Edad/Edad";
 import Header from "../components/Header/header";
- import Nav from "../components/nav/nav";
-import Cajaindex from "../components/cajaindex/cajaindex";
 import Footer from "../components/footer/footer";
 
 
 
-function Index() {
+function EdadUser() {
   return (
     <div>
      <Header />
-     <Nav />
-     <Cajaindex /> 
+     <Edad/> 
      <Footer />
 
      </div>
   );
 }
 
-export default Index;
-
+export default EdadUser;
