@@ -41,7 +41,7 @@ function Count() {
     const data={
         labels: ['Graduandos', 'Acompañantes', 'Invitados','Administrativos'],
         datasets:[{
-            label:'Aforo',
+            label:'',
             backgroundColor: ['black','#EDA083', '#0088FF', '#3DE9A7', '#968DFF'],
             data:datos,  
             color:'red'
