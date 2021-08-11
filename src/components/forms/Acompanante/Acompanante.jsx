@@ -140,7 +140,7 @@ const Acompanante = (props) => { /*Traer de link*/
                        </p>
                         
 
-                       <p id="text">
+                       <p id="text1">
                            ¿Has tenido síntomas de COVID-19 en las últimas 48 horas o has tenido contacto con una persona contagiada?
 
                        </p>
