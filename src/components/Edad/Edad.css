@@ -1,0 +1,23 @@
+
+.ContainerEdad{
+    
+    width: 90%;
+    padding: 0 2% 1% 4%;
+    color: brown;
+    font-size: 29px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Grafica1 {
+    height: 400px;
+    padding-bottom: 12px;
+}
+#aforo_img{
+    align-items: center;
+    justify-content: center;
+    
+    height: 190px;
+    
+}

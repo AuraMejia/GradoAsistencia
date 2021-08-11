@@ -5,6 +5,7 @@ import Estadistica from "./pages/estadistica";
 import AcompananteUser from "./pages/acompañante"
 import AdministrativoUser from "./pages/administrativo";
 import InvitadoUser from "./pages/invitado";
+import EdadUser from "./pages/Edad";
 import React from "react";
 import './App.css'/*Import the styles*/
 import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
@@ -47,6 +48,10 @@ function App() {
 
           <Route path="/Invitado">
             <InvitadoUser/>
+          </Route>
+
+          <Route path="/Edad">
+            <EdadUser/>
           </Route>
 
           </Router>
