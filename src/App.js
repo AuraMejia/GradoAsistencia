@@ -10,6 +10,7 @@ import Cajapie from "./pages/pie";
 import Final from "./pages/final";
 import EdadUser from "./pages/Edad";
 import Count from "./pages/afor";
+import Cajalocalidades from "./pages/localidad";
 import React from "react";
 import './App.css'
 import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
@@ -48,6 +49,10 @@ function App() {
 
            <Route path="/genero">
             <Genero/>
+          </Route>
+
+          <Route path="/localidad">
+            <Cajalocalidades />
           </Route>
 
           <Route path="/Acompañante">

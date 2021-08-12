@@ -1,0 +1,55 @@
+.cajalocalidad{
+	width: 100%;
+	min-height: 30rem;
+	text-align: center;
+	display: flex;
+ }
+ .Contenidolocalidad{
+	margin-top: 4%;
+	width: 60%;
+	margin-right: 30px;
+	padding-left:100px;
+ 
+ }
+ .Container_img6 {
+	width: 50%;
+
+
+}
+
+#img6{
+	margin-top: 14%;
+	margin-left: 25%;
+	width: 80%;
+	-webkit-animation-name: llegadaDerecha;
+	        animation-name: llegadaDerecha;
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
+}
+
+ .containerboton{
+   width: 70%;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+ }
+ .Botones1 button{
+	background-color: #6F52DA ;
+	width: 330px;
+	border: none;
+	border-radius: 25px;
+	height: 90px;
+	color: cornsilk;
+	font-size: 25px;
+	letter-spacing: 1px;
+	
+ }
+ .Botones1 button:hover{
+   color: #6F52DA;
+   background-color: #D8D2D2;
+   border: 1px solid #6F52DA;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ 
+ 

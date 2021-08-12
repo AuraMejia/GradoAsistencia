@@ -7,12 +7,12 @@ function Cajafinal() {
     <div className="cajafinal"> 
 
                 <div className="Boxfinal"> 
-				<p id="text">
+				<p id="textfinal">
                           Gracias por su respuestas,<br>
                           </br> disfrute del evento.
 
                        </p>
-                       <p id="frase">
+                       <p id="frasefinal">
         <div className="Botones9">
         <Link exact to="/home">
                           <button>volver al inicio</button>
