@@ -79,9 +79,53 @@ const Acompanante = (props) => { /*Traer de link*/
                         Acompañante estudiante
                     </h1>
 
-                    <form action="" onSubmit={handleSubmit}>
+                    <form action="" onSubmit={handleSubmit} autoComplete="off">
                         <p>
-                           <input type="text" name="nombre_estudiante" id="nombre_estudiante" onChange={handleInputChange} value={values.nombre_estudiante} placeholder="Nombre del estudiante" />
+                           <input list="browsers" name="nombre_estudiante" id="nombre_estudiante" onChange={handleInputChange} value={values.nombre_estudiante} placeholder="Nombre del estudiante" />
+                           <datalist id="browsers">
+                               <option value="Adriana Marcela Chavez Salinas"/>
+                               <option value="Angie Natalia Forero Bernal"/>
+                               <option value="Aura Sofía Mejía Ruiz"/>
+                               <option value="Katerin Alejandra Galindo Ruiz"/>
+                               <option value="Laura Tatiana Celis Ballesteros"/>
+                                <option value="Leidy Johanna Roa lozano"/>
+                                <option value="María Alexandra Bulla Arenas"/>/*
+                               <option value="María Sofía de Los Ángeles Reyes Rubiano "/>
+                               <option value="Paola Andrea Forero Bernal"/>
+                               <option value="Aida Gineth Garzón Bejarano"/>
+                               <option value="Angie Marcela Reyes Vaca "/>
+                                <option value="Blanca Cecilia Castañeda Fonseca"/>
+                                <option value="Diana Carolina Gutiérrez Loaiza"/>
+                                <option value="Diana Patricia Chavez Realpe"/>
+                                <option value="Diana Viviana Garcia Fonseca"/>
+                                <option value="Elena Patricia Gonzalez Velasquez"/>
+                                <option value="Ingrid Tatiana Paba Guillén"/>
+                                <option value="Katherine Melissa Urrego Cuartas"/>
+                                <option value="Laura Yaneth Vargas Torres"/>
+                                <option value="María Camila León  "/>
+                                <option value="María Paula Vargas Torres"/>
+                                <option value="Martha Carolina Ordóñez "/>
+                                <option value="Tatiana Marrugo Jimenez"/>
+                                <option value="Valeria Hostos Alvarez"/>
+                                <option value="Yuli Viviana Reyes Muñoz"/>
+                                <option value="Yuly Marcela Beltrán Rodríguez"/>
+                                <option value="Yuri Alejandra Herrera Pérez"/>
+                                <option value="Ana Briyid Cárdenas Bejarano"/>
+                                <option value="Dennis Yuliana Arango Sánchez"/>
+                                <option value="Diana Carolina Londoño Cubillos "/>
+                                <option value="Geraldine Nicold Molina Avila"/>
+                                <option value="Jahaira Camila Cortés González"/>
+                                <option value="Jeimy Alejandra López Martínez"/>
+                                <option value="Karen Michel Piñeros Mora"/>
+                                <option value="Katerin Melissa Torres Salazar"/>
+                                <option value="Leidy Dayana Castro Fajardo"/>
+                                <option value="Maria Fernanda Caro Carvajal"/>
+                                <option value="María Paula Gil Buitrago"/>
+                                <option value="Mishell Nikol Uribe Guerrero"/>
+                                <option value="Sofia González Zubieta "/>
+                                <option value="Veronika Alexandra Esparragoza Molina"/>
+                                <option value="María Fernanda García Avila"/>
+                            </datalist>
                        </p>
                        <p>
                            <input type="text" name="nombre" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre" />
