@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import './Edad.css';
 import {db} from '../../firebase'
+import {Link} from 'react-router-dom';
 import {Bar} from 'react-chartjs-2';
 import foto2 from '../../Utils/Img/ilustraciones/edad.svg'
 
@@ -19,22 +20,52 @@ function Edad() {
       
   }
   const [datos, setDatos] = useState([])
+  const [total, setTotal] = useState()
   const values =[] /*Array vacío*/ 
+  let promedio=0
+  let length=0
   const getLinks = async () => { /*IMPORTANTE*/ 
       db.collection("asistentes").onSnapshot((querySnapshot) => { /*Solicitamos una respuesta a Firebase*/
           const docs = [];
      querySnapshot.forEach ((doc) => {
          docs.push({...doc.data(), id:doc.id});
-         let edad = doc.data().edad
-          switch(edad){
-            case(edad >=0 && edad <=16): {
-              dato.rango_16 +=1
-              setDatos(dato)
-            }break
+         let edad = parseInt(doc.data().edad, 10) 
+         
+         promedio=promedio+edad
+
+          if (edad>=0 && edad<=16){
+            dato.rango_16+=1
           }
+          if (edad>=17 && edad<=20){
+            dato.rango_20+=1
+          }
+          if (edad>=21 && edad<=25){
+            dato.rango_25+=1
+          } if (edad>=26 && edad<=30){
+            dato.rango_30+=1
+          }
+          if (edad>=31 && edad<=35){
+            dato.rango_35+=1
+          }
+          if (edad>=36 && edad<=40){
+            dato.rango_40+=1
+          }
+          if (edad>=41 && edad<=45){
+            dato.rango_45+=1
+          }
+          if (edad>=46 && edad<=50){
+            dato.rango_50+=1
+          }
+          if (edad>=51){
+            dato.rango_mas+=1
+          }
+
      });
+     promedio=promedio/docs.length
+     console.log(promedio)
+     setTotal(promedio)
+
      setLinks(docs);
-     console.log(dato.invitado)
      for(let usuario in dato){
          values.push(dato[usuario])
      }
@@ -49,31 +80,65 @@ function Edad() {
   }, [])
 
   const data={
-      labels: ['0-16', '17-20', '21-25', '26-30','31-35', '36-40', '41-45', '46-50', '46-50', '51-más',  ],
+      labels: ['0-16', '17-20', '21-25', '26-30','31-35', '36-40', '41-45', '46-50', '51-más',  ],
       datasets:[{
-          label:'Edad',
-          backgroundColor: ['black','#26B8AF', '#00AA69', '#0088FF', '#26B8AF', '#00AA69', '#0088FF','#26B8AF', '#00AA69', '#0088FF', ],
+          label:'',
+          backgroundColor: ['#26B8AF', '#00AA69', '#0088FF', '#26B8AF', '#00AA69', '#0088FF','#26B8AF', '#00AA69', '#0088FF','#26B8AF', ],
           data:datos,  
-          color:'red'
+          color:'red',
+          borderColor: 'white'
       }]
    };
   const opciones={
       maintainAspectRatio: false, /*Para que nos permita cambiar el tamaño de la gráfica*/
       responsive: true,
       type:'horizontalBar',
-      /*indexAxis:'y',*/
    }
    return(
     <div className="ContainerEdad">
-        <div className="Grafica1">
-        <Bar id="grafica" data={data} options={opciones}/> 
+      <div className="ContainerBoton1">     
+           <p id="frase">
+      <div className="Botones">
+      <Link exact to="/aforo">
+                        <button>Aforo</button>
+                        </Link>
+               </div>
+      </p> 
+      <p id="frase">
+      <div className="Botones">
+      <Link exact to="/genero">
+                        <button>Género</button>
+                        </Link>
+               </div>
+      </p> 
+      <p id="frase">
+      <div className="Botones">
+      <Link exact to="/localidad">
+                        <button>Localidad</button>
+                        </Link>
+               </div>
+      </p> 
+       <p id="frase">
+      <div className="Botones">
+      <Link exact to="/edad">
+                        <button>Edad</button>
+                        </Link>
+               </div>
+      </p> 
+	  
+       </div> 
+     <div className="contador">
+       <h2>Promedio de edad: {Math.floor(total)} años </h2> {/*Para 1 decimal total.toFixed(1). El otro lo redondea hacia abajo. Math.round al redondeado más cercano*/}
+     </div> 
+        <div className="Conjunto">
+          <div className="Grafica1">
+            <Bar id="grafica" data={data} options={opciones}/> 
         </div>
-    
-     <img id="edad_img" src={foto2} alt="Esta es la img de aforo"/>
-    </div>
-    
+         <img id="edad_img" src={foto2} alt="Esta es la img de aforo"/>
+        </div>
+        
+    </div>  
 )
-
 }
 export default Edad
 

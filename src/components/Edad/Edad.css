@@ -1,23 +1,29 @@
 
-/*.ContainerEdad{
-    
-    width: 90%;
-    padding: 0 2% 1% 4%;
-    color: brown;
-    font-size: 29px;
+.ContainerEdad{
+    width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 18px;
 }
-
+.Conjunto{
+    display: flex;
+    align-items: center;
+   display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
 .Grafica1 {
     height: 400px;
+    padding-left: 20%;
     padding-bottom: 12px;
 }
-#aforo_img{
-    align-items: center;
-    justify-content: center;
-    
-    height: 190px;
-    
-}*/
+.ContainerBoton1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#edad_img{
+    height: 250px;
+    padding-left: 20%;
+    display: flex;
+}

@@ -10,10 +10,13 @@
 .Contenedor_grafica_ilustracion{
     display: grid;
     display: flex;
-    grid-template-columns: repeat(2,1fr);
-    
+    grid-template-columns: repeat(2,1fr); 
     align-items: center;
-
+}
+.contador{
+    font-size: 18px;
+    padding-top: 55px;
+    padding-bottom: 35px;
 }
 .Grafica {
     height: 350px;
