@@ -1,29 +1,15 @@
 import React from 'react';
-import Botones from "../../Utils/Img/ilustraciones/botones.svg";
+import Genero from "../../Utils/Img/ilustraciones/genero.svg";
 import {Link} from 'react-router-dom';
-
-import './cajaestadiscica.css';
-
-
-function Cajaestadistica() {
+import './cajalocalidades.css';
+import Cajapie from "../../components/pie/pie";
+function Cajagenero() {
   return (
-  
-    <div className="cajaestadistica">
-      <div className="Container_img">
-        <img id="img" src={Botones} alt="Esta es la img" />
-      </div>
-      <div className="Contenido">
-        <p><h1 id="Tittle">
-        ¿Quiénes somos?
-        </h1>
-        </p>
-        <p id="frase">
-        Bienvenidos a nuestro live de estadísticas
-        </p>
-        <p>Selecciona una de nuestras opciones</p><br></br>
-         
-  <div >     
-         <p>
+    <div className="cajalocalidad">
+      <div className="usuario">
+
+      <div className="containerboton">     
+           <p id="frase">
       <div className="Botones">
       <Link exact to="/Count">
                         <button>Aforo</button>
@@ -46,19 +32,25 @@ function Cajaestadistica() {
       </p> 
        <p id="frase">
       <div className="Botones">
-      <Link exact to="/Edad">
+      <Link exact to="/edad">
                         <button>Edad</button>
                         </Link>
                </div>
       </p> 
-     </div> <br></br>
+	  
+       </div> 
+       
+    
+    
+      
+          
+    
+    
 </div>
 </div> 
-  
 
+   
   );
 }
 
-
-export default Cajaestadistica;
-
+export default Cajagenero;

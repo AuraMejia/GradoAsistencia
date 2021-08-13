@@ -1,21 +1,24 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 
 import Header from "../components/Header/header";
-import Estadistica from '../components/cajaestadistica/cajaestadistica';
+import Count from '../components/Aforo/Aforo';
 import Footer from "../components/footer/footer";
 
 
 
-function Cajaestadistica() {
+function Estadistica() {
   return (
     <div>
      <Header />
-     <Estadistica/> 
+     <Count/> 
      <Footer />
 
      </div>
   );
 }
 
-export default Cajaestadistica;
+export default Estadistica;
+
+
+

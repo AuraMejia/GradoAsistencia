@@ -2,20 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Header from "../components/Header/header";
-import Estadistica from '../components/cajaestadistica/cajaestadistica';
+import Cajalocalidades from "../components/cajalocalidades/localidades";
 import Footer from "../components/footer/footer";
 
 
 
-function Cajaestadistica() {
+function localidad() {
   return (
     <div>
      <Header />
-     <Estadistica/> 
+     <Cajalocalidades /> 
      <Footer />
 
      </div>
   );
 }
 
-export default Cajaestadistica;
+export default localidad;
+

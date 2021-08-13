@@ -10,13 +10,37 @@ header {
             animation-duration: 3s;
  }
 
- .Container_img2{
+ .Container_imgcity{
+	width: 10%;
+	align-content: center;
+
+ }
+
+ #imgcity{
+	width: 200px;
+	height: 80px;
+ }
+
+
+ .Container_imgglobal{
+	width: 100%;
+	align-content: center;
+ }
+#imgglobal{
+		width: 200px;
+		height: 80px;
+	 }
+
+.Container_imgkuepa{
 	width: 10%;
 	align-content: center;
  }
- /*#img2{
-	width: 10%;	
- }*/
+
+ #imgkuepa{
+	width: 200px;
+	height: 120px;
+ }
+ 
  @keyframes llegadaAbajo{
 	0%{
 		opacity: 0;
@@ -26,10 +50,7 @@ header {
 		opacity: 0.8;
 		transform: translateY(40px)
 	}
-	/*80%{
-		opacity: 0.9;
-		transform: translateY(25px);
-	}*/
+
 	100%{
 		opacity: 1;
 		transform: translateY(0);
@@ -37,8 +58,9 @@ header {
  }
  .logo{
 	display:grid;
-	grid-template-columns: repeat(4,1fr);
+	grid-template-columns: repeat(3,1fr);
 	width: 100%;
+	height: 13vh;
 	justify-content:space-around;
 	align-items: center;
 	justify-items: center;

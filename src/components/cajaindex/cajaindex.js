@@ -9,7 +9,7 @@ function Cajaindex() {
   return (
 
     <div className="cajaindex">
-      <div className="Container_img">
+      <div className="Container_img_chica">
         <img id="img1" src={Chica} alt="Esta es la img1" />
       </div>
       <div className="Contenido">
@@ -27,7 +27,7 @@ function Cajaindex() {
         </p>
 
         <p id="frase">
-        <div className="Botones">
+        <div className="BotonesA">
                       <Link exact to="/inicio">
                           <button> Regístrate</button>
                        </Link>

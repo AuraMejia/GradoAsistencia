@@ -13,7 +13,7 @@ function Cajagenero() {
       <div className="containerboton">     
            <p id="frase">
       <div className="Botones">
-      <Link exact to="/aforo">
+      <Link exact to="/Count">
                         <button>Aforo</button>
                         </Link>
                </div>

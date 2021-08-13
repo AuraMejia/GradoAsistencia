@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import './Edad.css';
-import {db} from '../../firebase'
 import {Link} from 'react-router-dom';
+import {db} from '../../firebase'
 import {Bar} from 'react-chartjs-2';
 import foto2 from '../../Utils/Img/ilustraciones/edad.svg'
 
@@ -98,28 +98,28 @@ function Edad() {
     <div className="ContainerEdad">
       <div className="ContainerBoton1">     
            <p id="frase">
-      <div className="Botones">
+      <div className="BotonesA">
       <Link exact to="/aforo">
                         <button>Aforo</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="Botones">
+      <div className="BotonesA">
       <Link exact to="/genero">
                         <button>Género</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="Botones">
+      <div className="BotonesA">
       <Link exact to="/localidad">
                         <button>Localidad</button>
                         </Link>
                </div>
       </p> 
        <p id="frase">
-      <div className="Botones">
+      <div className="BotonesA">
       <Link exact to="/edad">
                         <button>Edad</button>
                         </Link>

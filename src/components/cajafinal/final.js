@@ -9,13 +9,13 @@ function Cajafinal() {
                 <div className="Box4"> 
 				<p id="text">
                           Gracias por tu respuesta,<br>
-                          </br> disfrute del evento.
+                          </br> disfruta del evento.
 
                        </p>
-                       <p id="frase">
+                       <p id="frasefinal">
         <div className="Botones9">
         <Link exact to="/home">
-                          <button>volver al inicio</button>
+                          <button>Volver al inicio</button>
                           </Link>
                  </div>
         </p> 
