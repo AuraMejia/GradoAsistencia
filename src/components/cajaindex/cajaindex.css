@@ -1,18 +1,21 @@
 .cajaindex{
    background-size: cover;
    width: 100%;
-   min-height: 39rem;
+   min-height: 36rem;
    text-align: center;
-   display: flex;
-   height: 65vh;
-   
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+   height: 64vh;
+   justify-items: center;
+   align-content: center;
 }
 .Container_img_chica{
    width: 50vh;
+   height: 50vh;
 }
 #img1{
-   width: 100%;
-   height: 69vh;
+   width: 80%;
+   height: 63vh;
    padding-left: 25%;
    -webkit-animation-name: llegadaDerecha;
            animation-name: llegadaDerecha;
@@ -20,28 +23,38 @@
             animation-duration: 3s;
 
 }
-.Contenido{
-   width: 50vh;
+.Contenido1{
    font-size: 22px;
-   margin-left: 7%;
-   height: 70vh;
+   height: 62vh;
+   width: 100%;
+   margin-right: 35%;
+   
 }
 #frase{
-   margin-top: 2%;
+   margin-top: 4%;
    padding-top: 7px;
 }
-#Tittle{
+#Tittle, #Tittle p {
    color: #0092A5;
+   font-weight: bold;
+   padding-top: 5px;
+}
+.ContenidoBotonR{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 30px;
+
 }
  .BotonesA button{
     background-color: #6F52DA ;
-    width: 150px;
+    width: 170px;
     border: none;
     border-radius: 25px;
-    height: 45px;
+    height: 55px;
     color: cornsilk;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 1px;
+    cursor: pointer;
  }
  .Botones button:hover{
    color: #6F52DA;
@@ -51,7 +64,7 @@
    cursor: pointer;
 }
 #img3{
-   width: 40%;
+   width: 100%;
    height: 150px;
    -webkit-animation-name: llegadaDerecha;
            animation-name: llegadaDerecha;

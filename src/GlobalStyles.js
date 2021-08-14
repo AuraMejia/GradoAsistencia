@@ -4,10 +4,10 @@ import SecundaryFont from '../src/Utils/Fonts/Light.woff'
 export const GlobalStyle = createGlobalStyle` 
 
 
-p, h2, input, select, button, #grafica label{
+p, input, select, button, #grafica label{
     font-family: Delgada;
 }
-h1{
+h1, h2{
     font-family: Negrilla;
 }
 /*Fuentes*/

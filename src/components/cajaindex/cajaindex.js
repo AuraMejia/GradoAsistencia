@@ -12,16 +12,18 @@ function Cajaindex() {
       <div className="Container_img_chica">
         <img id="img1" src={Chica} alt="Esta es la img1" />
       </div>
-      <div className="Contenido">
+      <div className="Contenido1">
         <p id="frase">
         Las mujeres tienen la oportunidad de cumplir todos los sueños que se propongan, son ellas quienes construyen su futuro.
         </p>
 
-        <p id="frase"><h1 id="Tittle">
-          Registro de Asistencia: Graduación Class TechPower
-        </h1>
+        <p id="frase"><h2 id="Tittle">
+          Registro de Asistencia: 
+          <p>Graduación Class TechPower</p>
+        </h2>
         </p>
 
+        <div className="ContenidoBotonR"> 
         <p id="frase">
           ¡Conozcámonos!
         </p>
@@ -37,7 +39,7 @@ function Cajaindex() {
         <p id="frase">
            <img id="img3" src={Ilustracion1} alt="Esta es la ilustración" />
         </p>
-
+        </div>
       </div>
      </div>
   );

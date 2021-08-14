@@ -72,13 +72,12 @@ function Edad() {
      setDatos(values)
   });
   };
-
   useEffect( ()=>{
-      getLinks()
-      console.log(dato)
-      console.log(values)
-  }, [])
-
+    getLinks()
+    console.log(dato)
+    console.log(values)
+}, [])
+  
   const data={
       labels: ['0-16', '17-20', '21-25', '26-30','31-35', '36-40', '41-45', '46-50', '51-más',  ],
       datasets:[{
@@ -128,6 +127,7 @@ function Edad() {
 	  
        </div> 
      <div className="contador">
+      {/*<div>{num}</div>*/}
        <h2>Promedio de edad: {Math.floor(total)} años </h2> {/*Para 1 decimal total.toFixed(1). El otro lo redondea hacia abajo. Math.round al redondeado más cercano*/}
      </div> 
         <div className="Conjunto">
@@ -148,7 +148,7 @@ export default Edad
   
   let intervalRef = useRef();
   
-  const decreaseNum = () => setNum((prev) => prev + 1);
+  const decreaseNum = () => setNum((prev) => total+ 1);
 
   useEffect(() => {
     setPause(false);
@@ -172,4 +172,4 @@ export default Edad
       <button onClick={handleClick}>{pause ? "Run" : "Pause"}</button>
     </div>
   );
-}*/
+  }*/

@@ -17,8 +17,8 @@ header {
  }
 
  #imgcity{
-	width: 200px;
-	height: 110px;
+	width: 220px;
+	height: 130px;
  }
 
 
@@ -27,8 +27,8 @@ header {
 	align-content: center;
  }
 #imgglobal{
-		width: 200px;
-		height: 110px;
+		width: 220px;
+		height: 130px;
 	 }
 
 .Container_imgkuepa{
@@ -37,8 +37,8 @@ header {
  }
 
  #imgkuepa{
-	width: 200px;
-	height: 140px;
+	width: 240px;
+	height: 150px;
  }
  
  @keyframes llegadaAbajo{

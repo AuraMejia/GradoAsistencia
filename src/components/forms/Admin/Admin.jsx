@@ -97,26 +97,29 @@ const Admin = (props) => { /*Traer de link*/
                        </p>
                        <p>
                        <select name="localidad" onChange={handleInputChange} id="localidad">
-                               <option value={"localidad"}>Localidad</option>
-                               <option value={"usaquen"}>Usquén</option>
-                               <option value={"chapinero"}>Chapinero</option>
-                               <option value={"santa_fe"}>Santa Fé</option>
-                               <option value={"usme"}>Usme</option>
-                               <option value={"tunjuelito"}>Tunjuelito</option>
-                               <option value={"bosa"}>Bosa</option>
-                               <option value={"kennedy"}>Kennedy</option>
-                               <option value={"fontibon"}>Fontibón</option>
-                               <option value={"engativa"}>Engativá</option>
-                               <option value={"suba"}>Suba</option>
-                               <option value={"barrios_unidos"}>Barrios Unidos</option>
-                               <option value={"teusaquillo"}>Teusaquillo</option>
-                               <option value={"martires"}>Los Mártires</option>
-                               <option value={"antonio"}>Antonio Nariño</option>
-                               <option value={"puente"}>Puente Aranda</option>
-                               <option value={"candelaria"}>Candelaria</option>
-                               <option value={"rafael"}>Rafael Uribe Uribe</option>
-                               <option value={"bolivar"}>Ciudad Bolívar</option>
-                               <option value={"sumapaz"}>Sumapaz</option>
+                       <option value={"localidad"}>Localidad</option>
+                               <option value={"usaquen"}>1.Usquén</option>
+                               <option value={"chapinero"}>2.Chapinero</option>
+                               <option value={"santa_fe"}>3.Santa Fé</option>
+                               <option value={"usme"}>4.San Cristóbal</option>
+                               <option value={"usme"}>5.Usme</option>
+                               <option value={"tunjuelito"}>6.Tunjuelito</option>
+                               <option value={"bosa"}>7.Bosa</option>
+                               <option value={"kennedy"}>8.Kennedy</option>
+                               <option value={"fontibon"}>9.Fontibón</option>
+                               <option value={"engativa"}>10.Engativá</option>
+                               <option value={"suba"}>11.Suba</option>
+                               <option value={"barrios_unidos"}>12.Barrios Unidos</option>
+                               <option value={"teusaquillo"}>13.Teusaquillo</option>
+                               <option value={"martires"}>14.Los Mártires</option>
+                               <option value={"antonio"}>15.Antonio Nariño</option>
+                               <option value={"puente"}>16.Puente Aranda</option>
+                               <option value={"candelaria"}>17.Candelaria</option>
+                               <option value={"rafael"}>18.Rafael Uribe Uribe</option>
+                               <option value={"bolivar"}>19.Ciudad Bolívar</option>
+                               <option value={"sumapaz"}>20.Sumapaz</option>
+                               <option value={"sumapaz"}>21.Soacha</option>
+                               <option value={"sumapaz"}>22.Otros</option>
                            </select>
                        </p>
                        <p>
