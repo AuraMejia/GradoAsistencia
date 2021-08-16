@@ -5,46 +5,37 @@
 	display: flex;
  }
  .Contenidolocalidad{
-	margin-top: 4%;
-	width: 60%;
-	margin-right: 30px;
-	padding-left:100px;
- 
- }
- .Container_img6 {
-	width: 50%;
-
-
-}
-
-#img6{
-	margin-top: 14%;
-	margin-left: 25%;
-	width: 80%;
-	-webkit-animation-name: llegadaDerecha;
-	        animation-name: llegadaDerecha;
-	-webkit-animation-duration: 3s;
-	        animation-duration: 3s;
+	background-image: url(../../Utils/Img/Localidad/mapa.png);
+	width: 70%;
+    height: 60vh;
+    margin-top:4%;
+	margin-left:14%;
+	
 }
 
  .containerboton{
-   width: 70%;
-  display: flex;
-  align-items: center;
-  margin-left: 150px;
- }
- .Botones1 button{
+	display: flex;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	 display: flex;
+	 margin-left: 35%;
+	 margin-top: 2%;
+}
+ 
+ .Botones button{
 	background-color: #6F52DA ;
-	width: 330px;
-	border: none;
-	border-radius: 25px;
-	height: 90px;
-	color: cornsilk;
-	font-size: 25px;
-	letter-spacing: 1px;
+    width: 170px;
+    border: none;
+    border-radius: 25px;
+    height: 55px;
+    color: cornsilk;
+    font-size: 22px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
 	
  }
- .Botones1 button:hover{
+ .Botones button:hover{
    color: #6F52DA;
    background-color: #D8D2D2;
    border: 1px solid #6F52DA;

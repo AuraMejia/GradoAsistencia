@@ -54,6 +54,8 @@ function App() {
           <Route path="/localidad">
             <Cajalocalidades />
           </Route>
+          
+        
 
           <Route path="/Acompañante">
             <AcompananteUser/>

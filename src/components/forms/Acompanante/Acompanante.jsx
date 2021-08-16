@@ -1,6 +1,7 @@
 import React, {useState} from "react" /*import react y crear el estado de la aplicación que pertenece a un componente*/ 
 import '../css/Acompanante.css'/*Import the styles*/
 import { db } from "../../../firebase"
+import {Link} from 'react-router-dom'
 
 const Acompanante = (props) => { /*Traer de link*/
 
@@ -149,6 +150,7 @@ const Acompanante = (props) => { /*Traer de link*/
                            No <input type="radio"  name="certify2" id="no" onChange={handleChange} checked={checked.certify2} /> 
                        </p>
                        <p>
+                 
                            <input type="submit" id="enviar" value="Enviar" />
                            <input type="reset" id="borrar" value="Borrar" />
                        </p>

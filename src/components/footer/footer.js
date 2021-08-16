@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.css';
-import Banner from '../../Utils/Img/Logos/banner_grande.png'
+import Banner1 from '../../Utils/Img/Logos/Futuro.svg'
+import Banner2 from '../../Utils/Img/Logos/futuroBlanco.svg'
 import Twitter from '../../Utils/Img/Iconos/twitter.svg'
 import Facebook from '../../Utils/Img/Iconos/facebook.svg'
 import Youtube from '../../Utils/Img/Iconos/youtube.svg'
@@ -12,8 +13,13 @@ import {Link} from 'react-router-dom';
 function Footer() {
   return (
     <div className="Container_Footer">
-      <img id="banner" src={Banner} alt="Esta es la banner" />
-
+      <div className="BannerNaranja">
+        
+          <img id="futuro2" src={Banner2} alt="Esta es la img de futuro" />
+          <img id="futuro1" src={Banner1} alt="Esta es la img de futuro" />
+        
+      </div>
+      
       <div className="Pie_pagina">
         <div className="Imagenes">
         <a href="https://twitter.com/KuepaCo"><img id="pieP" src={Twitter} alt="Esta es la img de twitter"/></a>
@@ -44,4 +50,6 @@ function Footer() {
 
 
 export default Footer;
+
+
 

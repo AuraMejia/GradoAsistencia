@@ -9,11 +9,11 @@ function Cajainicio() {
     <div className="cajainicio">
       <div className="usuario">
         <p><h1 id="Tittle">
-    ¿Quién eres?</h1></p><br>
-    </br>
+    ¿Quién eres?</h1></p>
+   
       <p>Elige una de las opciones para el ingreso </p>
 
-      <div className="containerboton">     
+      <div className="containerbotoninicio">     
            <p id="frase">
         <div className="Botones1">
         <Link exact to="/Acompañante">
