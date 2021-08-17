@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/GradoAsistencia/static/css/main.fb7b7572.chunk.css",
-    "main.js": "/GradoAsistencia/static/js/main.28117fb2.chunk.js",
-    "main.js.map": "/GradoAsistencia/static/js/main.28117fb2.chunk.js.map",
+    "main.css": "/GradoAsistencia/static/css/main.67ac0d85.chunk.css",
+    "main.js": "/GradoAsistencia/static/js/main.bc03133f.chunk.js",
+    "main.js.map": "/GradoAsistencia/static/js/main.bc03133f.chunk.js.map",
     "runtime-main.js": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js",
     "runtime-main.js.map": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js.map",
     "static/js/2.ee04d629.chunk.js": "/GradoAsistencia/static/js/2.ee04d629.chunk.js",
     "static/js/2.ee04d629.chunk.js.map": "/GradoAsistencia/static/js/2.ee04d629.chunk.js.map",
     "index.html": "/GradoAsistencia/index.html",
-    "static/css/main.fb7b7572.chunk.css.map": "/GradoAsistencia/static/css/main.fb7b7572.chunk.css.map",
+    "static/css/main.67ac0d85.chunk.css.map": "/GradoAsistencia/static/css/main.67ac0d85.chunk.css.map",
     "static/js/2.ee04d629.chunk.js.LICENSE.txt": "/GradoAsistencia/static/js/2.ee04d629.chunk.js.LICENSE.txt",
+    "static/media/Futuro.c854321e.svg": "/GradoAsistencia/static/media/Futuro.c854321e.svg",
     "static/media/Light.05c8ae97.woff": "/GradoAsistencia/static/media/Light.05c8ae97.woff",
     "static/media/Negrilla.0329bf8f.woff": "/GradoAsistencia/static/media/Negrilla.0329bf8f.woff",
     "static/media/aforo.81e57da7.svg": "/GradoAsistencia/static/media/aforo.81e57da7.svg",
@@ -19,8 +20,7 @@
     "static/media/edad.1a918845.svg": "/GradoAsistencia/static/media/edad.1a918845.svg",
     "static/media/facebook.d8443e61.svg": "/GradoAsistencia/static/media/facebook.d8443e61.svg",
     "static/media/Invitado.css": "/GradoAsistencia/static/media/fondo1.c38d444e.png",
-    "static/media/futuro.fd23d94c.svg": "/GradoAsistencia/static/media/futuro.fd23d94c.svg",
-    "static/media/futuroBlanco.a389ae4e.svg": "/GradoAsistencia/static/media/futuroBlanco.a389ae4e.svg",
+    "static/media/futuroBlanco.9ae068bf.svg": "/GradoAsistencia/static/media/futuroBlanco.9ae068bf.svg",
     "static/media/genero.1963b5c5.svg": "/GradoAsistencia/static/media/genero.1963b5c5.svg",
     "static/media/global.855c6b8a.svg": "/GradoAsistencia/static/media/global.855c6b8a.svg",
     "static/media/grado.f4aec6cd.png": "/GradoAsistencia/static/media/grado.f4aec6cd.png",
@@ -28,6 +28,7 @@
     "static/media/kuepa.49e3bb20.svg": "/GradoAsistencia/static/media/kuepa.49e3bb20.svg",
     "static/media/logo-instagram.0b675378.svg": "/GradoAsistencia/static/media/logo-instagram.0b675378.svg",
     "static/media/logo.0c898068.png": "/GradoAsistencia/static/media/logo.0c898068.png",
+    "static/media/cajalocalidades.css": "/GradoAsistencia/static/media/mapa.e3450945.png",
     "static/media/cajafinal.css": "/GradoAsistencia/static/media/respuesta.3d89b0d2.jpg",
     "static/media/twitter.76fa2064.svg": "/GradoAsistencia/static/media/twitter.76fa2064.svg",
     "static/media/users.fad71b5c.svg": "/GradoAsistencia/static/media/users.fad71b5c.svg",
@@ -36,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.ff1d511f.js",
     "static/js/2.ee04d629.chunk.js",
-    "static/css/main.fb7b7572.chunk.css",
-    "static/js/main.28117fb2.chunk.js"
+    "static/css/main.67ac0d85.chunk.css",
+    "static/js/main.bc03133f.chunk.js"
   ]
 }
