@@ -4,17 +4,18 @@
 .BannerNaranja{
    background-color: #E86433 ;
    display: flex;
-   height: 10vh;
+   height: 12vh;
    width: 100%;
    align-items: center;
    justify-content: center;
+   align-content: center;
    text-align: center;
 }
 #futuro2{
-   height: 100px;
+   height: 160px;
 }
 #futuro1{
-   height: 80px;
+   height: 110px;
 }
 .Pie_pagina {
    width: 100%;
@@ -55,9 +56,79 @@
 #frases{
    color: white;
 }
-
-@media (max-width: 425px) {
-   footer  {
-      margin-left: 10px;
+/*RESPONSIVE*/
+@media screen and (min-width:375px) and (max-width:425px){
+   .BannerNaranja{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
    }
- }
+   #futuro2{
+      height: 120px;
+      width: 240px;
+   }
+   #futuro1{
+      height: 80px;
+   }
+   .Pie_pagina{
+      height: 10%;
+   }
+   .Imagenes{
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(2,1fr);
+   }
+   #frases{
+      font-size: 13px;
+      margin: 0;
+   }
+   .Textos{
+      justify-content: center;
+      align-content: center;
+      display: grid;
+      grid-template-rows: repeat(2,1fr);
+      align-items: baseline;
+   }
+
+}
+@media screen and (min-width:426px) and (max-width:700px){
+   .BannerNaranja{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      justify-items: center;
+   }
+   #futuro2{
+      height: 100%;
+      width: 100%;
+   }
+   #futuro1{
+      height: 105px;
+   }
+   .Pie_pagina{
+      height: 10%;
+   }
+   .Imagenes{
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(2,1fr);
+   }
+   #frases{
+      font-size: 15px;
+      margin: 0;
+      padding-right: 25px;
+   }
+   .Textos{
+      justify-content: center;
+      align-content: center;
+      display: grid;
+      grid-template-rows: repeat(2,1fr);
+      align-items: baseline;
+   }
+}
+@media screen and (min-width:700px) and (max-width:1200px){
+   #frases{
+      font-size: 14px;
+      margin: 0;
+      padding-right: 25px;
+   }
+   .Textos{
+      align-items: center;
+   }
+}

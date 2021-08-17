@@ -4,6 +4,7 @@ import Inicio from "./pages/inicio";
 import Estadistica from "./pages/estadistica";
 import AcompananteUser from "./pages/acompañante"
 import AdministrativoUser from "./pages/administrativo";
+import AforoUser from "./pages/aforo";
 import InvitadoUser from "./pages/invitado";
 import Genero from "./pages/genero";
 import Cajapie from "./pages/pie";
@@ -38,8 +39,8 @@ function App() {
  
     
      
-          <Route path="/estadistica">
-            <Estadistica/>
+          <Route path="/Aforo">
+            <AforoUser/>
           </Route>
 
 

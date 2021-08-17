@@ -2,21 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Header from "../components/Header/header";
-import Cajaindex from "../components/cajaindex/cajaindex";
+import Count from '../components/Aforo/Aforo';
 import Footer from "../components/footer/footer";
 
 
 
-function Index() {
+function AforoUser() {
   return (
     <div>
      <Header />
-     <Cajaindex /> 
+     <Count/> 
      <Footer />
 
      </div>
   );
 }
 
-export default Index;
-
+export default AforoUser;

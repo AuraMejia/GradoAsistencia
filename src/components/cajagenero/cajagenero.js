@@ -6,6 +6,8 @@ import Cuadrado3 from "../../Utils/Img/ilustraciones/verde.jpg";
 import {Link} from 'react-router-dom';
 import './cajagenero.css';
 import Cajapie from "../../components/pie/pie";
+import aforo from "../../pages/aforo";
+
 function Cajagenero() {
   return (
     <div className="cajagenero">

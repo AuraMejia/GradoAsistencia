@@ -2,16 +2,16 @@
 .Container_Admin{
     background-image: url(../../../Utils/Img/Formularios/fondo1.png);
     width: 100%;
-    height: 100vh;
+    height: 73vh;
     margin: none;
     align-items: center;
     justify-content: center;
     display: flex;
 }
-.Box{
+.BoxAdmin{
     background-color: rgb(248, 248, 248);
     width: 40%;
-    height: 90vh ;
+    height: 65vh ;
    align-items: center;
    justify-content: center;
    animation-name: llegadaAbajo;
@@ -35,7 +35,7 @@
        transform: translateY(0);
    }
 }
-#enviar, #borrar{
+#enviar1, #borrar{
     background-color: #E86433;
     color: white;
     border-radius: 15%;
@@ -79,4 +79,97 @@ input, select {
 }
 ::placeholder{
     color: black;
+}
+@media screen and (min-width:375px) and (max-width:425px){
+    .BoxAdmin{
+        width: 85%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Admin{
+        height: 100%;
+        font-size: 14px;
+    }
+    #TittleForms h1{
+        align-content: center;
+    }
+    #enviar1, #borrar {
+        width: 30%;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    #text1{
+        padding: 15px;
+        font-size: 14px;
+    }
+    input, select {
+        font-size: 14px;
+    }
+    #AnswerYesNo {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:425px) and (max-width:700px){
+    #text1 {
+        padding: 15px;
+        font-size: 16px;
+    }
+    #AnswerYesNo,  #enviar1, #borrar, #enviar1, #borrar {
+        font-size: 16px;
+    }
+    .BoxAdmin{
+        width: 85%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Admin{
+        height: 100%;
+    }
+    #TittleForms{
+        align-content: center;
+    }
+    #enviar1, #borrar {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    #text1{
+        padding: 15px;
+    }
+    input, select {
+        font-size: 16px;
+    }
+    #AnswerYesNo {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:1200px){
+    .BoxAdmin{
+        width: 65%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Admin{
+        height: 100%;
+    }
+    #enviar1, #borrar {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1500px){
+    .BoxAdmin{
+        width: 40%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Admin{
+        height: 100%;
+    }
+    #enviar1, #borrar {
+        margin-bottom: 10px;
+    }
+
 }
