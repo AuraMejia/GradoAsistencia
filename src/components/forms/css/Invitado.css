@@ -93,7 +93,7 @@ input, select {
     color: black;
 }
 @media screen and (min-width:375px) and (max-width:425px){
-    .Box3{
+    .BoxInvitado{
         width: 85%;
         height: 80%;
          margin-top: 10px;
@@ -171,7 +171,7 @@ input, select {
     }
 }
 @media screen and (min-width:1201px) and (max-width:1500px){
-    .Box3{
+    .BoxInvitado{
         width: 40%;
         height: 80%;
          margin-top: 10px;
