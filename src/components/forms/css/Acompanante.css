@@ -83,3 +83,95 @@ input, select {
     width: 83%;
     height: 3vh;
 }
+/*RESPONSIVE*/
+@media screen and (min-width:375px) and (max-width:425px){
+    .Box2{
+        width: 85%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Acompanante{
+        height: 100%;
+    }
+    #TittleForms {
+        align-content: center;
+        font-size: 25px;
+    }
+    #text1{
+        padding: 22px;
+    }
+    #enviar1, #borrar {
+        width: 30%;
+    }
+    input, select {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:426px) and (max-width:700px){
+    #text1 {
+        padding: 15px;
+        font-size: 16px;
+    }
+    #TittleForms {
+        align-content: center;
+        font-size: 25px;
+    }
+    #AnswerYesNo,  #enviar1, #borrar, #enviar1, #borrar {
+        font-size: 16px;
+    }
+    .Box2{
+        width: 85%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Acompanante{
+        height: 100%;
+    }
+    #TittleForms{
+        align-content: center;
+    }
+    #enviar1, #borrar {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    #text1{
+        padding: 15px;
+    }
+    input, select {
+        font-size: 16px;
+    }
+    #AnswerYesNo {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:701px) and (max-width:1200px){
+    .Box2{
+        width: 65%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Acompanante{
+        height: 100%;
+    }
+    #text1{
+        padding: 15px;
+    }
+    #enviar1, #borrar {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1500px){
+    .Box2{
+        width: 40%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Acompanante{
+        height: 100%;
+    }
+
+}

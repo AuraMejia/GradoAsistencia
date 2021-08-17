@@ -73,7 +73,7 @@ const Admin = (props) => { /*Traer de link*/
     return (
         <div className="Container_Admin"> 
 
-                <div className="Box"> 
+                <div className="BoxAdmin"> 
                     <h1>
                         Administrativo
                     </h1>

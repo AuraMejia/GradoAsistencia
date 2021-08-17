@@ -75,7 +75,7 @@ const Acompanante = (props) => { /*Traer de link*/
         <div className="Container_Acompanante"> 
 
                 <div className="Box2"> 
-                    <h1>
+                    <h1 id="TittleForms">
                         Acompañante estudiante
                     </h1>
 

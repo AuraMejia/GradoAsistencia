@@ -55,7 +55,7 @@ function Count() {
     const data={
         labels: ['Graduandos', 'Acompañantes', 'Invitados','Administrativos'],
         datasets:[{
-            label:'',
+            label:'Participantes',
             backgroundColor: ['#EDA083', '#0088FF', '#3DE9A7', '#968DFF'],
             data:datos,  
         }]
@@ -72,7 +72,7 @@ function Count() {
     return(
        
         <div className="ContainerAforo">
-            <div className="ContainerBoton1">     
+            <div className="ContainerBoton2">     
            <p id="frase1">
       <div className="BotonesA">
       <Link exact to="/aforo">

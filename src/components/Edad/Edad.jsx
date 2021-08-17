@@ -81,11 +81,12 @@ function Edad() {
   const data={
       labels: ['0-16', '17-20', '21-25', '26-30','31-35', '36-40', '41-45', '46-50', '51-más',  ],
       datasets:[{
-          label:'',
+          label:'Número de personas conforme a su rango de edad',
           backgroundColor: ['#26B8AF', '#00AA69', '#0088FF', '#26B8AF', '#00AA69', '#0088FF','#26B8AF', '#00AA69', '#0088FF','#26B8AF', ],
           data:datos,  
           color:'red',
-          borderColor: 'white'
+          borderColor: 'white',
+       
       }]
    };
   const opciones={
@@ -128,8 +129,9 @@ function Edad() {
        </div> 
      <div className="contador">
       {/*<div>{num}</div>*/}
-       <h2>Promedio de edad: {Math.floor(total)} años </h2> {/*Para 1 decimal total.toFixed(1). El otro lo redondea hacia abajo. Math.round al redondeado más cercano*/}
+       <h2 id="promedioTittle">Promedio de edad: {Math.floor(total)} años </h2> {/*Para 1 decimal total.toFixed(1). El otro lo redondea hacia abajo. Math.round al redondeado más cercano*/}
      </div> 
+     
         <div className="Conjunto">
           <div className="Grafica1">
             <Bar id="grafica" data={data} options={opciones}/> 

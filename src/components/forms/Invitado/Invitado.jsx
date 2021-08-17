@@ -71,7 +71,7 @@ const Invitado = (props) => { /*Traer de link*/
         setValues({...initialSateValues})/*Guarda los datos y los devuelve al estado inicial a través del value en el input*/
     }
     return (
-        <div className="Container_Admin"> 
+        <div className="Container_Invitado"> 
 
                 <div className="Box3"> 
                     <h1>
@@ -137,7 +137,7 @@ const Invitado = (props) => { /*Traer de link*/
                            ¿Has tenido síntomas de COVID-19 en las últimas 48 horas o has tenido contacto con una persona contagiada?
 
                        </p>
-                       <p>
+                       <p id="AnswerYesNo">
                            Si <input type="radio" name="certify1" id="yes" onChange={handleChange} checked={checked.certify1} /> 
                            No <input type="radio"  name="certify2" id="no" onChange={handleChange} checked={checked.certify2} /> 
                        </p>

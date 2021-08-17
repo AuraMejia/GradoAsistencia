@@ -1,4 +1,4 @@
-.Container_Admin{
+.Container_Invitado{
     background-image: url(../../../Utils/Img/Formularios/fondo1.png);
     width: 100%;
     height: 70vh;
@@ -89,4 +89,94 @@ input, select {
 }
 ::placeholder{
     color: black;
+}
+@media screen and (min-width:375px) and (max-width:425px){
+    .Box3{
+        width: 85%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Invitado{
+        height: 100%;
+        font-size: 14px;
+    }
+    #TittleForms h1{
+        align-content: center;
+    }
+    #enviar1, #borrar {
+        width: 30%;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    #text1{
+        padding: 15px;
+        font-size: 14px;
+    }
+    input, select {
+        font-size: 14px;
+    }
+    #AnswerYesNo {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:425px) and (max-width:700px){
+    #text1 {
+        padding: 15px;
+        font-size: 16px;
+    }
+    #AnswerYesNo,  #enviar1, #borrar, #enviar1, #borrar {
+        font-size: 16px;
+    }
+    .Box3{
+        width: 85%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Invitado{
+        height: 100%;
+    }
+    #TittleForms{
+        align-content: center;
+    }
+    #enviar1, #borrar {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    #text1{
+        padding: 15px;
+    }
+    input, select {
+        font-size: 16px;
+    }
+    #AnswerYesNo {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:1200px){
+    .Box3{
+        width: 65%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Invitado{
+        height: 100%;
+    }
+    #enviar1, #borrar {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (min-width:1201px) and (max-width:1500px){
+    .Box3{
+        width: 40%;
+        height: 80%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .Container_Invitado{
+        height: 100%;
+    }
+
 }

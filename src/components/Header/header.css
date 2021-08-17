@@ -1,39 +1,16 @@
-header {
-	width: 80%;	
-	align-items: center;
- }
+
  .cajaheader{
 	text-align: center;	
+	width: 100%;
 	-webkit-animation-name: llegadaAbajo;	
-	        animation-name: llegadaAbajo;
+	        animation-name: llegadaAbajo1;
     -webkit-animation-duration: 3s;
             animation-duration: 3s;
  }
 
- .Container_imgcity{
-	width: 10%;
-	align-content: center;
-
- }
-
- #imgcity{
+ #imgcity, #imgglobal{
 	width: 220px;
 	height: 130px;
- }
-
-
- .Container_imgglobal{
-	width: 100%;
-	align-content: center;
- }
-#imgglobal{
-		width: 220px;
-		height: 130px;
-	 }
-
-.Container_imgkuepa{
-	width: 10%;
-	align-content: center;
  }
 
  #imgkuepa{
@@ -41,21 +18,6 @@ header {
 	height: 150px;
  }
  
- @keyframes llegadaAbajo{
-	0%{
-		opacity: 0;
-		transform:translateY(-100px) ;
-	}
-	60%{
-		opacity: 0.8;
-		transform: translateY(40px)
-	}
-
-	100%{
-		opacity: 1;
-		transform: translateY(0);
-	}
- }
  .logo{
 	display:grid;
 	grid-template-columns: repeat(3,1fr);
@@ -79,7 +41,29 @@ header {
 		transform: translateY(0);
 	}
  }
-
+ /*RESPONSIVE*/
+ @media screen and (min-width:375px) and (max-width:425px) {
+	 .logo{
+		 grid-template-columns: repeat(3, 1fr);
+		 height: 10%;
+	 }
+	 #imgcity, #imgglobal, #imgkuepa{
+		 width: 120px;
+		 height: 90px;
+		 padding-top: 10px;
+	 }
+ }
+ @media screen and (min-width:426px) and (max-width:700px) {
+	.logo{
+		grid-template-columns: repeat(3, 1fr);
+		height: 10%;
+	}
+	#imgcity, #imgglobal, #imgkuepa{
+		width: 140px;
+		height: 100px;
+		padding-top: 10px;
+	}
+ }
 
 
  
