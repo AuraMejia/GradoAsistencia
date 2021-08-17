@@ -12,12 +12,12 @@ function Cajaestadistica() {
       <div className="Container_img">
         <img id="img" src={Botones} alt="Esta es la img" />
       </div>
-      <div className="Contenido">
-        <p><h1 id="Tittle">
+      <div className="Contenidoestadistica">
+        <p><h1 id="Tittleestadis">
         ¿Quiénes somos?
         </h1>
         </p>
-        <p id="frase">
+        <p id="fraseestadis">
         Bienvenidos a nuestro live de estadísticas
         </p>
         <p>Selecciona una de nuestras opciones</p><br></br>

@@ -7,30 +7,30 @@ function Cajalocalidades() {
     <div className="cajalocalidad">
       <div className="usuario">
 
-      <div className="containerboton">     
+      <div className="containerbotonlocalidad">     
            <p id="frase">
-      <div className="Botones">
+      <div className="Botoneslocalidad">
       <Link exact to="/Count">
                         <button>Aforo</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="Botones">
+      <div className="Botoneslocalidad">
       <Link exact to="/genero">
                         <button>Género</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="Botones">
+      <div className="Botoneslocalidad">
       <Link exact to="/localidad">
                         <button>Localidad</button>
                         </Link>
                </div>
       </p> 
        <p id="frase">
-      <div className="Botones">
+      <div className="Botoneslocalidad">
       <Link exact to="/edad">
                         <button>Edad</button>
                         </Link>

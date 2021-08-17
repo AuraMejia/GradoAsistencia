@@ -1,7 +1,8 @@
 import React from 'react';
 import Genero from "../../Utils/Img/ilustraciones/genero.svg";
-import Cuadrado1 from "../../Utils/Img/ilustraciones/naran.jpg";
+import Cuadrado1 from "../../Utils/Img/ilustraciones/naran.png";
 import Cuadrado2 from "../../Utils/Img/ilustraciones/azul.png";
+import Cuadrado3 from "../../Utils/Img/ilustraciones/verde.jpg";
 import {Link} from 'react-router-dom';
 import './cajagenero.css';
 import Cajapie from "../../components/pie/pie";
@@ -50,9 +51,9 @@ function Cajagenero() {
     
       <Cajapie/>
    
-     <p id="pie">Femenina <img id="imgcua" src={Cuadrado2} alt="Esta es la imgcua"/></p>
+    <p id="pie">Femenina <img id="imgcua1" src={Cuadrado1} alt="Esta es la imgcua"/></p>
     <p id="pie"> Masculino<img id="imgcua" src={Cuadrado2} alt="Esta es la imgcua" /></p>
-    <p id="pie"> Otro<img id="imgcua" src={Cuadrado2} alt="Esta es la imgcua" /></p> 
+    <p id="pie"> Otro<img id="imgcua" src={Cuadrado3} alt="Esta es la imgcua" /></p> 
    
   
     
