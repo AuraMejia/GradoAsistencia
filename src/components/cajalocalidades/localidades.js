@@ -1,9 +1,8 @@
 import React from 'react';
-import Genero from "../../Utils/Img/ilustraciones/genero.svg";
 import {Link} from 'react-router-dom';
 import './cajalocalidades.css';
-import Cajapie from "../../components/pie/pie";
-function Cajagenero() {
+
+function Cajalocalidades() {
   return (
     <div className="cajalocalidad">
       <div className="usuario">
@@ -40,7 +39,12 @@ function Cajagenero() {
 	  
        </div> 
        
+     
+      <div className="Contenidolocalidad">
+
+
     
+      </div>
     
       
           
@@ -53,4 +57,4 @@ function Cajagenero() {
   );
 }
 
-export default Cajagenero;
+export default Cajalocalidades;

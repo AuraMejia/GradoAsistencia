@@ -44,7 +44,6 @@ function Cajapie() {
   }, [])
 
       const data={
-        labels:['Femenino','Masculino','Otro'],
         datasets:[{
         label:'',
         backgroundColor:['#FF3A01', 'blue', 'green'],

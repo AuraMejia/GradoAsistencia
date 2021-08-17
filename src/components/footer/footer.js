@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import Banner1 from '../../Utils/Img/Logos/futuro.svg'
+import Banner1 from '../../Utils/Img/Logos/Futuro.svg'
 import Banner2 from '../../Utils/Img/Logos/futuroBlanco.svg'
 import Twitter from '../../Utils/Img/Iconos/twitter.svg'
 import Facebook from '../../Utils/Img/Iconos/facebook.svg'
@@ -50,4 +50,6 @@ function Footer() {
 
 
 export default Footer;
+
+
 

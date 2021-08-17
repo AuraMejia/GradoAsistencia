@@ -51,7 +51,7 @@ function Cajaestadistica() {
                         </Link>
                </div>
       </p> 
-     </div> <br></br>
+     </div> 
 </div>
 </div> 
   

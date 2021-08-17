@@ -20,15 +20,15 @@
 }
 
 .Botones9 button {
-	background-color: #E86433;
-	width: 250px;
-	border: none;
-	border-radius: 25px;
-	height: 60px;
-	color: cornsilk;
-	font-size: 28px;
-	letter-spacing: 1px;
-
+	background-color: #6F52DA ;
+    width: 170px;
+    border: none;
+    border-radius: 25px;
+    height: 55px;
+    color: cornsilk;
+    font-size: 22px;
+    letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .Botones9 button:hover {

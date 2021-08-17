@@ -1,55 +1,66 @@
 .cajagenero{
 	width: 100%;
-	min-height: 30rem;
+	min-height: 20rem;
 	text-align: center;
 	display: flex;
  }
  .Contenidogenero{
-	margin-top: 4%;
+	margin-top: 1%;
 	width: 60%;
-	margin-right: 30px;
-	padding-left:100px;
- 
- }
- .Container_img6 {
-	width: 50%;
-
+	height: 60%;
+	font-size: 35px;
 
 }
 
 #img6{
-	margin-top: 14%;
-	margin-left: 25%;
-	width: 80%;
+	margin-top: 1%;
+	margin-left: 15%;
+	width: 25%;
+	align-content: center;
 	-webkit-animation-name: llegadaDerecha;
 	        animation-name: llegadaDerecha;
 	-webkit-animation-duration: 3s;
 	        animation-duration: 3s;
 }
 
- .containerboton{
-   width: 70%;
-  display: flex;
-  align-items: center;
-  margin-left: 150px;
- }
- .Botones1 button{
-	background-color: #6F52DA ;
-	width: 330px;
-	border: none;
-	border-radius: 25px;
-	height: 90px;
-	color: cornsilk;
-	font-size: 25px;
-	letter-spacing: 1px;
+.containerbotongenero{
+	display: flex;
+	 margin-left: 20%;
+	 margin-top: 2%;
 	
  }
- .Botones1 button:hover{
-   color: #6F52DA;
-   background-color: #D8D2D2;
-   border: 1px solid #6F52DA;
-   font-weight: bold;
-   cursor: pointer;
+ .Botonesgenero button{
+	background-color: #6F52DA ;
+    width: 170px;
+    border: none;
+    border-radius: 25px;
+    height: 55px;
+    color: cornsilk;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+	margin-right: 40px;
+	
  }
- 
+ .Botonesgenero button:hover{
+	color: #6F52DA;
+	background-color: #D8D2D2;
+	border: 1px solid #6F52DA;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 40px;
+ }
+
+ #pie{
+	display: flex;
+	 font-size: 18px;
+	 margin-top: 12%;
+     height: 10%;
+ }
+
+#imgcua{
+	height: 12px;
+	
+
+}
  

@@ -73,7 +73,7 @@ const Invitado = (props) => { /*Traer de link*/
     return (
         <div className="Container_Invitado"> 
 
-                <div className="Box3"> 
+                <div className="BoxInvitado"> 
                     <h1>
                         Invitado
                     </h1>

@@ -7,36 +7,47 @@
 .usuario{
    width: 100%;
    text-align: center;
-   font-size: 25px;
+   font-size: 13px;
    color:#0092A5;
 
 }
+
+#frase{
+   margin-top: 1%;
+   padding-top: 2px;
+}
+#Tittle{
+   color: #0092A5;
+
+}
 .Container_img4{
-   width: 50%;
+   width: 30%;
    align-content: center;
 }
 #img4{
-   width: 70%;
+   width: 40%;
    -webkit-animation-name: llegadaDerecha;
            animation-name: llegadaDerecha;
    -webkit-animation-duration: 3s;
            animation-duration: 3s;
 }
-.containerboton{
-  width: 70%;
- display: flex;
- align-items: center;
- margin-left: 150px;
+.containerbotoninicio{
+   display: flex;
+	 margin-left: 27%;
+	
+	
 }
 .Botones1 button{
    background-color: #6F52DA ;
-   width: 330px;
+   width: 170px;
    border: none;
    border-radius: 25px;
-   height: 90px;
+   height: 55px;
    color: cornsilk;
-   font-size: 25px;
+   font-size: 15px;
    letter-spacing: 1px;
+   cursor: pointer;
+  margin-right: 40px;
    
 }
 .Botones1 button:hover{
@@ -46,4 +57,11 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+@media (max-width: 425px) {
+   .cajainicio  {
+      margin-left: 20px;
+   }
+ }
+
 

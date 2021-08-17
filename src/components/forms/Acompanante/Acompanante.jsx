@@ -1,6 +1,7 @@
 import React, {useState} from "react" /*import react y crear el estado de la aplicación que pertenece a un componente*/ 
 import '../css/Acompanante.css'/*Import the styles*/
 import { db } from "../../../firebase"
+import {Link} from 'react-router-dom'
 
 const Acompanante = (props) => { /*Traer de link*/
 
@@ -74,7 +75,7 @@ const Acompanante = (props) => { /*Traer de link*/
     return (
         <div className="Container_Acompanante"> 
 
-                <div className="Box2"> 
+                <div className="BoxAcompanante"> 
                     <h1 id="TittleForms">
                         Acompañante estudiante
                     </h1>
