@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GradoAsistencia/static/css/main.39a5149a.chunk.css",
-    "main.js": "/GradoAsistencia/static/js/main.4c6f9171.chunk.js",
-    "main.js.map": "/GradoAsistencia/static/js/main.4c6f9171.chunk.js.map",
+    "main.js": "/GradoAsistencia/static/js/main.fd7df1b3.chunk.js",
+    "main.js.map": "/GradoAsistencia/static/js/main.fd7df1b3.chunk.js.map",
     "runtime-main.js": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js",
     "runtime-main.js.map": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js.map",
     "static/js/2.ee04d629.chunk.js": "/GradoAsistencia/static/js/2.ee04d629.chunk.js",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.ff1d511f.js",
     "static/js/2.ee04d629.chunk.js",
     "static/css/main.39a5149a.chunk.css",
-    "static/js/main.4c6f9171.chunk.js"
+    "static/js/main.fd7df1b3.chunk.js"
   ]
 }
