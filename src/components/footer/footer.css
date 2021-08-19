@@ -57,14 +57,15 @@
    color: white;
 }
 /*RESPONSIVE*/
-@media screen and (min-width:375px) and (max-width:425px){
+@media screen and (min-width:325px) and (max-width:425px){
    .BannerNaranja{
       display: grid;
       grid-template-columns: repeat(2,1fr);
+      justify-items: center;
    }
    #futuro2{
       height: 120px;
-      width: 240px;
+      width: 220px;
    }
    #futuro1{
       height: 80px;

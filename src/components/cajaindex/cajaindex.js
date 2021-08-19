@@ -25,20 +25,22 @@ function Cajaindex() {
 
         <div className="ContenidoBotonR"> 
         <p id="frase">
-          ¡Conozcámonos!
+           <img id="img3" src={Ilustracion1} alt="Esta es la ilustración" />
         </p>
 
+        <div className="BotonFrase">    
+        <p id="frase">
+          ¡Conozcámonos!
+        </p>
         <p id="frase">
         <div className="BotonesA">
                       <Link exact to="/inicio">
                           <button> Regístrate</button>
                        </Link>
-                 </div>
+        </div>
         </p>
-
-        <p id="frase">
-           <img id="img3" src={Ilustracion1} alt="Esta es la ilustración" />
-        </p>
+        
+        </div>
         </div>
       </div>
      </div>

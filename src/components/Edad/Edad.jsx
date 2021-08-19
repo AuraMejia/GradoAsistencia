@@ -23,7 +23,6 @@ function Edad() {
   const [total, setTotal] = useState()
   const values =[] /*Array vacío*/ 
   let promedio=0
-  let length=0
   const getLinks = async () => { /*IMPORTANTE*/ 
       db.collection("asistentes").onSnapshot((querySnapshot) => { /*Solicitamos una respuesta a Firebase*/
           const docs = [];
@@ -32,6 +31,7 @@ function Edad() {
          let edad = parseInt(doc.data().edad, 10) 
          
          promedio=promedio+edad
+         console.log(promedio)
 
           if (edad>=0 && edad<=16){
             dato.rango_16+=1
@@ -41,7 +41,8 @@ function Edad() {
           }
           if (edad>=21 && edad<=25){
             dato.rango_25+=1
-          } if (edad>=26 && edad<=30){
+          } 
+          if (edad>=26 && edad<=30){
             dato.rango_30+=1
           }
           if (edad>=31 && edad<=35){
@@ -59,7 +60,6 @@ function Edad() {
           if (edad>=51){
             dato.rango_mas+=1
           }
-
      });
      promedio=promedio/docs.length
      console.log(promedio)

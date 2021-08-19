@@ -1,7 +1,7 @@
 
 import logo from "../../assets/images/logo.png";
 import './header.css'
-import City from'../../Utils/Img/Logos/city.png';
+import City from'../../Utils/Img/Logos/citybank.svg';
 import Global from'../../Utils/Img/Logos/global.svg';
 import Kuepa from'../../Utils/Img/Logos/kuepa.svg';
 

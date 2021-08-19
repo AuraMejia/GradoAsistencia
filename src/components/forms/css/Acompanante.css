@@ -84,7 +84,7 @@ input, select {
     height: 3vh;
 }
 /*RESPONSIVE*/
-@media screen and (min-width:375px) and (max-width:425px){
+@media screen and (min-width:325px) and (max-width:425px){
     .BoxAcompanante{
         width: 85%;
         height: 80%;

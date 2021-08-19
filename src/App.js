@@ -56,7 +56,6 @@ function App() {
             <Cajalocalidades />
           </Route>
           
-        
 
           <Route path="/Acompañante">
             <AcompananteUser/>
@@ -82,11 +81,10 @@ function App() {
             <EdadUser/>
           </Route>
 
-          </Switch>
-          </Router>
-          
+          <Route path="/" render={() => (<Redirect to="/home"/>)}></Route>
 
-          
+          </Switch>
+          </Router>     
     </div>
 
   );
