@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/GradoAsistencia/static/css/main.67ac0d85.chunk.css",
-    "main.js": "/GradoAsistencia/static/js/main.bc03133f.chunk.js",
-    "main.js.map": "/GradoAsistencia/static/js/main.bc03133f.chunk.js.map",
+    "main.css": "/GradoAsistencia/static/css/main.39a5149a.chunk.css",
+    "main.js": "/GradoAsistencia/static/js/main.4c6f9171.chunk.js",
+    "main.js.map": "/GradoAsistencia/static/js/main.4c6f9171.chunk.js.map",
     "runtime-main.js": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js",
     "runtime-main.js.map": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js.map",
     "static/js/2.ee04d629.chunk.js": "/GradoAsistencia/static/js/2.ee04d629.chunk.js",
     "static/js/2.ee04d629.chunk.js.map": "/GradoAsistencia/static/js/2.ee04d629.chunk.js.map",
     "index.html": "/GradoAsistencia/index.html",
-    "static/css/main.67ac0d85.chunk.css.map": "/GradoAsistencia/static/css/main.67ac0d85.chunk.css.map",
+    "static/css/main.39a5149a.chunk.css.map": "/GradoAsistencia/static/css/main.39a5149a.chunk.css.map",
     "static/js/2.ee04d629.chunk.js.LICENSE.txt": "/GradoAsistencia/static/js/2.ee04d629.chunk.js.LICENSE.txt",
     "static/media/Futuro.c854321e.svg": "/GradoAsistencia/static/media/Futuro.c854321e.svg",
     "static/media/Light.05c8ae97.woff": "/GradoAsistencia/static/media/Light.05c8ae97.woff",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.ff1d511f.js",
     "static/js/2.ee04d629.chunk.js",
-    "static/css/main.67ac0d85.chunk.css",
-    "static/js/main.bc03133f.chunk.js"
+    "static/css/main.39a5149a.chunk.css",
+    "static/js/main.4c6f9171.chunk.js"
   ]
 }
