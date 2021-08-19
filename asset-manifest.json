@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/GradoAsistencia/static/css/main.39a5149a.chunk.css",
-    "main.js": "/GradoAsistencia/static/js/main.fd7df1b3.chunk.js",
-    "main.js.map": "/GradoAsistencia/static/js/main.fd7df1b3.chunk.js.map",
+    "main.css": "/GradoAsistencia/static/css/main.847a0998.chunk.css",
+    "main.js": "/GradoAsistencia/static/js/main.7dba6bfe.chunk.js",
+    "main.js.map": "/GradoAsistencia/static/js/main.7dba6bfe.chunk.js.map",
     "runtime-main.js": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js",
     "runtime-main.js.map": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js.map",
     "static/js/2.ee04d629.chunk.js": "/GradoAsistencia/static/js/2.ee04d629.chunk.js",
     "static/js/2.ee04d629.chunk.js.map": "/GradoAsistencia/static/js/2.ee04d629.chunk.js.map",
     "index.html": "/GradoAsistencia/index.html",
-    "static/css/main.39a5149a.chunk.css.map": "/GradoAsistencia/static/css/main.39a5149a.chunk.css.map",
+    "static/css/main.847a0998.chunk.css.map": "/GradoAsistencia/static/css/main.847a0998.chunk.css.map",
     "static/js/2.ee04d629.chunk.js.LICENSE.txt": "/GradoAsistencia/static/js/2.ee04d629.chunk.js.LICENSE.txt",
     "static/media/Futuro.c854321e.svg": "/GradoAsistencia/static/media/Futuro.c854321e.svg",
     "static/media/Light.05c8ae97.woff": "/GradoAsistencia/static/media/Light.05c8ae97.woff",
@@ -16,7 +16,7 @@
     "static/media/aforo.81e57da7.svg": "/GradoAsistencia/static/media/aforo.81e57da7.svg",
     "static/media/barras.04e037c8.svg": "/GradoAsistencia/static/media/barras.04e037c8.svg",
     "static/media/botones.8bbb2079.svg": "/GradoAsistencia/static/media/botones.8bbb2079.svg",
-    "static/media/city.77b3f220.png": "/GradoAsistencia/static/media/city.77b3f220.png",
+    "static/media/citybank.903cc0a7.svg": "/GradoAsistencia/static/media/citybank.903cc0a7.svg",
     "static/media/edad.1a918845.svg": "/GradoAsistencia/static/media/edad.1a918845.svg",
     "static/media/facebook.d8443e61.svg": "/GradoAsistencia/static/media/facebook.d8443e61.svg",
     "static/media/Invitado.css": "/GradoAsistencia/static/media/fondo1.c38d444e.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.ff1d511f.js",
     "static/js/2.ee04d629.chunk.js",
-    "static/css/main.39a5149a.chunk.css",
-    "static/js/main.fd7df1b3.chunk.js"
+    "static/css/main.847a0998.chunk.css",
+    "static/js/main.7dba6bfe.chunk.js"
   ]
 }
