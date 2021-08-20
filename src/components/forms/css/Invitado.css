@@ -92,7 +92,7 @@ input, select {
 ::placeholder{
     color: black;
 }
-@media screen and (min-width:375px) and (max-width:425px){
+@media screen and (min-width:325px) and (max-width:425px){
     .BoxInvitado{
         width: 85%;
         height: 80%;
