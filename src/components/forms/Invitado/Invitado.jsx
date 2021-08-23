@@ -118,8 +118,8 @@ const Invitado = (props) => { /*Traer de link*/
                                <option value={"rafael"}>18.Rafael Uribe Uribe</option>
                                <option value={"bolivar"}>19.Ciudad Bolívar</option>
                                <option value={"sumapaz"}>20.Sumapaz</option>
-                               <option value={"sumapaz"}>21.Soacha</option>
-                               <option value={"sumapaz"}>22.Otros</option>
+                               <option value={"soacha"}>21.Soacha</option>
+                               <option value={"otros"}>22.Otros</option>
                            </select>
                        </p>
                        <p>
