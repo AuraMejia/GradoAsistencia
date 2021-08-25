@@ -63,7 +63,7 @@ const Acompanante = (props) => { /*Traer de link*/
         .then(res => { 
             setChecked(initialValue)
             setValues(initialSateValues)
-            window.location.replace("/cajaestadistica") /*Me voy a una redirección*/
+            window.location.replace("/cajafinal") /*Me voy a una redirección*/
             /*alert("Respuesta enviada")*/
         }) /*Si no res ()*/
         .catch(err =>{ /*En caso de error*/

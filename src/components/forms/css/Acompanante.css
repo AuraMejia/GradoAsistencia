@@ -79,7 +79,7 @@ input, select {
 ::placeholder{
     color: black;
 }
-#parentesco, #localidad{
+#parentesco, #localidad, #genero{
     width: 83%;
     height: 3vh;
 }
