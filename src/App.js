@@ -56,7 +56,6 @@ function App() {
             <Cajalocalidades />
           </Route>
           
-        
 
           <Route path="/Acompañante">
             <AcompananteUser/>
@@ -82,6 +81,7 @@ function App() {
             <EdadUser/>
           </Route>
 
+
           <Route path="/respuesta">
             <Respuesta/>
           </Route>
@@ -89,6 +89,7 @@ function App() {
           </Switch>
           </Router>
           
+
 
           
     </div>
