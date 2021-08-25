@@ -17,13 +17,11 @@ function Cajaindex() {
         Las mujeres tienen la oportunidad de cumplir todos los sueños que se propongan, son ellas quienes construyen su futuro.
         </p>
 
-        <p id="frase"><h2 id="Tittle">
-          Registro de Asistencia: 
-          <p>Graduación Class TechPower</p>
-        </h2>
+        <p id="frase"><h1 id="Tittle">
+          Registro de Asitencia: Graduación Class TechPower
+        </h1>
         </p>
 
-        <div className="ContenidoBotonR"> 
         <p id="frase">
            <img id="img3" src={Ilustracion1} alt="Esta es la ilustración" />
         </p>
@@ -43,7 +41,6 @@ function Cajaindex() {
         </div>
         </div>
       </div>
-     </div>
   );
 }
 

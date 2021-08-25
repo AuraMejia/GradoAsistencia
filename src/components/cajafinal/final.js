@@ -6,10 +6,10 @@ function Cajafinal() {
   return (
     <div className="cajafinal"> 
 
-                <div className="Box4"> 
-				<p id="text">
-                          Gracias por tu respuesta,<br>
-                          </br> disfruta del evento.
+                <div className="Boxfinal"> 
+				<p id="textfinal">
+                          Gracias por su respuestas,<br>
+                          </br> disfrute del evento.
 
                        </p>
                        <p id="frasefinal">

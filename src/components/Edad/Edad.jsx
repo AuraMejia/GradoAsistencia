@@ -30,7 +30,9 @@ function Edad() {
          docs.push({...doc.data(), id:doc.id});
          let edad = parseInt(doc.data().edad, 10) 
          
-         promedio=promedio+edad
+         if (edad!==""){
+          promedio=promedio+edad
+         }
          console.log(promedio)
 
           if (edad>=0 && edad<=16){
@@ -150,7 +152,7 @@ export default Edad
   
   let intervalRef = useRef();
   
-  const decreaseNum = () => setNum((prev) => total+ 1);
+  const decreaseNum = () => setNum((prev) => prev + 1);
 
   useEffect(() => {
     setPause(false);
@@ -174,4 +176,4 @@ export default Edad
       <button onClick={handleClick}>{pause ? "Run" : "Pause"}</button>
     </div>
   );
-  }*/
+}*/

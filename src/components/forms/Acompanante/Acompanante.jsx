@@ -76,13 +76,13 @@ const Acompanante = (props) => { /*Traer de link*/
         <div className="Container_Acompanante"> 
 
                 <div className="BoxAcompanante"> 
-                    <h1 id="TittleForms">
+                    <h1>
                         Acompañante estudiante
                     </h1>
 
-                    <form action="" onSubmit={handleSubmit} autoComplete="off">
+                    <form action="" onSubmit={handleSubmit}>
                         <p>
-                           <input list="browsers" name="nombre_estudiante" id="nombre_estudiante" onChange={handleInputChange} value={values.nombre_estudiante} placeholder="Nombre del estudiante" />
+                        <input list="browsers" name="nombre_estudiante" id="nombre_estudiante" onChange={handleInputChange} value={values.nombre_estudiante} placeholder="Nombre del estudiante" required/>
                            <datalist id="browsers">
                                <option value="Adriana Marcela Chavez Salinas"/>
                                <option value="Angie Natalia Forero Bernal"/>
@@ -129,13 +129,13 @@ const Acompanante = (props) => { /*Traer de link*/
                             </datalist>
                        </p>
                        <p>
-                           <input type="text" name="nombre" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre" />
+                           <input type="text" name="nombre" id="nombre" onChange={handleInputChange} value={values.nombre} placeholder="Nombre" required/>
                        </p>
                        <p>
-                           <input type="text" name="apellido" id="apellido" onChange={handleInputChange} value={values.apellido} placeholder="Apellido"/>
+                           <input type="text" name="apellido" id="apellido" onChange={handleInputChange} value={values.apellido} placeholder="Apellido" required/>
                        </p>
                        <p>
-                            <select name="parentesco" onChange={handleInputChange} id="parentesco">
+                            <select name="parentesco" onChange={handleInputChange} id="parentesco" required>
                                <option value={"parentesco"}>Parentesco</option>
                                <option value={"madre_padre"}>Madre/Padre</option>
                                <option value={"pareja"}>Pareja</option>
@@ -145,13 +145,13 @@ const Acompanante = (props) => { /*Traer de link*/
                            </select>
                        </p>
                        <p>
-                           <input type="text" name="tel" id="tel" onChange={handleInputChange} value={values.tel} placeholder="Teléfono"/>
+                           <input type="text" name="tel" id="tel" onChange={handleInputChange} value={values.tel} placeholder="Teléfono" required />
                        </p>
                        <p>
-                           <input type="number" name="edad" id="edad" onChange={handleInputChange} value={values.edad} placeholder="Edad"/>
+                           <input type="number" maxlength="2" name="edad" id="edad" onChange={handleInputChange} value={values.edad} placeholder="Edad" required/>
                        </p>
                        <p>
-                           <select name="localidad" onChange={handleInputChange} id="localidad">
+                           <select name="localidad" onChange={handleInputChange} id="localidad" required>
                                <option value={"localidad"}>Localidad</option>
                                <option value={"usaquen"}>1.Usquén</option>
                                <option value={"chapinero"}>2.Chapinero</option>
@@ -178,7 +178,7 @@ const Acompanante = (props) => { /*Traer de link*/
                            </select>
                        </p>
                        <p>
-                           <select name="genero" onChange={handleInputChange} id="genero">
+                           <select name="genero" onChange={handleInputChange} id="genero" required>
                                <option value={"genero"}>Género</option>
                                <option value={"mujer"}>Mujer</option>
                                <option value={"hombre"}>Hombre</option>
@@ -194,9 +194,10 @@ const Acompanante = (props) => { /*Traer de link*/
                        </p>
                        <p>
                            Si <input type="radio" name="certify1" id="yes" onChange={handleChange} checked={checked.certify1} /> 
-                           No <input type="radio"  name="certify2" id="no" onChange={handleChange} checked={checked.certify2} /> 
+                           No <input type="radio"  name="certify2" id="no" onChange={handleChange} checked={checked.certify2}  /> 
                        </p>
                        <p>
+                 
                            <input type="submit" id="enviar1" value="Enviar" />
                            <input type="reset" id="borrar" value="Borrar" />
                        </p>

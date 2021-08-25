@@ -61,7 +61,7 @@ const Invitado = (props) => { /*Traer de link*/
         .then(res => { 
             setChecked(initialValue)
             setValues(initialSateValues)
-            window.location.replace("/Respuesta") /*Me voy a una redirección*/
+            window.location.replace("/cajafinal") /*Me voy a una redirección*/
             /*alert("Respuesta enviada")*/
         }) /*Si no res ()*/
         .catch(err =>{ /*En caso de error*/
@@ -137,7 +137,7 @@ const Invitado = (props) => { /*Traer de link*/
                            ¿Has tenido síntomas de COVID-19 en las últimas 48 horas o has tenido contacto con una persona contagiada?
 
                        </p>
-                       <p id="AnswerYesNo">
+                       <p>
                            Si <input type="radio" name="certify1" id="yes" onChange={handleChange} checked={checked.certify1} /> 
                            No <input type="radio"  name="certify2" id="no" onChange={handleChange} checked={checked.certify2} /> 
                        </p>

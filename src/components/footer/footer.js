@@ -10,7 +10,7 @@ import Barras from '../../Utils/Img/Iconos/barras.svg'
 import Home from '../../Utils/Img/Iconos/icons8-home-32.png'
 import {Link} from 'react-router-dom';
 
-function Footer() {
+function Foter() {
   return (
     <div className="Container_Footer">
       <div className="BannerNaranja">
@@ -49,7 +49,7 @@ function Footer() {
 
 
 
-export default Footer;
+export default Foter;
 
 
 

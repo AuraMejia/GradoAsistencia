@@ -63,6 +63,107 @@
        transform: translateY(0);
    }
 }
+@media screen and (min-width:325px) and (max-width:425px) {
+	.cajafinal{
+        height: 66vh;
+        margin-top: 1%;
+	   
+	}
+    .Boxfinal{
+       
+        width: 80%;
+        height: 30vh ;
+        
+    }
+    #textfinal{ 
+        font-size: 20px;
+        margin-top: 10%;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .Botones9 button {
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 10%;
+        cursor: pointer;
+        
+    }
+	
+	
+ }
+ @media screen and (min-width:426px) and (max-width:700px) {
+	
+    .cajafinal{
+        height: 64vh;
+        margin-top: 1%;
+	   
+	}
+    .Boxfinal{
+       
+        width: 80%;
+        height: 30vh ;
+        
+    }
+    #textfinal{ 
+        font-size: 20px;
+        margin-top: 10%;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .Botones9 button {
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 10%;
+        cursor: pointer;
+        
+    }
+	
+	
+ }
+ @media screen and (min-width:701px) and (max-width:1200px) {
+	.cajafinal{
+        height: 50vh;
+        margin-top: 1%;
+	   
+	}
+    .Boxfinal{
+       
+        width: 80%;
+        height: 30vh ;
+        
+    }
+    #textfinal{ 
+        font-size: 20px;
+        margin-top: 10%;
+        padding-top: 40px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .Botones9 button {
+        width: 140px;
+        height: 50px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 10%;
+        cursor: pointer;
+        
+    }
+	
+	
+ }
 
+ @media screen and (min-width:1201px) and (max-width:1600px) {
+	.Contenido1{
+	   margin-right: 16%;
+	}
+ }
+ 
+ 
 
 
