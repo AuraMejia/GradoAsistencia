@@ -4,7 +4,6 @@ import Inicio from "./pages/inicio";
 import Estadistica from "./pages/estadistica";
 import AcompananteUser from "./pages/acompañante"
 import AdministrativoUser from "./pages/administrativo";
-import AforoUser from "./pages/aforo";
 import InvitadoUser from "./pages/invitado";
 import Genero from "./pages/genero";
 import Cajapie from "./pages/pie";
@@ -12,6 +11,7 @@ import Final from "./pages/final";
 import EdadUser from "./pages/Edad";
 import Count from "./pages/afor";
 import Cajalocalidades from "./pages/localidad";
+import Respuesta from "./pages/final";
 import React from "react";
 import './App.css'
 import {BrowserRouter as Router,Switch,Route, Redirect} from "react-router-dom";
@@ -39,8 +39,8 @@ function App() {
  
     
      
-          <Route path="/Aforo">
-            <AforoUser/>
+          <Route path="/estadistica">
+            <Estadistica/>
           </Route>
 
 
@@ -80,6 +80,10 @@ function App() {
 
            <Route path="/Edad">
             <EdadUser/>
+          </Route>
+
+          <Route path="/respuesta">
+            <Respuesta/>
           </Route>
 
           </Switch>

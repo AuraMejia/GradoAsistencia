@@ -42,13 +42,13 @@
 	}
  }
  /*RESPONSIVE*/
- @media screen and (min-width:375px) and (max-width:425px) {
+ @media screen and (min-width:325px) and (max-width:425px) {
 	 .logo{
 		 grid-template-columns: repeat(3, 1fr);
 		 height: 10%;
 	 }
 	 #imgcity, #imgglobal, #imgkuepa{
-		 width: 120px;
+		 width: 100px;
 		 height: 90px;
 		 padding-top: 10px;
 	 }
@@ -64,5 +64,3 @@
 		padding-top: 10px;
 	}
  }
-
-

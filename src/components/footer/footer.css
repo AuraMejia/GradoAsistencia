@@ -4,18 +4,19 @@
 .BannerNaranja{
    background-color: #E86433 ;
    display: flex;
-   height: 12vh;
+   height: 10vh;
    width: 100%;
    align-items: center;
    justify-content: center;
-   align-content: center;
    text-align: center;
 }
 #futuro2{
-   height: 160px;
+   height: 100px;
+   float: right;
+  
 }
 #futuro1{
-   height: 110px;
+   height: 80px;
 }
 .Pie_pagina {
    width: 100%;
@@ -31,11 +32,11 @@
 }
 #banner{
    width: 100%;
-   height: 170px;
+   height: 80%px;
 }
 .Pie_pagina img{
-   height: 20px;
-   width: 20px;
+height: 60%;
+   width: 40%;
 }
 .Imagenes{
    display: grid;
@@ -56,28 +57,30 @@
 #frases{
    color: white;
 }
-/*RESPONSIVE*/
-@media screen and (min-width:375px) and (max-width:425px){
+@media screen and (min-width:325px) and (max-width:425px){
+   <meta name="viewport" content="width=device-width"/>
    .BannerNaranja{
       display: grid;
       grid-template-columns: repeat(2,1fr);
+      justify-items: center;
+
    }
    #futuro2{
-      height: 120px;
-      width: 240px;
+      height: 130px;
+      width: 200px;
    }
    #futuro1{
-      height: 80px;
+      height: 70px;
    }
    .Pie_pagina{
-      height: 10%;
+      height: 9%;
    }
    .Imagenes{
       grid-template-columns: repeat(3,1fr);
       grid-template-rows: repeat(2,1fr);
    }
    #frases{
-      font-size: 13px;
+      font-size: 10px;
       margin: 0;
    }
    .Textos{
@@ -90,6 +93,7 @@
 
 }
 @media screen and (min-width:426px) and (max-width:700px){
+ 
    .BannerNaranja{
       display: grid;
       grid-template-columns: repeat(2,1fr);
@@ -123,6 +127,7 @@
    }
 }
 @media screen and (min-width:700px) and (max-width:1200px){
+  
    #frases{
       font-size: 14px;
       margin: 0;
@@ -131,4 +136,12 @@
    .Textos{
       align-items: center;
    }
+   .Pie_pagina{
+      height: 20%;
+   }
+
+
+
+
+   
 }

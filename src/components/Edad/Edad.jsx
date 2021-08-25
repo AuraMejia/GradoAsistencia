@@ -20,106 +20,71 @@ function Edad() {
       
   }
   const [datos, setDatos] = useState([])
-  const [total, setTotal] = useState()
   const values =[] /*Array vacío*/ 
-  let promedio=0
-  let length=0
   const getLinks = async () => { /*IMPORTANTE*/ 
       db.collection("asistentes").onSnapshot((querySnapshot) => { /*Solicitamos una respuesta a Firebase*/
           const docs = [];
      querySnapshot.forEach ((doc) => {
          docs.push({...doc.data(), id:doc.id});
-         let edad = parseInt(doc.data().edad, 10) 
-         
-         promedio=promedio+edad
-
-          if (edad>=0 && edad<=16){
-            dato.rango_16+=1
-          }
-          if (edad>=17 && edad<=20){
-            dato.rango_20+=1
-          }
-          if (edad>=21 && edad<=25){
-            dato.rango_25+=1
-          } if (edad>=26 && edad<=30){
-            dato.rango_30+=1
-          }
-          if (edad>=31 && edad<=35){
-            dato.rango_35+=1
-          }
-          if (edad>=36 && edad<=40){
-            dato.rango_40+=1
-          }
-          if (edad>=41 && edad<=45){
-            dato.rango_45+=1
-          }
-          if (edad>=46 && edad<=50){
-            dato.rango_50+=1
-          }
-          if (edad>=51){
-            dato.rango_mas+=1
-          }
-
+         console.log(doc.data().rol)
+          dato[doc.data().rol]+=1 /*El valor que ya está más 1*/ /*HACER CONDICIÓN*/ 
      });
-     promedio=promedio/docs.length
-     console.log(promedio)
-     setTotal(promedio)
-
      setLinks(docs);
+     console.log(dato.invitado)
      for(let usuario in dato){
          values.push(dato[usuario])
      }
      setDatos(values)
   });
   };
+
   useEffect( ()=>{
-    getLinks()
-    console.log(dato)
-    console.log(values)
-}, [])
-  
+      getLinks()
+      console.log(dato)
+      console.log(values)
+  }, [])
+
   const data={
-      labels: ['0-16', '17-20', '21-25', '26-30','31-35', '36-40', '41-45', '46-50', '51-más',  ],
+      labels: ['0-16', '17-20', '21-25', '26-30','31-35', '36-40', '41-45', '46-50', '46-50', '51-más',  ],
       datasets:[{
-          label:'Número de personas conforme a su rango de edad',
-          backgroundColor: ['#26B8AF', '#00AA69', '#0088FF', '#26B8AF', '#00AA69', '#0088FF','#26B8AF', '#00AA69', '#0088FF','#26B8AF', ],
+          label:'Edad',
+          backgroundColor: ['black','#26B8AF', '#00AA69', '#0088FF', '#26B8AF', '#00AA69', '#0088FF','#26B8AF', '#00AA69', '#0088FF', ],
           data:datos,  
-          color:'red',
-          borderColor: 'white',
-       
+          color:'red'
       }]
    };
   const opciones={
       maintainAspectRatio: false, /*Para que nos permita cambiar el tamaño de la gráfica*/
       responsive: true,
       type:'horizontalBar',
+      /*indexAxis:'y',*/
    }
    return(
     <div className="ContainerEdad">
-      <div className="ContainerBoton1">     
+       <div className="containerboton">     
            <p id="frase">
-      <div className="BotonesA">
-      <Link exact to="/aforo">
+      <div className="Botones">
+      <Link exact to="/Count">
                         <button>Aforo</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="BotonesA">
+      <div className="Botones">
       <Link exact to="/genero">
                         <button>Género</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="BotonesA">
+      <div className="Botones">
       <Link exact to="/localidad">
                         <button>Localidad</button>
                         </Link>
                </div>
       </p> 
        <p id="frase">
-      <div className="BotonesA">
+      <div className="Botones">
       <Link exact to="/edad">
                         <button>Edad</button>
                         </Link>
@@ -127,20 +92,15 @@ function Edad() {
       </p> 
 	  
        </div> 
-     <div className="contador">
-      {/*<div>{num}</div>*/}
-       <h2 id="promedioTittle">Promedio de edad: {Math.floor(total)} años </h2> {/*Para 1 decimal total.toFixed(1). El otro lo redondea hacia abajo. Math.round al redondeado más cercano*/}
-     </div> 
-     
-        <div className="Conjunto">
-          <div className="Grafica1">
-            <Bar id="grafica" data={data} options={opciones}/> 
+        <div className="Grafica1">
+        <Bar id="grafica" data={data} options={opciones}/> 
         </div>
-         <img id="edad_img" src={foto2} alt="Esta es la img de aforo"/>
-        </div>
-        
-    </div>  
+    
+     <img id="edad_img" src={foto2} alt="Esta es la img de aforo"/>
+    </div>
+    
 )
+
 }
 export default Edad
 
@@ -150,7 +110,7 @@ export default Edad
   
   let intervalRef = useRef();
   
-  const decreaseNum = () => setNum((prev) => total+ 1);
+  const decreaseNum = () => setNum((prev) => prev + 1);
 
   useEffect(() => {
     setPause(false);
@@ -174,4 +134,4 @@ export default Edad
       <button onClick={handleClick}>{pause ? "Run" : "Pause"}</button>
     </div>
   );
-  }*/
+}*/

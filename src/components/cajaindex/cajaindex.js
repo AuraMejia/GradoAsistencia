@@ -9,27 +9,25 @@ function Cajaindex() {
   return (
 
     <div className="cajaindex">
-      <div className="Container_img_chica">
+      <div className="Container_img">
         <img id="img1" src={Chica} alt="Esta es la img1" />
       </div>
-      <div className="Contenido1">
+      <div className="Contenido">
         <p id="frase">
         Las mujeres tienen la oportunidad de cumplir todos los sueños que se propongan, son ellas quienes construyen su futuro.
         </p>
 
-        <p id="frase"><h2 id="Tittle">
-          Registro de Asistencia: 
-          <p>Graduación Class TechPower</p>
-        </h2>
+        <p id="frase"><h1 id="Tittle">
+          Registro de Asitencia: Graduación Class TechPower
+        </h1>
         </p>
 
-        <div className="ContenidoBotonR"> 
         <p id="frase">
           ¡Conozcámonos!
         </p>
 
         <p id="frase">
-        <div className="BotonesA">
+        <div className="Botones">
                       <Link exact to="/inicio">
                           <button> Regístrate</button>
                        </Link>
@@ -39,7 +37,7 @@ function Cajaindex() {
         <p id="frase">
            <img id="img3" src={Ilustracion1} alt="Esta es la ilustración" />
         </p>
-        </div>
+
       </div>
      </div>
   );
