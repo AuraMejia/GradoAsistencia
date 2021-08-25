@@ -4,12 +4,18 @@
 	text-align: center;
 	display: flex;
 }
-
+.Contenidoestadistica{
+	width: 65%;
+	font-size: 18px;
+	margin-left: 7%;
+	padding-right: 7%;
+	height: 10vh;
+ }
 
 #img {
-	margin-top: 10%;
+	margin-top: 8%;
 	margin-left: 99%;
-	width: 120%;
+	width: 116%;
 	align-content: center;
 	-webkit-animation-name: llegadaDerecha;
 	        animation-name: llegadaDerecha;
@@ -17,6 +23,12 @@
 	        animation-duration: 3s;
 }
 
+#fraseestadis{
+	padding-top: 2px;
+ }
+ #Tittleestadis{
+	color: #0092A5;
+ }
 
 .Botones button {
 	background-color: #6F52DA ;

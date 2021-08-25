@@ -5,42 +5,39 @@
 	display: flex;
  }
  .Contenidolocalidad{
-	background-image: url(../../Utils/Img/Localidad/mapa.png);
 	width: 70%;
-    height: 60vh;
-    margin-top:4%;
+  height: 55vh;
+  margin-top:4%;
 	margin-left:14%;
 	
 }
 
- .containerboton{
-	display: flex;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	 display: flex;
-	 margin-left: 35%;
-	 margin-top: 2%;
+ .containerbotonlocalidad{
+  display: flex;
+  margin-left: 20%;
+  margin-top: 2%;
 }
  
- .Botones button{
-	background-color: #6F52DA ;
-    width: 170px;
-    border: none;
-    border-radius: 25px;
-    height: 55px;
-    color: cornsilk;
-    font-size: 22px;
-    letter-spacing: 1px;
-    cursor: pointer;
-
+ .Botoneslocalidad button{
+  background-color: #6F52DA ;
+  width: 170px;
+  border: none;
+  border-radius: 25px;
+  height: 55px;
+  color: cornsilk;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+margin-right: 40px;
 	
  }
- .Botones button:hover{
-   color: #6F52DA;
-   background-color: #D8D2D2;
-   border: 1px solid #6F52DA;
-   font-weight: bold;
-   cursor: pointer;
+ .Botoneslocalidad button:hover{
+  color: #6F52DA;
+	background-color: #D8D2D2;
+	border: 1px solid #6F52DA;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 40px;
  }
  
  
