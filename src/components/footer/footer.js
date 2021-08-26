@@ -23,9 +23,9 @@ function Foter() {
       <div className="Pie_pagina">
         <div className="Imagenes">
         <a href="https://twitter.com/KuepaCo"><img id="pieP" src={Twitter} alt="Esta es la img de twitter"/></a>
-        <a href="https://www.facebook.com/kuepaedutech"><img id="pieP" src={Facebook} alt="Esta es la img de facebook"/></a>
+        <a href="https://www.facebook.com/creandotufuturo.CTF/"><img id="pieP" src={Facebook} alt="Esta es la img de facebook"/></a>
         <a href="https://www.youtube.com/channel/UC2cIGAufqxb1hYla02j-4pA"><img id="PieP" src={Youtube} alt="Esta es la img de youtube"/></a>
-        <a href="https://www.instagram.com/kuepaedutech/"><img id="pieP" src={Instagram} alt="Esta es la banner"/></a>
+        <a href="https://www.instagram.com/creandotufuturo/"><img id="pieP" src={Instagram} alt="Esta es la banner"/></a>
         <Link exact to="/estadistica">
         <img id="pieP" src={Barras} alt="Esta es la banner"/>
                         </Link>

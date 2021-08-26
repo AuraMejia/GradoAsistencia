@@ -9,8 +9,8 @@ function Cajaestadistica() {
   return (
   
     <div className="cajaestadistica">
-      <div className="Container_img">
-        <img id="img" src={Botones} alt="Esta es la img" />
+      <div className="Container_imgtm">
+        <img id="imgtm" src={Botones} alt="Esta es la img" />
       </div>
       <div className="Contenidoestadistica">
         <p><h1 id="Tittleestadis">

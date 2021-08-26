@@ -42,10 +42,9 @@ function Count() {
     const data={
         labels: ['Graduandos', 'Acompañantes', 'Invitados','Administrativos'],
         datasets:[{
-            label:'',
-            backgroundColor: ['black','#EDA083', '#0088FF', '#3DE9A7', '#968DFF'],
+            label:'Asistentes',
+            backgroundColor: ['#EDA083', '#0088FF', '#3DE9A7', '#968DFF'],
             data:datos,  
-            color:'red'
         }]
      };
     const opciones={
@@ -53,57 +52,55 @@ function Count() {
         responsive: true,
         type:'horizontalBar',
         indexAxis:'y',
-        color:'red',
         fontSize:'59px',
      }
 
 
     return(
-       
         <div className="ContainerAforo">
-               <div className="containerboton">     
-          
-          <p id="frase">
-     <div className="Botones">
-     <Link exact to="/Count">
-                       <button>Aforo</button>
-                       </Link>
-              </div>
-     </p> 
-
-     <p id="frase">
-     <div className="Botones">
-     <Link exact to="/genero">
-                       <button>Género</button>
-                       </Link>
-              </div>
-     </p> 
-
-     <p id="frase">
-     <div className="Botones">
-     <Link exact to="/localidad">
-                       <button>Localidad</button>
-                       </Link>
-              </div>
-     </p> 
-
-      <p id="frase">
-     <div className="Botones">
-     <Link exact to="/edad">
-                       <button>Edad</button>
-                       </Link>
-              </div>
-     </p> 
-     
-      </div> 
-            <h1>{links?.length}</h1>
-            <div className="Grafica">
-            <Bar id="grafica" data={data} options={opciones}/> 
+            <div className="ContainerBoton2">     
+           <p id="frase1">
+      <div className="BotonesA">
+      <Link exact to="/aforo">
+                        <button>Aforo</button>
+                        </Link>
+               </div>
+      </p> 
+      <p id="frase1">
+      <div className="BotonesA">
+      <Link exact to="/genero">
+                        <button>Género</button>
+                        </Link>
+               </div>
+      </p> 
+      <p id="frase1">
+      <div className="BotonesA">
+      <Link exact to="/localidad">
+                        <button>Localidad</button>
+                        </Link>
+               </div>
+      </p> 
+       <p id="frase1">
+      <div className="BotonesA">
+      <Link exact to="/edad">
+                        <button>Edad</button>
+                        </Link>
+               </div>
+      </p> 
+	  
+       </div>
+            
+            <div className="contador"><h2>Somos {links?.length} personas </h2></div>
+            <div className="Contenedor_grafica_ilustracion">
+                <div className="Grafica">
+                    <Bar id="grafica" data={data} options={opciones}/> 
+                 </div>
+                   <img id="aforo_img" src={foto1} alt="Esta es la img de aforo"/> 
             </div>
+            
         
-         <img id="aforo_img" src={foto1} alt="Esta es la img de aforo"/>
-        </div>
         
+        </div> 
     )
     
 }

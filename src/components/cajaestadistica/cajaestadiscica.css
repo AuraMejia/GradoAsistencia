@@ -7,14 +7,15 @@
 .Contenidoestadistica{
 	width: 65%;
 	font-size: 18px;
-	margin-left: 7%;
+	margin-left: 12%;
 	padding-right: 7%;
 	height: 10vh;
+	margin-top: 10%;
  }
 
-#img {
+#imgtm {
 	margin-top: 8%;
-	margin-left: 99%;
+	margin-left: 40%;
 	width: 116%;
 	align-content: center;
 	-webkit-animation-name: llegadaDerecha;
@@ -52,15 +53,17 @@
 }
 
 @media screen and (min-width:325px) and (max-width:425px) {
-	#img{
-	   padding: 0;
-	   height: 70%;
-	   margin-left: 5%;
+	#imgtm{
+		margin-top: 8%;
+		margin-left: 3%;
+		width: 116%;
+		margin-top: 20%;
+	  
 	}
 	
 	.cajaestadistica{
 	   height: 100%;
-	   padding-top: 5px;
+	  
 	
 	}
 	.Contenidoestadistica{
@@ -68,7 +71,8 @@
 		font-size: 11px;
 		margin-left: 6%;
 		padding-right: 2%;
-		height: 12vh;
+		height: 30vh;
+		margin-top: 20%;
 	 }
 	.Botones button{
 	   font-size: 12px;
@@ -77,10 +81,11 @@
 	}
  }
  @media screen and (min-width:426px) and (max-width:700px) {
-	#img{
+	#imgtm{
 		padding: 0;
 		height: 80%;
-		margin-left: 5%;
+		margin-left: 1%;
+		margin-top: 20%;
 	 }
 	 
 	 .cajaestadistica{
@@ -95,6 +100,7 @@
 		 margin-left: 6%;
 		 padding-right: 2%;
 		 height: 8vh;
+		 margin-top: 20%;
 	  }
 	 .Botones button{
 		font-size: 12px;
@@ -103,10 +109,11 @@
 	 }
  }
  @media screen and (min-width:701px) and (max-width:1200px) {
-	#img{
+	#imgtm{
 		padding: 0;
 		height: 90%;
-		margin-left: 9%;
+		margin-left: 1%;
+		margin-top: 20%;
 	 }
 	 
 	 .cajaestadistica{
@@ -121,6 +128,7 @@
 		 margin-left: 6%;
 		 padding-right: 2%;
 		 height: 8vh;
+		 margin-top: 20%;
 	  }
 	 .Botones button{
 		font-size: 15px;

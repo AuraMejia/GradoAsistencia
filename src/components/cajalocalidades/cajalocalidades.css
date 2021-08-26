@@ -7,7 +7,6 @@
  .Contenidolocalidad{
 	width: 70%;
   	height: 48vh;
-  	margin-top:0,5%;
 	margin-left:8%;
 	
 }
@@ -223,8 +222,7 @@ margin-right: 40px;
 	margin-left: 15%;
 	cursor: pointer;
  }
-
- @media screen and (min-width:701px) and (max-width:1200px) {
+ @media screen and (min-width:325px) and (max-width:425px) {
 	.cajalocalidad{
 		min-height: 210vh;
 	 }
@@ -237,7 +235,167 @@ margin-right: 40px;
 	 }
 	 .containerbotonlocalidad{
 		margin-left: 12%;
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: repeat(2, 2fr);
+		display: grid;
+		margin-bottom: 1%;
+		margin-top: 10%;
+	 }
+	 
+	
+	 .Botoneslocalidad button{
+		font-size: 18px;
+		width: 150px;
+		height: 50px;
+	 }
+ .clocalidad{
+	 margin-top:9%;
+ }
+	 .filacomo {
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 0;
+
+	 
+	 }
+	 .cajacomo {
+		 max-width: 5.5rem;
+		 min-width: 5.5rem;
+		 width: 20%;
+		 min-height: 6rem;
+		 max-height: 6rem;
+		 margin-right:  6px;
+		 margin-left: 6px;
+		 margin-top: 0%;
+		 
+	 
+	 }
+
+	 .mapa{
+ 
+		 max-width: 5rem;
+		 min-width: 5rem;
+		 min-height: 8rem;
+		 max-height: 8rem;
+		 margin-top: 30%;
+		 font-size: 10px  ;
+	 }
+	 .mapa1{
+ 
+		 max-width: 5rem;
+		 min-width: 5rem;
+		 min-height: 8rem;
+		 max-height: 8rem;
+		 margin-top: 20%;
+		 font-size: 10px  ;
+	 }
+	 .cajacomo:hover .capa{
+		 max-width: 8rem;
+		 min-width: 8rem;
+		 min-height: 10rem;
+		 max-height: 10rem;
+		 
+		 
+	 
+	 }
+	 .capa{
+		 font-size: 8px  ;
+	 }
+ }
+ @media screen and (min-width:426px) and (max-width:700px) {
+	.cajalocalidad{
+		min-height: 210vh;
+	 }
+	 .Contenidolocalidad{
+		 width: 70%;
+		   height: 50vh;
+		   margin-left:8%;
+		   margin-top: 5%;
+		 
+	 }
+	 .containerbotonlocalidad{
+		margin-left: 12%;
+		grid-template-columns: repeat(2, 2fr);
+		display: grid;
+		margin-bottom: 1%;
+		margin-top: 10%;
+	 }
+	 
+	
+	 .Botoneslocalidad button{
+		font-size: 18px;
+		width: 150px;
+		height: 50px;
+	 }
+ .clocalidad{
+	 margin-top:9%;
+ }
+	 .filacomo {
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 0;
+
+	 
+	 }
+	 .cajacomo {
+		 max-width: 5.5rem;
+		 min-width: 5.5rem;
+		 width: 20%;
+		 min-height: 6rem;
+		 max-height: 6rem;
+		 margin-right:  6px;
+		 margin-left: 6px;
+		 margin-top: 0%;
+		 
+	 
+	 }
+
+	 .mapa{
+ 
+		 max-width: 5rem;
+		 min-width: 5rem;
+		 min-height: 8rem;
+		 max-height: 8rem;
+		 margin-top: 30%;
+		 font-size: 10px  ;
+	 }
+	 .mapa1{
+ 
+		 max-width: 5rem;
+		 min-width: 5rem;
+		 min-height: 8rem;
+		 max-height: 8rem;
+		 margin-top: 20%;
+		 font-size: 10px  ;
+	 }
+	 .cajacomo:hover .capa{
+		 max-width: 8rem;
+		 min-width: 8rem;
+		 min-height: 10rem;
+		 max-height: 10rem;
+		 
+		 
+	 
+	 }
+	 .capa{
+		 font-size: 8px  ;
+	 }
+ }
+
+ 
+ @media screen and (min-width:701px) and (max-width:1200px) {
+ .cajalocalidad{
+		min-height: 210vh;
+	 }
+	 .Contenidolocalidad{
+		 width: 70%;
+		   height: 50vh;
+		   margin-left:8%;
+		   margin-top: 5%;
+		 
+	 }
+	 .containerbotonlocalidad{
+		margin-left: 12%;
+		grid-template-columns: repeat(2, 2fr);
 		display: grid;
 		margin-bottom: 1%;
 		margin-top: 10%;
@@ -308,5 +466,4 @@ margin-right: 40px;
 	   margin-right: 16%;
 	}
  }
- 
  

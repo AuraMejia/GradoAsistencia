@@ -15,7 +15,7 @@ function Cajafinal() {
                        <p id="frasefinal">
         <div className="Botones9">
         <Link exact to="/home">
-                          <button>volver al inicio</button>
+                          <button>Volver al inicio</button>
                           </Link>
                  </div>
         </p> 
