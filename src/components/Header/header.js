@@ -1,5 +1,3 @@
-
-import logo from "../../assets/images/logo.png";
 import './header.css'
 import City from'../../Utils/Img/Logos/citybank.svg';
 import Global from'../../Utils/Img/Logos/global.svg';

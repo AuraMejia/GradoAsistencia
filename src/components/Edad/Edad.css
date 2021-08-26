@@ -10,17 +10,18 @@
     animation-delay: -1s
 }
 .Conjunto{
-    display: flex;
     align-items: center;
    display: grid;
+   width: 100%;
     grid-template-columns: repeat(2, 1fr);   
+    justify-items: center;
 }
 
 .Grafica1 {
     height: 400px;
     padding-left: 15%;
     padding-bottom: 12px;
-    width: 100%;
+    width: 90%;
 }
 .ContainerBoton1{
     display: grid;
