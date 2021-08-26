@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/GradoAsistencia/static/css/main.c5c0e125.chunk.css",
-    "main.js": "/GradoAsistencia/static/js/main.4e6cd654.chunk.js",
-    "main.js.map": "/GradoAsistencia/static/js/main.4e6cd654.chunk.js.map",
+    "main.css": "/GradoAsistencia/static/css/main.f61bbe99.chunk.css",
+    "main.js": "/GradoAsistencia/static/js/main.fc3d302b.chunk.js",
+    "main.js.map": "/GradoAsistencia/static/js/main.fc3d302b.chunk.js.map",
     "runtime-main.js": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js",
     "runtime-main.js.map": "/GradoAsistencia/static/js/runtime-main.ff1d511f.js.map",
     "static/js/2.50036121.chunk.js": "/GradoAsistencia/static/js/2.50036121.chunk.js",
     "static/js/2.50036121.chunk.js.map": "/GradoAsistencia/static/js/2.50036121.chunk.js.map",
     "index.html": "/GradoAsistencia/index.html",
-    "static/css/main.c5c0e125.chunk.css.map": "/GradoAsistencia/static/css/main.c5c0e125.chunk.css.map",
+    "static/css/main.f61bbe99.chunk.css.map": "/GradoAsistencia/static/css/main.f61bbe99.chunk.css.map",
     "static/js/2.50036121.chunk.js.LICENSE.txt": "/GradoAsistencia/static/js/2.50036121.chunk.js.LICENSE.txt",
     "static/media/AntonioNariño.b228296e.jpg": "/GradoAsistencia/static/media/AntonioNariño.b228296e.jpg",
     "static/media/Futuro.c854321e.svg": "/GradoAsistencia/static/media/Futuro.c854321e.svg",
@@ -42,7 +42,6 @@
     "static/media/kennedy.19de460f.jpg": "/GradoAsistencia/static/media/kennedy.19de460f.jpg",
     "static/media/kuepa.49e3bb20.svg": "/GradoAsistencia/static/media/kuepa.49e3bb20.svg",
     "static/media/logo-instagram.0b675378.svg": "/GradoAsistencia/static/media/logo-instagram.0b675378.svg",
-    "static/media/logo.0c898068.png": "/GradoAsistencia/static/media/logo.0c898068.png",
     "static/media/los-martires.15fc1e03.jpg": "/GradoAsistencia/static/media/los-martires.15fc1e03.jpg",
     "static/media/mapab.1c85979c.jpg": "/GradoAsistencia/static/media/mapab.1c85979c.jpg",
     "static/media/mapac.c780371c.png": "/GradoAsistencia/static/media/mapac.c780371c.png",
@@ -62,7 +61,7 @@
   "entrypoints": [
     "static/js/runtime-main.ff1d511f.js",
     "static/js/2.50036121.chunk.js",
-    "static/css/main.c5c0e125.chunk.css",
-    "static/js/main.4e6cd654.chunk.js"
+    "static/css/main.f61bbe99.chunk.css",
+    "static/js/main.fc3d302b.chunk.js"
   ]
 }
