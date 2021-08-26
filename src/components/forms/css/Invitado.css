@@ -47,6 +47,7 @@
     margin-left: 3%;
     border: none;
     margin-top: 20px;
+    cursor: pointer;
 }
 h1{
     padding-top: 2%;
@@ -68,7 +69,7 @@ input, select {
     border: none;
 }
 #genero{
-    height: 3vh;
+    height: 26px;
     width: 83%;
 }
 #text1{ /*Pregunta de covid*/

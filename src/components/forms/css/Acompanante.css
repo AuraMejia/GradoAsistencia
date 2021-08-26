@@ -47,6 +47,7 @@
     margin-left: 3%;
     border: none;
     margin-top: 20px;
+    cursor: pointer;
 }
 h1{
     padding-top: 4%;
@@ -84,7 +85,7 @@ input, select {
 }
 #parentesco, #localidad, #genero{
     width: 83%;
-    height: 3vh;
+    height:26px;
 }
 /*RESPONSIVE*/
 @media screen and (min-width:325px) and (max-width:425px){
