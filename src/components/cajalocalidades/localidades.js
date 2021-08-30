@@ -158,35 +158,10 @@ const opciones={
                </div>
       </p> 
 	  
-       </div>  
-       <div className="conprinsipal">
-       <div className="contmapa">
-       <div className="mapa">
-       <p>Bogotá D.C</p>
-       <img id="imglocmapab" src={Mapab} alt="Esta es la img" />
-       <p>N° asistentes</p>
-       <h2>{links?.length}</h2>
-      
-       <div className="mapa">
-       <p>Soacha</p>
-       <img id="imglocmapas" src={Mapas} alt="Esta es la img" />
-       <p>N° asistentes</p>
-       <h2>{localidades.Soacha}</h2>
-     
-       <div className="mapa1">
-       <p>Colombia</p>
-       <img id="imglocmapa" src={Mapac} alt="Esta es la img" />
-       <p>N° asistentes</p>
-       <h2>{localidades.otros}</h2>
-     
        </div>
-       </div>
-       </div>
-      </div>
-      </div>
+       <div className="contenedor_secundario">
        <div className="Contenidolocalidad">
         <div className="clocalidad">
-        <div className="filacomo">
         <div className="cajacomo">
         <img id="imgloc1" src={Usaquen} alt="Esta es la img" />
         <div className="capa" >
@@ -233,8 +208,6 @@ const opciones={
         </div>
         </div>
 
-
-        <div className="filacomo">
         <div className="cajacomo"> 
         <img id="imgloc1" src={Tunjuelito} alt="Esta es la img" />
         <div className="capa" >
@@ -281,7 +254,6 @@ const opciones={
         </div>
         </div>
 
-          <div className="filacomo">
         <div className="cajacomo">
         <img id="imgloc1" src={Suba} alt="Esta es la img" />
         <div className="capa" >
@@ -328,7 +300,7 @@ const opciones={
         </div>
         </div>
 
-        <div className="filacomo">
+        
         <div className="cajacomo"> 
         <img id="imgloc1" src={Puentearanda} alt="Esta es la img" /><div className="capa" >
         <h5>16.PUETE ARANDA</h5><br></br>
@@ -374,25 +346,39 @@ const opciones={
         <h2>{localidades.Sumapaz}</h2>
         </div>
         </div>
-      
-      
 </div>
+</div>
+<div className="conprinsipal">
+       <div className="contmapa">
+       <div className="mapa">
+         <div>
+       <img id="imglocmapab" src={Mapab} alt="Esta es la img" />
+         </div>
+       <div>
+         <p>Bogotá D.C</p>
+       <p>N° asistentes</p>
+       <h2>{links?.length}</h2>
+       </div>
+       
+       </div>
+       <div className="mapa">
+       <p>Soacha</p>
+       <img id="imglocmapas" src={Mapas} alt="Esta es la img" />
+       <p>N° asistentes</p>
+       <h2>{localidades.Soacha}</h2>
+       </div>
+       <div className="mapa1">
+       <p>Colombia</p>
+       <img id="imglocmapa" src={Mapac} alt="Esta es la img" />
+       <p>N° asistentes</p>
+       <h2>{localidades.otros}</h2>
+       </div>
+       </div>
+       </div>
+      </div>
+      </div>
 </div>
 
-    </div>
-
-  </div>	
-
-    
-    
-      
-          
-   
-    
-</div>
-</div> 
-</div>
-</div>
 
    
   );
