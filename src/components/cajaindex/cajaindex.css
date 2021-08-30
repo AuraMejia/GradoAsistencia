@@ -9,6 +9,11 @@
    justify-items: center;
    align-content: center;
 }
+.ConjuntoBoton{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .Container_img_chica{
    width: 50vh;
    height: 100%;
@@ -66,7 +71,7 @@
    cursor: pointer;
 }
 #img3{
-   width: 40%;
+   width: 100%;
    height: 150px;
    -webkit-animation-name: llegadaDerecha;
            animation-name: llegadaDerecha;

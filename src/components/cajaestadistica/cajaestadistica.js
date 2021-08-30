@@ -25,7 +25,7 @@ function Cajaestadistica() {
   <div >     
          <p>
       <div className="Botones">
-      <Link exact to="/Count">
+      <Link exact to="/Aforo">
                         <button>Aforo</button>
                         </Link>
                </div>

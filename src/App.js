@@ -73,7 +73,7 @@ function App() {
             <Final/>
           </Route>
 
-          <Route path="/Count">
+          <Route path="/Aforo">
             <Count/>
           </Route>
 

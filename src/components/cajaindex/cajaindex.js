@@ -22,10 +22,12 @@ function Cajaindex() {
         </h1>
         </p>
 
+        <div className="ConjuntoBoton">
         <p id="frase">
            <img id="img3" src={Ilustracion1} alt="Esta es la ilustración" />
         </p>
 
+        <div  className="BotonyFrase">
         <div className="BotonFrase">    
         <p id="frase">
           ¡Conozcámonos!
@@ -37,6 +39,12 @@ function Cajaindex() {
                        </Link>
         </div>
         </p>
+        </div>
+
+        </div>
+
+
+    
         
         </div>
         </div>

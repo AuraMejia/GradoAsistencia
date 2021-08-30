@@ -61,28 +61,28 @@ function Count() {
             <div className="ContainerBoton2">     
            <p id="frase1">
       <div className="BotonesA">
-      <Link exact to="/aforo">
+      <Link  to="/Aforo">
                         <button>Aforo</button>
                         </Link>
                </div>
       </p> 
       <p id="frase1">
       <div className="BotonesA">
-      <Link exact to="/genero">
+      <Link to="/genero">
                         <button>Género</button>
                         </Link>
                </div>
       </p> 
       <p id="frase1">
       <div className="BotonesA">
-      <Link exact to="/localidad">
+      <Link to="/localidad">
                         <button>Localidad</button>
                         </Link>
                </div>
       </p> 
        <p id="frase1">
       <div className="BotonesA">
-      <Link exact to="/edad">
+      <Link to="/edad">
                         <button>Edad</button>
                         </Link>
                </div>

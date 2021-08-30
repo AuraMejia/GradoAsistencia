@@ -12,27 +12,20 @@
 .Conjunto{
     align-items: center;
    display: grid;
-   width: 100%;
     grid-template-columns: repeat(2, 1fr);   
     justify-items: center;
+    margin-left: 4%;
 }
-
 .Grafica1 {
     height: 400px;
     padding-bottom: 12px;
-    width: 90%;
-    margin-left: 6%;
+    width: 98%;
 }
 .ContainerBoton1{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     margin-top: 12px;
-}
-#edad_img{
-    height: 50%; 
-    display: flex;
-   
 }
 @media screen and (min-width:325px) and (max-width:425px) {
     .Conjunto{

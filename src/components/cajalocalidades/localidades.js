@@ -62,17 +62,17 @@ function Cajalocalidades() {
 		Fontibon:0,
 		Engativa:0,
 		Suba:0, 
-		Barriosunidos:0,
+		BarriosUnidos:0,
 		Teusaquillo:0,
 		LosMartires:0,
-	  Antonionariño:0, 
-		Puentearanda:0,
+	  AntonioNariño:0, 
+		PuenteAranda:0,
 		LaCandelaria:0,
 		RafaelUribe:0,
-		Ciudadbolivar:0,
+		CiudadBolivar:0,
     Soacha:0,
     Sumapaz:0,
-		otros:0
+		Otros:0
         
   }
   const [datos, setDatos] = useState([])
@@ -95,7 +95,74 @@ function Cajalocalidades() {
      querySnapshot.forEach ((doc) => {
          docs.push({...doc.data(), id:doc.id});
          console.log(doc.data().localidad)
-          dato[doc.data().localidad]+=1 
+          const localidad = doc.data().localidad 
+        if (localidad==="Usaquen"){
+          dato.Usaquen+=1
+        }
+        if (localidad==="Chapinero"){
+          dato.Chapinero+=1
+        }
+        if (localidad==="Santafe"){
+          dato.Santafe+=1
+        }
+        if (localidad==="San Cristobal"){
+          dato.SanCristobal+=1
+        }
+        if (localidad==="Usme"){
+          dato.Usme+=1
+        }
+        if (localidad==="Tunjuelito"){
+          dato.Tunjuelito+=1
+        }
+        if (localidad==="Bosa"){
+          dato.Bosa+=1
+        }
+        if (localidad==="Kennedy"){
+          dato.Kennedy+=1
+        }
+        if (localidad==="Fontibon"){
+          dato.Fontibon+=1
+        }
+        if (localidad==="Engativa"){
+          dato.Engativa+=1
+        }
+        if (localidad==="Suba"){
+          dato.Suba+=1
+        }
+        if (localidad==="Barrios Unidos"){
+          dato.BarriosUnidos+=1
+        }
+        if (localidad==="Teusaquillo"){
+          dato.Teusaquillo+=1
+        }
+        if (localidad==="Los Martires"){
+          dato.LosMartires+=1
+        }
+        if (localidad==="Antonio Nariño"){
+          dato.AntonioNariño+=1
+        }
+        if (localidad==="Puente Aranda"){
+          dato.PuenteAranda+=1
+        }
+        if (localidad==="La Candelaria"){
+          dato.LaCandelaria+=1
+        }
+        if (localidad==="Rafael Uribe Uribe"){
+          dato.RafaelUribe+=1
+        }
+        if (localidad==="Ciudad Bolivar"){
+          dato.CiudadBolivar+=1
+        }
+        if (localidad==="Soacha"){
+          dato.Soacha+=1
+        }
+        if (localidad==="Sumapaz"){
+          dato.Sumapaz+=1
+        }
+        if (localidad==="Otros"){
+          dato.Otros+=1
+        }
+
      });
        setLinks(docs);
        setlocalidades (dato)
@@ -131,7 +198,7 @@ const opciones={
       <div className="ContainerBoton1">     
            <p id="frase">
       <div className="BotonesA">
-      <Link exact to="/aforo">
+      <Link exact to="/Aforo">
                         <button>Aforo</button>
                         </Link>
                </div>
@@ -174,7 +241,7 @@ const opciones={
        <h2>{localidades.Soacha}</h2>
      
        <div className="mapa1">
-       <p>Colombia</p>
+       <p>Resto del país</p>
        <img id="imglocmapa" src={Mapac} alt="Esta es la img" />
        <p>N° asistentes</p>
        <h2>{localidades.otros}</h2>
@@ -211,7 +278,7 @@ const opciones={
         <h5>3.SANTA FE</h5><br></br>
         <img id="imglocB" src={Santafe1} alt="Esta es la img" />
         <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Santafe}</h2>
+        <h2>{localidades.SantaFe}</h2>
         </div>
         </div>
         <div className="cajacomo"> 
@@ -297,7 +364,7 @@ const opciones={
         <h5>12.BARRIOS UNIDOS</h5><br></br>
         <img id="imglocA" src={Barriosunidos1} alt="Esta es la img" />
         <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Barriosunidos}</h2>
+        <h2>{localidades.BarriosUnidos}</h2>
         </div>
         </div>
         <div className="cajacomo"> 
@@ -312,7 +379,7 @@ const opciones={
         <div className="cajacomo">
         <img id="imgloc1" src={Martires} alt="Esta es la img" />
         <div className="capa" >
-        <h5>14.LOS MÁRTIREZ</h5><br></br>
+        <h5>14.LOS MÁRTIRES</h5><br></br>
         <img id="imglocA" src={Martires1} alt="Esta es la img" />
         <br></br><h4>N° asistentes </h4>
         <h2>{localidades.LosMartires}</h2>
@@ -324,7 +391,7 @@ const opciones={
         <h5>15. ANTONIO NARIÑO</h5><br></br>
         <img id="imglocB" src={Antonionariño1} alt="Esta es la img" />
         <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Antonionariño}</h2>
+        <h2>{localidades.AntonioNariño}</h2>
         </div>
         </div>
 
@@ -334,7 +401,7 @@ const opciones={
         <h5>16.PUETE ARANDA</h5><br></br>
         <img id="imglocB" src={Puentearanda1} alt="Esta es la img" />
         <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Puentearanda}</h2>
+        <h2>{localidades.PuenteAranda}</h2>
         </div>
         </div>
         <div className="cajacomo"> 
@@ -361,7 +428,7 @@ const opciones={
         <h5>19.CIUDAD BOLÍVAR</h5><br></br>
         <img id="imglocA" src={Cbolivar1} alt="Esta es la img" />
         <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Ciudadbolivar}</h2>
+        <h2>{localidades.CiudadBolivar}</h2>
         </div>
         </div>
 
