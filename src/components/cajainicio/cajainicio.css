@@ -40,9 +40,7 @@
 }
 .containerbotoninicio{
    display: flex;
-	margin-left: 27%;
-
-	
+   justify-content: center;	
 }
 .Botones1 button{
    background-color: #6F52DA ;

@@ -128,37 +128,37 @@ const opciones={
     <div className="cajalocalidad">
       <div className="usuarioloc">
     
-      <div className="containerbotonlocalidad">     
+      <div className="ContainerBoton1">     
            <p id="frase">
-      <div className="Botoneslocalidad">
-      <Link exact to="/Count">
+      <div className="BotonesA">
+      <Link exact to="/aforo">
                         <button>Aforo</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="Botoneslocalidad">
+      <div className="BotonesA">
       <Link exact to="/genero">
                         <button>Género</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="Botoneslocalidad">
+      <div className="BotonesA">
       <Link exact to="/localidad">
                         <button>Localidad</button>
                         </Link>
                </div>
       </p> 
        <p id="frase">
-      <div className="Botoneslocalidad">
+      <div className="BotonesA">
       <Link exact to="/edad">
                         <button>Edad</button>
                         </Link>
                </div>
       </p> 
 	  
-       </div> 
+       </div>  
        <div className="conprinsipal">
        <div className="contmapa">
        <div className="mapa">

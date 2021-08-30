@@ -11,30 +11,30 @@ function Cajagenero() {
     <div className="cajagenero">
       <div className="usuario">
 
-      <div className="containerbotongenero">     
+      <div className="ContainerBoton1">     
            <p id="frase">
-      <div className="Botonesgenero">
-      <Link exact to="/Count">
+      <div className="BotonesA">
+      <Link exact to="/aforo">
                         <button>Aforo</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="Botonesgenero">
+      <div className="BotonesA">
       <Link exact to="/genero">
                         <button>Género</button>
                         </Link>
                </div>
       </p> 
       <p id="frase">
-      <div className="Botonesgenero">
+      <div className="BotonesA">
       <Link exact to="/localidad">
                         <button>Localidad</button>
                         </Link>
                </div>
       </p> 
        <p id="frase">
-      <div className="Botonesgenero">
+      <div className="BotonesA">
       <Link exact to="/edad">
                         <button>Edad</button>
                         </Link>
