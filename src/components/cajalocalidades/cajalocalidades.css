@@ -1,15 +1,26 @@
 .cajalocalidad{
 	width: 100%;
-	min-height: 41rem;
 	text-align: center;
 	display: flex;
  }
  .Contenidolocalidad{
 	width: 85%;
-  	height: min-content;
-	  display: flex;
-  	margin-top:0,5%;	
+	display: grid;
+	
 }
+.contenedor_secundario{
+	display: flex;
+	width: 100%;
+}
+.clocalidad{
+	display: grid;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	grid-template-columns: repeat(5,1fr);
+	margin:5px
+}
+
 #imgloc1{
 	width: 100%;
 	align-content: center;
@@ -48,31 +59,32 @@ margin-right: 40px;
 	margin-right: 40px;
  }
 
+
+ .containerpadre{
+	 width: 100%;
+	 display: flex;
+	 border:2px solid red ;
+ }
+
+ .usuarioloc{
+	 display: flex;
+	 width: 100%;
+	 border: 2px solid;
+	 flex-direction: column;
+
+ }
  
- .filacomo {
-	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	margin-top: 1%;
-	justify-content: center;
-	align-items: center;
-}
 
 .cajacomo {
 	border-radius: 10px;
-	max-width: 9rem;
-	min-width: 8rem;
-	width: 100%;
-	min-height: 8rem;
-	max-height: 8rem;
-	height: 100%;
-	margin-right:  19px;
-	margin-left: 19px;
-	margin-top: 1%;
-	text-align: center;
-	color: rgb(8, 8, 8);
-	position: relative;
-	cursor: pointer;
+		width: 150px;
+		min-height: 8rem;
+		height:120px;
+		margin-left: 19px;
+		margin-top: 1%;
+		color: rgb(8, 8, 8);
+		cursor: pointer;
+		 
 }
 
 .cajacomo:hover .capa{
@@ -161,41 +173,36 @@ margin-right: 40px;
 	margin-top: 10%;
 }
 .contmapa{
-	width: 50%;
+	width: 100%;
 	height: 100%;
 	display: flex;
-	float: right;
 	justify-content: center;
 	margin-right: 3%;
+	border: 2px solid red;
+	flex-direction: column;
 }
 .conprinsipal{
-	width: 12%;
-	height: 100%;
+	width: 25%;
 	display: flex;
-	float: right;
-	justify-content: flex-start;
+	border: 2px solid red ;
+	justify-content: center;
+	flex-direction: column;
 }
 .mapa{
+	display: flex;
 	border-radius: 10px;
-	max-width: 7rem;
-	min-width: 7rem;
-	width: 100%;
-	min-height: 11rem;
-	max-height: 11em;
-	height: 100%;
-	text-align: center;
-	background: rgba(255,250,250, 0.9);
-	font-size: 18px  ;
-	color:rgb(7, 3, 3);
-	border: 2px solid black;
-	box-shadow: gray 3px 4px 4px 2px;
-	font-size: 13px;
-	float: right;
-	margin-top: 18%;
-	margin-left: 25%;
-	cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(255,250,250, 0.9);
+    font-size: 18px;
+    color: rgb(7, 3, 3);
+    border: 2px solid black;
+    box-shadow: grey 3px 4px 4px 2px;
+    font-size: 13px;
+    cursor: pointer;
  }
- .mapa1{
+ /* .mapa1{
 	border-radius: 10px;
 	max-width: 7rem;
 	min-width: 7rem;
@@ -214,7 +221,7 @@ margin-right: 40px;
 	margin-top: 10%;
 	margin-left: 15%;
 	cursor: pointer;
- }
+ } */
 
  @media screen and (min-width:701px) and (max-width:1200px) {
 	.cajalocalidad{
@@ -241,47 +248,12 @@ margin-right: 40px;
 		width: 150px;
 		height: 50px;
 	 }
- .clocalidad{
-	 margin-top:9%;
- }
-	 .filacomo {
-	width: 100%;
-	margin-bottom: 0;
-	margin-top: 0;
-
-	 
-	 }
-	 .cajacomo {
-		 max-width: 5.5rem;
-		 min-width: 5.5rem;
-		 width: 20%;
-		 min-height: 6rem;
-		 max-height: 6rem;
-		 margin-right:  6px;
-		 margin-left: 6px;
-		 margin-top: 0%;
-		 
-	 
-	 }
-
-	 .mapa{
  
-		 max-width: 5rem;
-		 min-width: 5rem;
-		 min-height: 8rem;
-		 max-height: 8rem;
-		 margin-top: 30%;
-		 font-size: 10px  ;
-	 }
-	 .mapa1{
- 
-		 max-width: 5rem;
-		 min-width: 5rem;
-		 min-height: 8rem;
-		 max-height: 8rem;
-		 margin-top: 20%;
-		 font-size: 10px  ;
-	 }
+
+
+
+
+	
 	 .cajacomo:hover .capa{
 		 max-width: 8rem;
 		 min-width: 8rem;
