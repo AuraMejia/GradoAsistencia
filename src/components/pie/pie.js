@@ -46,7 +46,7 @@ function Cajapie() {
       const data={
         datasets:[{
         label:'',
-        backgroundColor:['#FF3A01', 'blue', 'green'],
+        backgroundColor:['#E86433', 'blue', 'green'],
         data:datos,  
         }]
 

@@ -1,7 +1,6 @@
 .cajaindex{
    background-size: cover;
    width: 100%;
-   min-height: 36rem;
    text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -20,7 +19,7 @@
 }
 #img1{
    width: 80%;
-   height: 63vh;
+   height: 53vh;
    object-fit: fill;
    padding-left: 25%;
    -webkit-animation-name: llegadaDerecha;

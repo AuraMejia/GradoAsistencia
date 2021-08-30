@@ -1,13 +1,12 @@
 
-.ContainerAforo{
-    
+.ContainerAforo{ 
     width: 90%;
-    padding: 0 2% 3% 4%;
+    padding: 0 1% 1% 4%;
     font-size: 29px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 60vh;
+    height: 100%;
 }
 .Contenedor_grafica_ilustracion{
     display: grid;
@@ -23,8 +22,8 @@
 }
 .contador{
     font-size: 18px;
-    padding-top: 55px;
-    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 30px;
     animation-name: llegadaDerecha;
     animation-duration: 4s;
 }
@@ -47,7 +46,7 @@
     }
 }
 .Grafica {
-    height: 350px;
+    height: 320px;
     width: 100%;
 }
 #aforo_img{
