@@ -5,11 +5,10 @@
 	display: flex;
  }
  .Contenidolocalidad{
-	width: 70%;
-  	height: 48vh;
-  	margin-top:0,5%;
-	margin-left:8%;
-	
+	width: 85%;
+  	height: min-content;
+	  display: flex;
+  	margin-top:0,5%;	
 }
 #imgloc1{
 	width: 100%;
@@ -55,9 +54,8 @@ margin-right: 40px;
 	display: flex;
 	flex-flow: row wrap;
 	margin-top: 1%;
-
-
-
+	justify-content: center;
+	align-items: center;
 }
 
 .cajacomo {
@@ -75,9 +73,6 @@ margin-right: 40px;
 	color: rgb(8, 8, 8);
 	position: relative;
 	cursor: pointer;
-
-   
-
 }
 
 .cajacomo:hover .capa{
@@ -178,10 +173,7 @@ margin-right: 40px;
 	height: 100%;
 	display: flex;
 	float: right;
-	justify-content: center;
-	margin-right: 9%;
-
-
+	justify-content: flex-start;
 }
 .mapa{
 	border-radius: 10px;

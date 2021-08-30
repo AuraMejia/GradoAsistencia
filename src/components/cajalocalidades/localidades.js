@@ -162,21 +162,21 @@ const opciones={
        <div className="conprinsipal">
        <div className="contmapa">
        <div className="mapa">
-       <br></br><h4>Bogotá D.C </h4>
+       <p>Bogotá D.C</p>
        <img id="imglocmapab" src={Mapab} alt="Esta es la img" />
-       <br></br><h4>N° asistentes </h4>
+       <p>N° asistentes</p>
        <h2>{links?.length}</h2>
       
        <div className="mapa">
-       <br></br><h4>Soacha</h4>
+       <p>Soacha</p>
        <img id="imglocmapas" src={Mapas} alt="Esta es la img" />
-       <br></br><h4>N° asistentes </h4>
+       <p>N° asistentes</p>
        <h2>{localidades.Soacha}</h2>
      
        <div className="mapa1">
-       <br></br><h4>Colombia</h4>
+       <p>Colombia</p>
        <img id="imglocmapa" src={Mapac} alt="Esta es la img" />
-       <br></br><h4>N° asistentes </h4>
+       <p>N° asistentes</p>
        <h2>{localidades.otros}</h2>
      
        </div>
@@ -378,13 +378,6 @@ const opciones={
       
 </div>
 </div>
-
-
-
-
-  
-  
-
 
     </div>
 
