@@ -191,263 +191,309 @@ const opciones={
 
 
   return (
-
     <div className="cajalocalidad">
       <div className="usuarioloc">
-    
-      <div className="ContainerBoton1">     
-           <p id="frase">
-      <div className="BotonesA">
-      <Link exact to="/Aforo">
-                        <button>Aforo</button>
-                        </Link>
-               </div>
-      </p> 
-      <p id="frase">
-      <div className="BotonesA">
-      <Link exact to="/genero">
-                        <button>Género</button>
-                        </Link>
-               </div>
-      </p> 
-      <p id="frase">
-      <div className="BotonesA">
-      <Link exact to="/localidad">
-                        <button>Localidad</button>
-                        </Link>
-               </div>
-      </p> 
-       <p id="frase">
-      <div className="BotonesA">
-      <Link exact to="/edad">
-                        <button>Edad</button>
-                        </Link>
-               </div>
-      </p> 
-	  
-       </div>
-       <div className="contenedor_secundario">
-       <div className="Contenidolocalidad">
-        <div className="clocalidad">
-        <div className="cajacomo">
-        <img id="imgloc1" src={Usaquen} alt="Esta es la img" />
-        <div className="capa" >
-        <h5> 1.USAQUÉN</h5><br></br>
-        <img id="imgloc" src={Usaquen1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Usaquen}</h2>
+        <div className="ContainerBoton1">
+          <p id="frase">
+            <div className="BotonesA">
+              <Link exact to="/Aforo">
+                <button>Aforo</button>
+              </Link>
+            </div>
+          </p>
+          <p id="frase">
+            <div className="BotonesA">
+              <Link exact to="/genero">
+                <button>Género</button>
+              </Link>
+            </div>
+          </p>
+          <p id="frase">
+            <div className="BotonesA">
+              <Link exact to="/localidad">
+                <button>Localidad</button>
+              </Link>
+            </div>
+          </p>
+          <p id="frase">
+            <div className="BotonesA">
+              <Link exact to="/edad">
+                <button>Edad</button>
+              </Link>
+            </div>
+          </p>
         </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Chapinero} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>2.CHAPINERO</h5><br></br>
-        <img id="imglocA" src={Chapinero1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Chapinero}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Santafe} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>3.SANTA FE</h5><br></br>
-        <img id="imglocB" src={Santafe1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.SantaFe}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Sancristobal} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>4.SAN CRISTÓBAL</h5><br></br>
-        <img id="imglocA" src={Sancristibal1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.SanCristobal}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Usme} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>5.USME</h5><br></br>
-        <img id="imglocB" src={Usme1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Usme}</h2>
-        </div>
-        </div>
+        <div className="contenedor_secundario">
+          <div className="Contenidolocalidad">
+            <div className="clocalidad">
+              <div className="cajacomo">
+                <img id="imgloc1" src={Usaquen} alt="Esta es la img" />
+                <div className="capa">
+                  <h5> 1.USAQUÉN</h5>
+                  <br></br>
+                  <img id="imgloc" src={Usaquen1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Usaquen}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Chapinero} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>2.CHAPINERO</h5>
+                  <br></br>
+                  <img id="imglocA" src={Chapinero1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Chapinero}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Santafe} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>3.SANTA FE</h5>
+                  <br></br>
+                  <img id="imglocB" src={Santafe1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.SantaFe}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Sancristobal} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>4.SAN CRISTÓBAL</h5>
+                  <br></br>
+                  <img id="imglocA" src={Sancristibal1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.SanCristobal}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Usme} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>5.USME</h5>
+                  <br></br>
+                  <img id="imglocB" src={Usme1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Usme}</h2>
+                </div>
+              </div>
 
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Tunjuelito} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>6.TUNJUELITO</h5><br></br>
-        <img id="imglocA" src={Tunjuelito1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Tunjuelito}</h2>
-        </div>
-        </div>
-        <div className="cajacomo">
-        <img id="imgloc1" src={Bosa} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>7.BOSA</h5><br></br>
-        <img id="imglocB" src={Bosa1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Bosa}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Kenedi} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>8.KENNEDY</h5><br></br>
-        <img id="imglocA" src={Kennedy1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Kennedy}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Fontibon} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>9.FONTIBÓN</h5><br></br>
-        <img id="imglocB" src={Fontibon1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Fontibon}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Engativa} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>10.ENGATIVÁ</h5><br></br>
-        <img id="imglocB" src={Engativa1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Engativa}</h2>
-        </div>
-        </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Tunjuelito} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>6.TUNJUELITO</h5>
+                  <br></br>
+                  <img id="imglocA" src={Tunjuelito1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Tunjuelito}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Bosa} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>7.BOSA</h5>
+                  <br></br>
+                  <img id="imglocB" src={Bosa1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Bosa}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Kenedi} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>8.KENNEDY</h5>
+                  <br></br>
+                  <img id="imglocA" src={Kennedy1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Kennedy}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Fontibon} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>9.FONTIBÓN</h5>
+                  <br></br>
+                  <img id="imglocB" src={Fontibon1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Fontibon}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Engativa} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>10.ENGATIVÁ</h5>
+                  <br></br>
+                  <img id="imglocB" src={Engativa1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Engativa}</h2>
+                </div>
+              </div>
 
-        <div className="cajacomo">
-        <img id="imgloc1" src={Suba} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>11.SUBA</h5><br></br>
-        <img id="imglocB" src={Suba1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Suba}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Barriosunidos} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>12.BARRIOS UNIDOS</h5><br></br>
-        <img id="imglocA" src={Barriosunidos1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.BarriosUnidos}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Teusaquillo} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>13. TEUSAQUILLO</h5><br></br>
-        <img id="imglocA" src={Teusaquillo1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Teusaquillo}</h2>
-        </div>
-        </div>
-        <div className="cajacomo">
-        <img id="imgloc1" src={Martires} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>14.LOS MÁRTIRES</h5><br></br>
-        <img id="imglocA" src={Martires1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.LosMartires}</h2>
-        </div>
-        </div> 
-        <div className="cajacomo">  
-        <img id="imgloc1" src={Antonionariño} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>15. ANTONIO NARIÑO</h5><br></br>
-        <img id="imglocB" src={Antonionariño1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.AntonioNariño}</h2>
-        </div>
-        </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Suba} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>11.SUBA</h5>
+                  <br></br>
+                  <img id="imglocB" src={Suba1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Suba}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Barriosunidos} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>12.BARRIOS UNIDOS</h5>
+                  <br></br>
+                  <img id="imglocA" src={Barriosunidos1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.BarriosUnidos}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Teusaquillo} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>13. TEUSAQUILLO</h5>
+                  <br></br>
+                  <img id="imglocA" src={Teusaquillo1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Teusaquillo}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Martires} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>14.LOS MÁRTIRES</h5>
+                  <br></br>
+                  <img id="imglocA" src={Martires1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.LosMartires}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Antonionariño} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>15. ANTONIO NARIÑO</h5>
+                  <br></br>
+                  <img id="imglocB" src={Antonionariño1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.AntonioNariño}</h2>
+                </div>
+              </div>
 
-        
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Puentearanda} alt="Esta es la img" /><div className="capa" >
-        <h5>16.PUETE ARANDA</h5><br></br>
-        <img id="imglocB" src={Puentearanda1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.PuenteAranda}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Candelaria} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>17. LA CANDELARIA</h5><br></br>
-        <img id="imgloc" src={Candelaria1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.LaCandelaria}</h2>
-        </div>
-        </div>
-        <div className="cajacomo"> 
-        <img id="imgloc1" src={Uribe} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>18.RAFAEL URIBE</h5><br></br>
-        <img id="imglocB" src={Uribe1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.RafaelUribe}</h2>
-        </div>
-        </div>
-        <div className="cajacomo">
-        <img id="imgloc1" src={Cbolivar} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>19.CIUDAD BOLÍVAR</h5><br></br>
-        <img id="imglocA" src={Cbolivar1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.CiudadBolivar}</h2>
-        </div>
-        </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Puentearanda} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>16.PUETE ARANDA</h5>
+                  <br></br>
+                  <img id="imglocB" src={Puentearanda1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.PuenteAranda}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Candelaria} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>17. LA CANDELARIA</h5>
+                  <br></br>
+                  <img id="imgloc" src={Candelaria1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.LaCandelaria}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Uribe} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>18.RAFAEL URIBE</h5>
+                  <br></br>
+                  <img id="imglocB" src={Uribe1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.RafaelUribe}</h2>
+                </div>
+              </div>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Cbolivar} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>19.CIUDAD BOLÍVAR</h5>
+                  <br></br>
+                  <img id="imglocA" src={Cbolivar1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.CiudadBolivar}</h2>
+                </div>
+              </div>
 
-        <div className="cajacomo">
-        <img id="imgloc1" src={Otro} alt="Esta es la img" />
-        <div className="capa" >
-        <h5>20.SUMAPAZ</h5><br></br>
-        <img id="imglocC" src={Otros1} alt="Esta es la img" />
-        <br></br><h4>N° asistentes </h4>
-        <h2>{localidades.Sumapaz}</h2>
+              <div className="cajacomo">
+                <img id="imgloc1" src={Otro} alt="Esta es la img" />
+                <div className="capa">
+                  <h5>20.SUMAPAZ</h5>
+                  <br></br>
+                  <img id="imglocC" src={Otros1} alt="Esta es la img" />
+                  <br></br>
+                  <h4>N° asistentes </h4>
+                  <h2>{localidades.Sumapaz}</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="conprinsipal">
+            <div className="contmapa">
+              {/* bogota */}
+              <div className="mapa">
+                <div className="imagen_mapa">
+                  <img id="imglocmapab" src={Mapab} alt="Esta es la img" />
+                </div>
+                <div className="title_mapa">
+                  <p>Bogotá D.C</p>
+                  <p>N° asistentes</p>
+                  <h2>{links?.length}</h2>
+                </div>
+              </div>
+
+            {/* Soacha */}
+              <div className="mapa">
+              <div className="imagen_mapa">
+                <img id="imglocmapas" src={Mapas} alt="Esta es la img" />
+                </div>
+                <div className="title_mapa">
+                  <p>Soacha</p>
+                <p>N° asistentes</p>
+                <h2>{localidades.Soacha}</h2>
+                </div>
+                
+              </div>
+              {/* Colombia */}
+              <div className="mapa">
+              <div className="imagen_mapa">
+                <img id="imglocmapa" src={Mapac} alt="Esta es la img" />
+                </div>
+                <div className="title_mapa">
+                <p>Colombia</p>
+                <p>N° asistentes</p>
+                <h2>{localidades.otros}</h2>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
-</div>
-</div>
-<div className="conprinsipal">
-       <div className="contmapa">
-       <div className="mapa">
-         <div>
-       <img id="imglocmapab" src={Mapab} alt="Esta es la img" />
-         </div>
-       <div>
-         <p>Bogotá D.C</p>
-       <p>N° asistentes</p>
-       <h2>{links?.length}</h2>
-       </div>
-       
-       </div>
-       <div className="mapa">
-       <p>Soacha</p>
-       <img id="imglocmapas" src={Mapas} alt="Esta es la img" />
-       <p>N° asistentes</p>
-       <h2>{localidades.Soacha}</h2>
-       </div>
-       <div className="mapa1">
-       <p>Colombia</p>
-       <img id="imglocmapa" src={Mapac} alt="Esta es la img" />
-       <p>N° asistentes</p>
-       <h2>{localidades.otros}</h2>
-       </div>
-       </div>
-       </div>
       </div>
-      </div>
-</div>
-
-
-   
+    </div>
   );
 }
 
