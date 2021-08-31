@@ -45,7 +45,7 @@ import Cbolivar1 from "../../Utils/Img/Localidad/ciudad-bolivar.jpg";
 import Otros1  from "../../Utils/Img/Localidad/Sumapaz.jpg";
 import Mapac from "../../Utils/Img/Cajas/mapac.png";
 import Mapab from "../../Utils/Img/Cajas/mapab.jpg";
-import Mapas from "../../Utils/Img/Cajas/soacha.jpg";
+import Mapas from "../../Utils/Img/Cajas/soacha2.svg";
 
 function Cajalocalidades() {
   const [links, setLinks] = useState([]) 
