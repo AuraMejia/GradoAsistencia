@@ -236,16 +236,28 @@ margin-right: 40px;
  } */
 
  @media screen and (min-width:701px) and (max-width:1200px) {
-	.cajalocalidad{
-		min-height: 210vh;
-	 }
 	 .Contenidolocalidad{
 		 width: 70%;
-		   height: 50vh;
-		   margin-left:8%;
-		   margin-top: 5%;
-		 
 	 }
+	 .contenedor_secundario{
+		 display: flex;
+		 justify-content: center;
+		 flex-direction: column-reverse;
+		 align-items: center;
+	 }
+	 .conprinsipal{
+		 width: 70%;
+	 }
+	 .contmapa{
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		flex-direction: row;
+		border: 1px solid red;
+	}
+	.mapa{
+		margin: 0 1%;
+	}
 	 .containerbotonlocalidad{
 		margin-left: 12%;
 		grid-template-columns: repeat(1, 1fr);
